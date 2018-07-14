@@ -5,4 +5,7 @@
 layout: default
 ---
 
-<p>index content</p>
+<section>Intro</section>
+<section>Mission</section>
+<section>Approach</section>
+<section>Clients</section>
