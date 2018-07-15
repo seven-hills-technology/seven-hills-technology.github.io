@@ -337,4 +337,14 @@ body {
 
 .sh-footer {
     background-color: $brand-1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    #map {
+        height: 200px;
+        width: 300px;
+       }
 }
