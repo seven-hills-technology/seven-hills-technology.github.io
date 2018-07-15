@@ -4,6 +4,7 @@ $brand-1: #0F5481;
 $brand-2: #4CBFE5;
 $light-text: #595959;
 $light-text-faded: rgba(145, 145, 145, 0.5);
+$button-disabled: #B7B4B4;
 
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
@@ -75,6 +76,22 @@ body {
     }
 }
 
+.sh-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: $button-disabled;
+    color: white;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: $brand-1;
+    }
+}
+
+.sh-button-active {
+    background-color: $brand-1;
+    color: white;
+}
 
 .sh-header-lines {
     overflow: hidden;
@@ -151,6 +168,10 @@ body {
                 margin-bottom: 20px;
                 border-bottom: 1px solid $brand-1;
 
+                &:hover {
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+                }
+
                 h3 {
                     margin-top: 20px;
                     text-align: center;
@@ -161,6 +182,14 @@ body {
                     text-align: left;
                 }
 
+                a {
+                    text-align: center;
+                    
+                    button {
+                        width: 200px;
+                    }
+                }
+
                 .sh-product-image {
                     height: 150px;
                 }
@@ -169,6 +198,10 @@ body {
                     &:hover {
                         .sh-product-image {
                             background-image: url('/images/flex-teams-color.svg');
+                        }
+
+                        .sh-button {
+                            background-color: $brand-1;
                         }
                     }
 
@@ -184,6 +217,10 @@ body {
                         .sh-product-image {
                             background-image: url('/images/project-teams-color.svg');
                         }
+
+                        .sh-button {
+                            background-color: $brand-1;
+                        }
                     }
 
                     .sh-product-image {
@@ -197,6 +234,10 @@ body {
                     &:hover {
                         .sh-product-image {
                             background-image: url('/images/incubator-color.svg');
+                        }
+
+                        .sh-button {
+                            background-color: $brand-1;
                         }
                     }
 

@@ -15,16 +15,19 @@ layout: default
             <div class="sh-product-image"></div>
             <h3>Flex Teams</h3>
             <p>This is an example text for a blurb about our flex team offerings. Flex Teams are ongoing work at a pre-defined rate and for a specific number of hours per month.</p>
+            <a href="#"><button class="sh-button">Learn More</button></a>
         </div>
         <div class="sh-product sh-product-project-teams">
             <div class="sh-product-image"></div>
             <h3>Project Teams</h3>
             <p>This is an example text for a blurb about our project team offerings. Project teams are normal, one-off type work where it’s billed strictly hourly.</p>
+            <a href="#"><button class="sh-button">Learn More</button></a>
         </div>
         <div class="sh-product sh-product-incubator">
             <div class="sh-product-image"></div>
             <h3>Incubator</h3>
             <p>This is a text for a blurb about our incubator offerings. Incubation is providing the development at either a minimal cost or for free in exchange for ownership</p>
+            <a href="#"><button class="sh-button">Learn More</button></a>
         </div>
     </div>
     
