@@ -31,7 +31,10 @@ layout: default
 </section>
 <section class="sh-mission">
     <h2>Our Mission</h2>
-    <img src="images/city.svg" alt="City outline" />
+    <div class="sh-city-outline">
+        {% include city.html %}
+    </div>
+    <!-- <img src="images/city.svg" alt="City outline" /> -->
     <p>The mission of Seven Hills Technology is to accelerate our clients’ growth by helping plan, implement, and support technology solutions through an in depth knowledge of their business.</p>
 </section>
 <section class="sh-approach">Approach</section>

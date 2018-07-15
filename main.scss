@@ -167,15 +167,18 @@ body {
         color: white;
         padding-top: 40px;
         padding-bottom: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        overflow: hidden;
 
         h2 {
             text-align: center;
         }
 
-        img {
-            margin-top: 20px;
+        .sh-city-outline {
+            margin-top: 10px;
             margin-bottom: 20px;
-            max-width: 950px;
+            width: 950px;
         }
 
         p {
