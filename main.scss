@@ -164,6 +164,48 @@ body {
                 .sh-product-image {
                     height: 150px;
                 }
+
+                &.sh-product-flex-teams {
+                    &:hover {
+                        .sh-product-image {
+                            background-image: url('/images/flex-teams-color.svg');
+                        }
+                    }
+
+                    .sh-product-image {
+                        background-image: url('/images/flex-teams-bw.svg');
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                    }
+                }
+
+                &.sh-product-project-teams {
+                    &:hover {
+                        .sh-product-image {
+                            background-image: url('/images/project-teams-color.svg');
+                        }
+                    }
+
+                    .sh-product-image {
+                        background-image: url('/images/project-teams-bw.svg');
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                    }
+                }
+
+                &.sh-product-incubator {
+                    &:hover {
+                        .sh-product-image {
+                            background-image: url('/images/incubator-color.svg');
+                        }
+                    }
+
+                    .sh-product-image {
+                        background-image: url('/images/incubator-bw.svg');
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                    }
+                }
             }
         }
     }
