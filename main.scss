@@ -301,26 +301,25 @@ body {
         justify-content: center;
         padding-left: 10px;
         padding-right: 10px;
-        margin-top: 40px;
 
         h2 {
             text-align: center;
             margin-bottom: 20px;
+            margin-top: 40px;
         }
 
         p {
             max-width: 1000px;
         }
 
-        .sh-approach-steps {
+        .sh-values {
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
             flex-wrap: wrap;
-            margin-top: 40px;
             margin-bottom: 40px;
 
-            .sh-approach-step {
+            .sh-value {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -333,11 +332,16 @@ body {
                     height: 100px;
                 }
 
+                h3 {
+                    font-weight: bold;
+                    font-size: 1.1rem;
+                    margin-top: 10px;
+                }
+
                 p {
                     text-align: center;
                     font-size: .8rem;
                     color: $light-text;
-                    margin-top: 20px;
                 }
             }
         }

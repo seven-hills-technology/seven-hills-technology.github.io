@@ -46,28 +46,34 @@ layout: default
         Technology changes daily, so why hasn’t consulting? Traditional software development consulting is expensive, requires tons of up-front planning, and often leads to overly-expensive projects for underwhelming results.
     </p>
     <p>
-        Seven Hills Technology aims to allieviate those issues. No more problems of finding places in your office for the consultants, purchasing equipment, or complicated HR processes. Seven Hills is capable of working completely remote, with a lead on each project to serve as the main point of contact. Our process is simple, personal, and above all, the best way to create truly professional software applications.
+        With Seven Hills Technology you get the flexiblity of in person planning and communication, combined with the ability for work to be done anywhere and any time.  We're local to Cincinnati, and love working with local businesses, and when it's time to sit down and work we provide our developers with the best tools and the best environment for them to be productive for your business. A unique pairing of on-site / off-site ability allows us to have developers in your office working with your team, or in our own workshop completely on your schedule.
     </p>
-    <div class="sh-approach-steps">
-        <div class="sh-approach-step">
-            <img src="/images/approach-1.svg" alt="approach step 1" />
-            <p>We’ll help you navigate the tough business decisions regarding technology.</p>
+    <h2>Core Values</h2>
+    <div class="sh-values">
+        <div class="sh-value">
+            <img src="/images/values-insightful.svg" alt="insightful" />
+            <h3>Insightful</h3>
+            <p>We will develop a deep understanding of your business in order to help make informed business decisions.</p>
         </div>
-        <div class="sh-approach-step">
-            <img src="/images/approach-2.svg" alt="approach step 1" />
-            <p>We’ll help you navigate the tough business decisions regarding technology.</p>
+        <div class="sh-value">
+            <img src="/images/values-integrity-bw.svg" alt="integrity" />
+            <h3>Integrity</h3>
+            <p>We will build the right solutions for you and your business, and we won't sell you anything you don't need.</p>
         </div>
-        <div class="sh-approach-step">
-            <img src="/images/approach-3.svg" alt="approach step 1" />
-            <p>We’ll help you navigate the tough business decisions regarding technology.</p>
+        <div class="sh-value">
+            <img src="/images/values-craftsmanship.svg" alt="craftsmanship" />
+            <h3>Craftsmanship</h3>
+            <p>We will build or implement the highest quality software solutions for your goals and stand by our work.</p>
         </div>
-        <div class="sh-approach-step">
-            <img src="/images/approach-4.svg" alt="approach step 1" />
-            <p>We’ll help you navigate the tough business decisions regarding technology.</p>
+        <div class="sh-value">
+            <img src="/images/values-accountability-bw.svg" alt="accountability" />
+            <h3>Accountability</h3>
+            <p>We will be open and transparent about all work we perform, leaving no suprises in timing or cost.</p>
         </div>
-        <div class="sh-approach-step">
-            <img src="/images/approach-5.svg" alt="approach step 1" />
-            <p>We’ll help you navigate the tough business decisions regarding technology.</p>
+        <div class="sh-value">
+            <img src="/images/values-economical.svg" alt="economical" />
+            <h3>Economical</h3>
+            <p>We will remain conscious of your budget, and develop cost effective solutions that meet your goals.</p>
         </div>
     </div>
 </section>
