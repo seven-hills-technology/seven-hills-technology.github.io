@@ -40,5 +40,35 @@ layout: default
     <!-- <img src="images/city.svg" alt="City outline" /> -->
     <p class="sh-fade-in">The mission of Seven Hills Technology is to accelerate our clients’ growth by helping plan, implement, and support technology solutions through an in depth knowledge of their business.</p>
 </section>
-<section class="sh-approach">Approach</section>
+<section class="sh-approach">
+    <h2>Our Unique Approach</h2>
+    <p>
+        Technology changes daily, so why hasn’t consulting? Traditional software development consulting is expensive, requires tons of up-front planning, and often leads to overly-expensive projects for underwhelming results.
+    </p>
+    <p>
+        Seven Hills Technology aims to allieviate those issues. No more problems of finding places in your office for the consultants, purchasing equipment, or complicated HR processes. Seven Hills is capable of working completely remote, with a lead on each project to serve as the main point of contact. Our process is simple, personal, and above all, the best way to create truly professional software applications.
+    </p>
+    <div class="sh-approach-steps">
+        <div class="sh-approach-step">
+            <img src="/images/approach-1.svg" alt="approach step 1" />
+            <p>We’ll help you navigate the tough business decisions regarding technology.</p>
+        </div>
+        <div class="sh-approach-step">
+            <img src="/images/approach-2.svg" alt="approach step 1" />
+            <p>We’ll help you navigate the tough business decisions regarding technology.</p>
+        </div>
+        <div class="sh-approach-step">
+            <img src="/images/approach-3.svg" alt="approach step 1" />
+            <p>We’ll help you navigate the tough business decisions regarding technology.</p>
+        </div>
+        <div class="sh-approach-step">
+            <img src="/images/approach-4.svg" alt="approach step 1" />
+            <p>We’ll help you navigate the tough business decisions regarding technology.</p>
+        </div>
+        <div class="sh-approach-step">
+            <img src="/images/approach-5.svg" alt="approach step 1" />
+            <p>We’ll help you navigate the tough business decisions regarding technology.</p>
+        </div>
+    </div>
+</section>
 <section class="sh-clients">Clients</section>
