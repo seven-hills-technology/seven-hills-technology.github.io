@@ -30,7 +30,7 @@ layout: default
     
 </section>
 <section class="sh-mission">
-    <h2 class="sh-fade-in">Our Mission</h2>
+    <h2 id="mission-title" class="sh-fade-in">Our Mission</h2>
     <div class="sh-city-outline">
         {% include city.html %}
     </div>

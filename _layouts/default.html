@@ -84,10 +84,11 @@
 
         window.onscroll = () => {
             const cityOutline = document.getElementById("sh-city-outline");
+            const missionTitle = document.getElementById("mission-title");
 
             const shapes = $("rect, circle, ellipse, polyline, polygon, path");
 
-            if (isScrolledIntoView(cityOutline) && !drawTriggered) {
+            if (isScrolledIntoView(missionTitle) && !drawTriggered) {
                 drawTriggered = true;
 
                 const shapes = $("rect, circle, ellipse, polyline, polygon, path");
