@@ -100,8 +100,19 @@ body {
     background-color: $brand-1;
   }
 .sh-home-header {
+    @media (max-width: 1900px) {
+        background-image: url(images/banner-large.jpg);
+    }
+
+    @media (max-width: 1200px) {
+        background-image: url(images/banner-medium.jpg);
+    }
+
+    @media (max-width: 760px) {
+        background-image: url(images/banner-small.jpg);
+    }
+    
     background-color: $brand-1;
-    background-image: url(images/banner.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
