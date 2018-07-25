@@ -584,7 +584,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 
     h3 {
         color: white;
@@ -598,17 +598,22 @@ body {
     }
 
     #map {
+        margin-right: 10px;
         margin-top: 20px;
         height: 200px;
         width: 300px;
     }
 
     .sh-contact-section {
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 20px;
         margin-top: 20px;
     }
 
     .sh-contact-form form {
+        margin-left: 10px;
+        margin-right: 10px;
         display:flex;
         flex-direction: column;
         justify-content: left;
@@ -626,6 +631,7 @@ body {
     }
 
     .sh-bottom-navigation {
+        margin-left: 10px;
         margin-top: 20px;
         .sh-social-links {
             display: flex;
