@@ -258,39 +258,45 @@ body {
                 }
 
                 &.sh-product-flex-teams {
+                    transition: 0.25s;
+                    
                     &:hover {
                         .sh-product-image {
+                            transition: 0.25s;
                             background-image: url('/images/flex-teams-color.svg');
                         }
 
                         .sh-button {
+                            transition: 0.25s;
                             background-color: $brand-1;
                         }
                     }
 
                     .sh-product-image {
+                        transition: 0.25s;
                         background-image: url('/images/flex-teams-bw.svg');
                         background-repeat: no-repeat;
                         background-position: center center;
                     }
-
-                    .always-color {
-                        background-image: url('/images/flex-teams-color.svg');
-                    }
                 }
 
                 &.sh-product-project-teams {
+                    transition: 0.25s;
+
                     &:hover {
                         .sh-product-image {
+                            transition: 0.25s;
                             background-image: url('/images/project-teams-color.svg');
                         }
 
                         .sh-button {
+                            transition: 0.25s;
                             background-color: $brand-1;
                         }
                     }
 
                     .sh-product-image {
+                        transition: 0.25s;
                         background-image: url('/images/project-teams-bw.svg');
                         background-repeat: no-repeat;
                         background-position: center center;
@@ -298,17 +304,22 @@ body {
                 }
 
                 &.sh-product-incubator {
+                    transition: 0.25s;
+
                     &:hover {
                         .sh-product-image {
+                            transition: 0.25s;
                             background-image: url('/images/incubator-color.svg');
                         }
 
                         .sh-button {
+                            transition: 0.25s;
                             background-color: $brand-1;
                         }
                     }
 
                     .sh-product-image {
+                        transition: 0.25s;
                         background-image: url('/images/incubator-bw.svg');
                         background-repeat: no-repeat;
                         background-position: center center;
@@ -412,42 +423,72 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
+
+        .step {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 250px;
+            height: 100%;
+            & .step-number {
+                width: 118px;
+                height: 118px;
+                line-height: 110px;
+                border: 2px solid white;
+                border-radius: 50%;
+                margin: 0 auto;
+                color: white;
+                font-weight: bold;
+                font-size: 34px;
+                text-align: center;
+            }
+            & .step-title {
+                text-align: center;
+                font-weight: bold;
+                font-size: 20px;
+                color: $brand-2;
+            }
+            & .step-caption {
+                padding-left: 10px;
+                padding-right: 10px;
+                @media (max-width: 767px) {
+                    & {
+                        padding-bottom: 15px;
+                    }
+                }
+            }
+        }
     }
 
-    .step {
+    .vertical-steps {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 250px;
-        height: 100%;
 
-        & .step-number {
-            width: 118px;
-            height: 118px;
-            line-height: 110px;
-            border: 2px solid white;
-            border-radius: 50%;
-            margin: 0 auto;
-            color: white;
-            font-weight: bold;
-            font-size: 34px;
-            text-align: center;
-        }
+        & .step {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: left;
+            margin-bottom: 10px;
+            max-width: 810px;
 
-        & .step-title {
-            text-align: center;
-            font-weight: bold;
-            font-size: 20px;
-            color: $brand-2;
-        }
+            & .step-icon {
+                display: flex;
+                min-width: 68px;
+                height: 68px;
+                justify-content: center;
+            }
 
-        & .step-caption {
-            padding-left: 10px;
-            padding-right: 10px;
+            & .step-content {
+                display:flex;
+                flex-direction: column;
+                margin-left: 15px;
 
-            @media (max-width: 767px) {
-                & {
-                    padding-bottom: 15px;
+                & .step-title {
+                    font-weight: bold;
+                    color: $brand-2;
+                    font-size: 20px;
                 }
             }
         }
@@ -484,6 +525,51 @@ body {
             display:flex;
             flex-direction: column;
             width: 375px;
+        }
+    }
+}
+
+.sh-get-in-touch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $brand-2;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+
+    & .git-text {
+        width: 60%;
+        margin-bottom: 30px;
+    }
+
+    & .git-button {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 170px;
+        height: 60px;
+        border: 2px solid #fff;
+        border-radius: 3px;
+        color: #fff;
+        text-decoration: none;
+
+        transition: 1s;
+
+        &:hover {
+            color: $brand-2;
+            background-color: #fff;
+            text-decoration: none;
+            transition: 1s;
+        }
+        &:visited {
+            color: #fff;
+            text-decoration: none;
         }
     }
 }
@@ -561,5 +647,10 @@ body {
 
 #projectTeamFeature {
     width: 159px;
+    margin: 0 auto;
+}
+
+#incubatorFeature {
+    width: 200px;
     margin: 0 auto;
 }
