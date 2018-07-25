@@ -77,4 +77,4 @@ layout: home
         </div>
     </div>
 </section>
-<section class="sh-clients">Clients</section>
+<!-- <section class="sh-clients">Clients</section> -->

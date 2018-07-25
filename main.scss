@@ -89,18 +89,8 @@ body {
     }
 }
 
-.sh-home-header::before {
-    content: "";
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    background-color: $brand-1;
-  }
 .sh-home-header {
-    @media (max-width: 1900px) {
+    @media (min-width: 1201px) {
         background-image: url(images/banner-large.jpg);
     }
 
@@ -112,7 +102,6 @@ body {
         background-image: url(images/banner-small.jpg);
     }
     
-    background-color: $brand-1;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
