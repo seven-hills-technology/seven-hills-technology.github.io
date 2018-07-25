@@ -19,7 +19,7 @@ layout: home
                 <button class="sh-button">Learn More</button>
             </div>
         </a>
-        <a href="#">
+        <a href="/project-teams">
         <div class="sh-product sh-product-project-teams">
             <div class="sh-product-image"></div>
             <h3>Project Teams</h3>
