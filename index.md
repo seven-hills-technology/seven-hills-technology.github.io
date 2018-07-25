@@ -31,7 +31,7 @@ layout: home
         <div class="sh-product sh-product-incubator">
             <div class="sh-product-image"></div>
             <h3>Incubator</h3>
-            <p>This is a text for a blurb about our incubator offerings. Incubation is providing the development at either a minimal cost or for free in exchange for ownership</p>
+            <p>Do you have an idea for an application but don't have a team or funds to launch it? Join us in our office, and work with our developers to draw from decades of experience building high quality applications. Let us help you launch your idea with a full development team.</p>
             <button class="sh-button">Learn More</button>
         </div>
         </a>
