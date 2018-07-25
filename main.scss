@@ -580,6 +580,7 @@ body {
     padding-bottom: 20px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 
     h3 {
@@ -594,12 +595,14 @@ body {
     }
 
     #map {
+        margin-top: 20px;
         height: 200px;
         width: 300px;
     }
 
     .sh-contact-section {
         margin-bottom: 20px;
+        margin-top: 20px;
     }
 
     .sh-contact-form form {
@@ -620,6 +623,7 @@ body {
     }
 
     .sh-bottom-navigation {
+        margin-top: 20px;
         .sh-social-links {
             display: flex;
             flex-direction: row;
@@ -636,6 +640,25 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: left;
+        }
+    }
+}
+
+.sh-about-us {
+    .sh-team-members {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 20px;
+
+        .sh-team-member {
+            flex: 1 0 25%;
+            margin-bottom: 20px;
+            text-align: center;
+            img {
+                width: 200px;
+            }
         }
     }
 }
