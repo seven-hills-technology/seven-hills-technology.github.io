@@ -10,6 +10,8 @@ $dark-line: #707070;
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
   Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
 }
 
 .navbar {
@@ -189,13 +191,15 @@ body {
     .sh-intro {
         padding-left: 5%;
         padding-right: 5%;
+        display:flex;
+        flex-direction: column;
+    
 
         .sh-tagline {
             margin-top: 40px;
             h2 {
-                font-size: 1.2rem;
                 color: $light-text;
-                font-style: italic;
+                margin-bottom: 30px;
             }
         }
 
@@ -208,12 +212,15 @@ body {
             margin-bottom: 40px;
         }
 
+        .sh-button {
+            border: none;
+        }
+
         .sh-product-list {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            justify-content: space-evenly;
-            font-size: .8rem;
+            justify-content: center;
 
             a:hover {
                 text-decoration: none;
@@ -225,14 +232,20 @@ body {
                 flex-direction: column;
                 justify-content: center;
                 max-width: 425px;
+                height: 550px;
                 padding: 40px;
                 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
                 margin-top: 20px;
                 margin-bottom: 20px;
+                margin-left: 8%;
+                margin-right: 8%;
                 border-bottom: 1px solid $brand-1;
+                transition: 0.5s;
+                background-size: 100% 100%;
 
                 &:hover {
                     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+                    background-color: #f5f5f5;
                 }
 
                 h3 {
@@ -243,6 +256,7 @@ body {
                 p {
                     margin-top: 10px;
                     text-align: left;
+                    min-height: 170px;
                 }
 
                 a {
@@ -254,73 +268,58 @@ body {
                 }
 
                 .sh-product-image {
-                    height: 150px;
+                    min-height: 150px;
                 }
 
                 &.sh-product-flex-teams {
-                    transition: 0.25s;
                     
                     &:hover {
-                        .sh-product-image {
-                            transition: 0.25s;
-                            background-image: url('/images/flex-teams-color.svg');
-                        }
 
                         .sh-button {
-                            transition: 0.25s;
+                            transition: 0.5s;
                             background-color: $brand-1;
                         }
                     }
 
                     .sh-product-image {
-                        transition: 0.25s;
-                        background-image: url('/images/flex-teams-bw.svg');
+                        transition: 0.25s ease-in;
+                        background-image: url('/images/flex-teams-color.svg');
                         background-repeat: no-repeat;
                         background-position: center center;
                     }
                 }
 
                 &.sh-product-project-teams {
-                    transition: 0.25s;
 
                     &:hover {
-                        .sh-product-image {
-                            transition: 0.25s;
-                            background-image: url('/images/project-teams-color.svg');
-                        }
-
                         .sh-button {
-                            transition: 0.25s;
+                            transition: 0.5s;
                             background-color: $brand-1;
                         }
                     }
 
                     .sh-product-image {
-                        transition: 0.25s;
-                        background-image: url('/images/project-teams-bw.svg');
+                        transition: 0.25s ease-in;
+                        background-image: url('/images/project-teams-color.svg');
                         background-repeat: no-repeat;
                         background-position: center center;
                     }
                 }
 
                 &.sh-product-incubator {
-                    transition: 0.25s;
 
                     &:hover {
-                        .sh-product-image {
-                            transition: 0.25s;
-                            background-image: url('/images/incubator-color.svg');
-                        }
 
                         .sh-button {
-                            transition: 0.25s;
+                            transition: 0.5s;
                             background-color: $brand-1;
                         }
                     }
 
                     .sh-product-image {
                         transition: 0.25s;
-                        background-image: url('/images/incubator-bw.svg');
+                        transition-timing-function: ease-in;
+                        background-image: url('/images/incubator-color.svg');
                         background-repeat: no-repeat;
                         background-position: center center;
                     }
@@ -344,6 +343,7 @@ body {
 
         h2 {
             text-align: center;
+            margin-bottom: 30px;
         }
 
         .sh-city-outline {
@@ -370,7 +370,7 @@ body {
 
         h2 {
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             margin-top: 40px;
         }
 
@@ -406,7 +406,6 @@ body {
 
                 p {
                     text-align: center;
-                    font-size: .8rem;
                     color: $light-text;
                 }
             }
@@ -541,6 +540,10 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     overflow: hidden;
+
+    &>h2 {
+        margin-bottom: 30px;
+    }
 
     & .git-text {
         width: 60%;
