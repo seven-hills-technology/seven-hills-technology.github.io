@@ -1,53 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117.253 147.84">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #87ced9;
-      }
-
-      .cls-2 {
-        fill: #7dc6d1;
-      }
-
-      .cls-3 {
-        fill: #4398d1;
-      }
-
-      .cls-4 {
-        fill: #3b86b8;
-      }
-
-      .cls-5 {
-        fill: #3077a6;
-      }
-    </style>
-  </defs>
-  <g id="web-color" transform="translate(-154.17 -32.856)">
-    <path id="Path_195" data-name="Path 195" class="cls-1" d="M160.022,0H63.162a10.2,10.2,0,0,0-10.2,10.2V71.371H170.218V10.2A10.2,10.2,0,0,0,160.022,0Z" transform="translate(101.204 32.856)"/>
-    <path id="Path_196" data-name="Path 196" class="cls-2" d="M214.439,0H200.845L129.474,71.371h95.16V10.2A10.2,10.2,0,0,0,214.439,0Z" transform="translate(46.788 32.856)"/>
-    <g id="Group_96" data-name="Group 96" transform="translate(154.17 104.227)">
-      <path id="Path_197" data-name="Path 197" class="cls-3" d="M207.779,324.26l-4.369-15.294H183.018l-4.369,15.294H167.724v5.1H218.7v-5.1Z" transform="translate(-134.588 -291.123)"/>
-      <path id="Path_198" data-name="Path 198" class="cls-3" d="M52.966,254.819a10.2,10.2,0,0,0,10.2,10.2h96.861a10.2,10.2,0,0,0,10.2-10.2v-7.647H52.966Z" transform="translate(-52.966 -247.172)"/>
-      <rect id="Rectangle_391" data-name="Rectangle 391" class="cls-3" width="71.371" height="30.588" transform="translate(7.647 45.882)"/>
-      <path id="Path_199" data-name="Path 199" class="cls-3" d="M372.127,406.069h0a10.2,10.2,0,0,1,10.2,10.2v10.2a10.2,10.2,0,0,1-10.2,10.2h0a10.2,10.2,0,0,1-10.2-10.2v-10.2A10.2,10.2,0,0,1,372.127,406.069Z" transform="translate(-272.717 -360.187)"/>
-    </g>
-    <g id="Group_97" data-name="Group 97" transform="translate(169.464 157.756)">
-      <rect id="Rectangle_392" data-name="Rectangle 392" class="cls-4" width="5.098" height="5.098" transform="translate(0 10.196)"/>
-      <rect id="Rectangle_393" data-name="Rectangle 393" class="cls-4" width="5.098" height="5.098"/>
-      <rect id="Rectangle_394" data-name="Rectangle 394" class="cls-4" width="5.098" height="5.098" transform="translate(10.196)"/>
-      <rect id="Rectangle_395" data-name="Rectangle 395" class="cls-4" width="5.098" height="5.098" transform="translate(20.392)"/>
-      <rect id="Rectangle_396" data-name="Rectangle 396" class="cls-4" width="5.098" height="5.098" transform="translate(40.783)"/>
-      <rect id="Rectangle_397" data-name="Rectangle 397" class="cls-4" width="5.098" height="5.098" transform="translate(30.588)"/>
-      <rect id="Rectangle_398" data-name="Rectangle 398" class="cls-4" width="5.098" height="5.098" transform="translate(50.979 10.196)"/>
-      <rect id="Rectangle_399" data-name="Rectangle 399" class="cls-4" width="5.098" height="5.098" transform="translate(50.979)"/>
-      <rect id="Rectangle_400" data-name="Rectangle 400" class="cls-4" width="35.685" height="5.098" transform="translate(10.196 10.196)"/>
-      <rect id="Rectangle_401" data-name="Rectangle 401" class="cls-4" width="5.098" height="5.098" transform="translate(81.567)"/>
-    </g>
-    <g id="Group_98" data-name="Group 98" transform="translate(179.661 52.602)">
-      <rect id="Rectangle_402" data-name="Rectangle 402" class="cls-5" width="37.097" height="5.095" transform="translate(40.678 1.402) rotate(105.968)"/>
-      <path id="Path_200" data-name="Path 200" class="cls-5" d="M157.456,110.9,142.162,98.156a2.55,2.55,0,0,1-.326-3.589,2.619,2.619,0,0,1,.326-.326L157.456,81.5l3.263,3.915L147.775,96.2l12.943,10.787Z" transform="translate(-141.245 -77.71)"/>
-      <path id="Path_201" data-name="Path 201" class="cls-5" d="M306.579,110.9l-3.263-3.915L316.259,96.2,303.316,85.412l3.263-3.915,15.294,12.745a2.55,2.55,0,0,1,.326,3.589,2.613,2.613,0,0,1-.326.326Z" transform="translate(-256.518 -77.711)"/>
-    </g>
-    <path id="Path_202" data-name="Path 202" class="cls-4" d="M238.952,314.064l-1.456-5.1H217.1l-1.456,5.1Z" transform="translate(-14.504 -186.896)"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 118.3 147.8" style="enable-background:new 0 0 118.3 147.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#23374E;}
+	.st1{fill:#87CED9;}
+	.st2{fill:#3077A6;}
+	.st3{fill:#3B86B8;}
+</style>
+<g id="Group_196" transform="translate(-151.124 -32.853)">
+	<g id="Group_40" transform="translate(151.124 32.853)">
+		<g id="Group_39">
+			<path id="Path_17" class="st0" d="M106,0H12.3C5.5,0,0,5.5,0,12.3v66.5c0,6.8,5.5,12.3,12.3,12.3H46l-3.5,12.3h-8v4.9h49.3v-4.9
+				h-8l-3.5-12.3H106c6.8,0,12.3-5.5,12.3-12.3V12.3C118.3,5.5,112.7,0,106,0z M47.6,103.5l3.5-12.3h16l3.5,12.3H47.6z M113.3,78.8
+				c0,4.1-3.3,7.4-7.4,7.4H12.3c-4.1,0-7.4-3.3-7.4-7.4v-4.9h108.4V78.8z M113.3,69H4.9V12.3c0-4.1,3.3-7.4,7.4-7.4H106
+				c4.1,0,7.4,3.3,7.4,7.4L113.3,69z"/>
+		</g>
+	</g>
+	<g id="Group_42" transform="translate(158.516 146.196)">
+		<g id="Group_41">
+			<path id="Path_18" class="st0" d="M71.5,0h-69C1.1,0,0,1.1,0,2.5V32c0,1.4,1.1,2.5,2.5,2.5h69c1.4,0,2.5-1.1,2.5-2.5V2.5
+				C73.9,1.1,72.8,0,71.5,0z M69,29.6H4.9V4.9H69V29.6z"/>
+		</g>
+	</g>
+	<g id="Group_62" transform="translate(237.363 146.196)">
+		<g id="Group_61">
+			<path id="Path_19" class="st0" d="M12.3,0C5.5,0,0,5.5,0,12.3l0,0v9.9C0,29,5.5,34.5,12.3,34.5S24.6,29,24.6,22.2v-9.9
+				C24.6,5.5,19.1,0,12.3,0L12.3,0z M19.7,22.2c0,4.1-3.3,7.4-7.4,7.4s-7.4-3.3-7.4-7.4v-9.9c0-4.1,3.3-7.4,7.4-7.4s7.4,3.3,7.4,7.4
+				V22.2z"/>
+		</g>
+	</g>
+</g>
+<path class="st1" d="M106,4.9H12.6C8.4,4.9,5,8.3,5,12.5v56.3C5,68.9,5.1,69,5.2,69h108.2V12.3C113.3,8.2,110,4.9,106,4.9z"/>
+<path class="st2" d="M106,86.2H12.3c-4.1,0-7.4-3.3-7.4-7.4v-4.9h108.4v5C113.3,82.9,110,86.2,106,86.2z"/>
+<g id="Group_42_1_" transform="translate(158.516 146.196)">
+	<g id="Group_41_1_">
+		<path id="Path_18_1_" class="st2" d="M-82.1-3.3h-64.1V-28h64.1V-3.3z"/>
+	</g>
+</g>
+<rect x="16.3" y="133.1" class="st3" width="5.1" height="5.1"/>
+<rect x="16.3" y="122.9" class="st3" width="5.1" height="5.1"/>
+<rect x="26.5" y="122.9" class="st3" width="5.1" height="5.1"/>
+<rect x="36.7" y="122.9" class="st3" width="5.1" height="5.1"/>
+<rect x="57.1" y="122.9" class="st3" width="5.1" height="5.1"/>
+<rect x="46.9" y="122.9" class="st3" width="5.1" height="5.1"/>
+<rect x="67.3" y="133.1" class="st3" width="5.1" height="5.1"/>
+<line class="st3" x1="67.3" y1="128" x2="67.3" y2="122.9"/>
+<rect x="26.5" y="133.1" class="st3" width="35.7" height="5.1"/>
+<path class="st2" d="M98.8,142.9h-0.2c-4.1,0-7.4-3.3-7.4-7.4v-9.9c0-4.1,3.3-7.4,7.4-7.4h0.2c4,0,7.2,3.2,7.2,7.2v10.4
+	C105.9,139.7,102.7,142.9,98.8,142.9z"/>
+<rect x="96" y="120.8" class="st3" width="5.1" height="5.1"/>
+<rect x="40.6" y="35.6" transform="matrix(0.2751 -0.9614 0.9614 0.2751 6.1928 84.5197)" class="st2" width="37.1" height="5.1"/>
+<path class="st2" d="M42.2,52.8L26.9,40.1c-1.1-0.9-1.2-2.5-0.3-3.6c0.1-0.1,0.2-0.2,0.3-0.3l15.3-12.7l3.3,3.9L32.6,38.1l12.9,10.8
+	L42.2,52.8z"/>
+<path class="st2" d="M76.1,52.8l-3.3-3.9l13-10.8L72.9,27.3l3.3-3.9l15.2,12.7c1.1,0.9,1.2,2.5,0.3,3.6c-0.1,0.1-0.2,0.2-0.3,0.3
+	L76.1,52.8z"/>
+<rect x="67.3" y="122.9" class="st3" width="5.1" height="5.1"/>
 </svg>
