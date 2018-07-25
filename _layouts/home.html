@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Seven Hills Technology</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Seven Hills Technology.">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?">
+</head>
+
+<body>
+    <header class="sh-header sh-home-header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img class="sh-logo" src="/images/logo.svg" alt="Sevenhills Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mb-auto" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Flex Teams</a>
+                            <a class="dropdown-item" href="#">Project Teams</a>
+                            <a class="dropdown-item" href="#">Incubator</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Partnerships</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="sh-home-header-content">
+                <h2>A Smarter Way To Build Software</h2>
+        </div>
+        
+    </header>
+    <section class="sh-content">
+        {{content}}
+    </section>
+    <footer class="sh-footer">
+        <div id="map"></div>
+        <div class="sh-contact-info">
+            <div class="sh-contact-section sh-find-us">
+                <h3>Find Us</h3>
+                <a href="https://www.google.com/maps/dir/Seven+Hills+Technology+4700+Ashwood+Dr,+Blue+Ash,+OH+45241//@39.2695923,-84.3749387,15z" target="_blank">4700 Ashwood Drive STE 120, Blue Ash, OH 45241</a>
+            </div>
+            <div class="sh-contact-section sh-call-us">
+                <h3>Call Us</h3>
+                <a href="tel:+15138184650">513.818.4650</a>
+            </div>
+            <div class="sh-contact-section sh-email-us">
+                <h3>Email Us</h3>
+                <a href="mailto:info@sevenhillstechnology.com">info@sevenhillstechnology.com</a>
+            </div>
+        </div>
+        <div class="sh-contact-form">
+            <h3>Connect With Us</h3>
+            <form id="contactForm">
+                <input type="text" placeholder="Full Name" required />
+                <input type="text" placeholder="Email" required />
+                <input type="text" placeholder="Message" required />
+                <button class="sh-button" type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="sh-bottom-navigation">
+            <div class="sh-social-links">
+                <a href="#" target="_blank"><img src="images/google.svg" alt="google"/></a>
+                <a href="https://www.facebook.com/sevenhillstechnologyus/" target="_blank"><img src="images/facebook.svg" alt="facebook"/></a>
+                <a href="https://www.linkedin.com/company-beta/10632515" target="_blank"><img src="images/linkedin.svg" alt="linkedin"/></a>
+            </div>
+            <div class="sh-bottom-navigation-links">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Partnerships</a>
+                <a href="#">About Us</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Do we need these? -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    <script src="//s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin.min.js"></script>
+    <script type="text/javascript">
+        let drawTriggered = false;
+        function isScrolledIntoView(elem)
+        {
+            var docViewTop = $(window).scrollTop();
+            var docViewBottom = docViewTop + $(window).height();
+            var elemTop = $(elem).offset().top;
+            var elemBottom = elemTop + $(elem).height();
+            return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom) && (elemBottom <=      docViewBottom) && (elemTop >= docViewTop));
+
+        }
+        function updateSlider() {
+
+        }
+
+        window.onscroll = () => {
+            const cityOutline = document.getElementById("sh-city-outline");
+            const missionTitle = document.getElementById("mission-title");
+
+            const shapes = $("rect, circle, ellipse, polyline, polygon, path");
+
+            if (isScrolledIntoView(missionTitle) && !drawTriggered) {
+                drawTriggered = true;
+
+                const shapes = $("rect, circle, ellipse, polyline, polygon, path");
+                const tl = new TimelineMax({onUpdate:updateSlider, repeat:0, yoyo:false});
+
+                tl.staggerFromTo(shapes, 1, {opacity:0}, {opacity:100}, 0.005);
+
+                cityOutline.style.opacity = 1;
+
+                $(".sh-mission .sh-fade-in").css('opacity', '1');
+            }
+        }
+
+        function initMap() {
+            // The location of Sevenhills
+            var sevenhills = {lat: 39.2718967, lng: -84.3743106};
+            // The map, centered at Sevenhills
+            var map = new google.maps.Map(
+                document.getElementById('map'), {
+                    zoom: 14, 
+                    center: sevenhills,
+                    styles: [
+                        {
+                            "elementType": "geometry",
+                            "stylers": [
+                            {
+                                "color": "#f5f5f5"
+                            }
+                            ]
+                        },
+                        {
+                            "elementType": "labels.icon",
+                            "stylers": [
+                            {
+                                "visibility": "off"
+                            }
+                            ]
+                        },
+                        {
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                            {
+                                "color": "#616161"
+                            }
+                            ]
+                        },
+                        {
+                            "elementType": "labels.text.stroke",
+                            "stylers": [
+                            {
+                                "color": "#f5f5f5"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "administrative.land_parcel",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                            {
+                                "color": "#bdbdbd"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "poi",
+                            "elementType": "geometry",
+                            "stylers": [
+                            {
+                                "color": "#eeeeee"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "poi",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                            {
+                                "color": "#757575"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "poi.park",
+                            "elementType": "geometry",
+                            "stylers": [
+                            {
+                                "color": "#e5e5e5"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "poi.park",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                            {
+                                "color": "#9e9e9e"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "road",
+                            "elementType": "geometry",
+                            "stylers": [
+                            {
+                                "color": "#ffffff"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "road.arterial",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                            {
+                                "color": "#757575"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "road.highway",
+                            "elementType": "geometry",
+                            "stylers": [
+                            {
+                                "color": "#dadada"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "road.highway",
+                            "elementType": "geometry.fill",
+                            "stylers": [
+                            {
+                                "color": "#5bdaff"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "road.highway",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                            {
+                                "color": "#616161"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "road.local",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                            {
+                                "color": "#9e9e9e"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "transit.line",
+                            "elementType": "geometry",
+                            "stylers": [
+                            {
+                                "color": "#e5e5e5"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "transit.station",
+                            "elementType": "geometry",
+                            "stylers": [
+                            {
+                                "color": "#eeeeee"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "geometry",
+                            "stylers": [
+                            {
+                                "color": "#c9c9c9"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "geometry.fill",
+                            "stylers": [
+                            {
+                                "color": "#baebfe"
+                            }
+                            ]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                            {
+                                "color": "#9e9e9e"
+                            }
+                            ]
+                        }
+                    ]
+                });
+            // The marker, positioned at Sevenhills
+            var marker = new google.maps.Marker({position: sevenhills, map: map});
+        }
+        
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6xMX3ed5ioFtxeQju5wddbWkcDfTeyug&callback=initMap"></script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Seven Hills Technology",
+            "image": "https://sevenhillstechnology.com",
+            "url": "https://sevenhillstechnology.com",
+            "telephone": "+15138184650",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "4700 Ashwood Drive, STE 120",
+                "addressLocality": "Blue Ash",
+                "addressRegion": "Ohio",
+                "postalCode": "45241",
+                "addressCountry": "US"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "39.2721468",
+                "longitude": "-84.3766958"
+            },
+            "openingHours": [
+                "Mo-Fr 08:00-17:00"
+            ]
+        }
+        </script>
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "Seven Hills Technology",
+            "url": "https://sevenhillstechnology.com",
+            "logo": "https://sevenhillstechnology.com/wp-content/uploads/2017/05/logo-blue.png",
+            "contactPoint": [
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+15138184650",
+                    "contactType": "sales",
+                    "email": "info@sevenhillstechnology.com",
+                    "areaServed": [
+                        "US"
+                    ],
+                    "availableLanguage": [
+                        "English"
+                    ]
+                }
+            ]
+        }
+        </script>
+</body>
+
+</html>

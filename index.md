@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: home
 ---
 
 <section class="sh-intro">
@@ -30,7 +30,7 @@ layout: default
             <a href="#"><button class="sh-button">Learn More</button></a>
         </div>
     </div>
-    
+     
 </section>
 <section class="sh-mission">
     <h2 id="mission-title" class="sh-fade-in">Our Mission</h2>
