@@ -5,6 +5,7 @@ $brand-2: #4CBFE5;
 $light-text: #595959;
 $light-text-faded: rgba(145, 145, 145, 0.5);
 $button-disabled: #B7B4B4;
+$dark-line: #707070;
 
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
@@ -272,6 +273,10 @@ body {
                         background-repeat: no-repeat;
                         background-position: center center;
                     }
+
+                    .always-color {
+                        background-image: url('/images/flex-teams-color.svg');
+                    }
                 }
 
                 &.sh-product-project-teams {
@@ -313,7 +318,7 @@ body {
         }
     }
 
-    .sh-mission {
+    .sh-dark-band {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -342,7 +347,7 @@ body {
         }
     }
 
-    .sh-approach {
+    .sh-white-band {
         color: $brand-1;
         display: flex;
         flex-direction: column;
@@ -350,6 +355,7 @@ body {
         justify-content: center;
         padding-left: 10px;
         padding-right: 10px;
+        padding-bottom: 25px;
 
         h2 {
             text-align: center;
@@ -398,6 +404,87 @@ body {
 
     .sh-clients {
         background-color: $brand-2;
+    }
+
+    .steps {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .step {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 250px;
+        height: 100%;
+
+        & .step-number {
+            width: 118px;
+            height: 118px;
+            line-height: 110px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin: 0 auto;
+            color: white;
+            font-weight: bold;
+            font-size: 34px;
+            text-align: center;
+        }
+
+        & .step-title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            color: $brand-2;
+        }
+
+        & .step-caption {
+            padding-left: 10px;
+            padding-right: 10px;
+
+            @media (max-width: 767px) {
+                & {
+                    padding-bottom: 15px;
+                }
+            }
+        }
+    }
+
+    .dev-steps {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+
+        .dev-step-list {
+            display: flex;
+            flex-direction: column;
+            align-content: flex-end;
+            max-width: 555px;;
+
+            & .dev-step {
+                margin-bottom: 15px;
+                padding-bottom: 5px;
+                border-bottom: 1px solid $dark-line;
+                text-align: left;
+                & .dev-step-title {
+                    font-size: 20px;
+                }
+                & .dev-step-description {
+                    color: $light-text;
+                }
+            }
+        }
+
+        .dev-step-graphic {
+            display:flex;
+            flex-direction: column;
+            width: 375px;
+        }
     }
 }
 
@@ -467,3 +554,7 @@ body {
     }
 }
 
+#flexTeamFeature {
+    width: 200px;
+    margin: 0 auto;
+}

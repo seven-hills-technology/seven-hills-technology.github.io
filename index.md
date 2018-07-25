@@ -11,7 +11,7 @@ layout: home
     </div>
     <div class="sh-description">A custom software development company, we were built to offer a smarter alternative to traditional software consulting. Our experts have the skillsets required to help you start, grow, and support your business.</div>
     <div class="sh-product-list">
-        <a href="#">
+        <a href="/flex-teams">
             <div class="sh-product sh-product-flex-teams">
                 <div class="sh-product-image"></div>
                 <h3>Flex Teams</h3>
@@ -38,7 +38,7 @@ layout: home
     </div>
      
 </section>
-<section class="sh-mission">
+<section class="sh-dark-band">
     <h2 id="mission-title" class="sh-fade-in">Our Mission</h2>
     <div class="sh-city-outline">
         {% include city.html %}
@@ -46,7 +46,7 @@ layout: home
     <!-- <img src="images/city.svg" alt="City outline" /> -->
     <p class="sh-fade-in">The mission of Seven Hills Technology is to accelerate our clients’ growth by helping plan, implement, and support technology solutions through an in depth knowledge of their business.</p>
 </section>
-<section class="sh-approach">
+<section class="sh-white-band">
     <h2>Our Unique Approach</h2>
     <p>
         Technology changes daily, so why hasn’t consulting? Traditional software development consulting is expensive, requires tons of up-front planning, and often leads to overly-expensive projects for underwhelming results.

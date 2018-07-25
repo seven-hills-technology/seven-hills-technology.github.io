@@ -16,7 +16,7 @@
 <body>
     <header class="sh-header">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <img class="sh-logo" src="/images/logo.svg" alt="Sevenhills Logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse mb-auto" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
+                        <a class="nav-link" href="/">Home
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
@@ -35,7 +35,7 @@
                             Services
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Flex Teams</a>
+                            <a class="dropdown-item" href="/flex-teams">Flex Teams</a>
                             <a class="dropdown-item" href="#">Project Teams</a>
                             <a class="dropdown-item" href="#">Incubator</a>
                         </div>
@@ -59,23 +59,24 @@
     <section class="sh-content">
         {{content}}
     </section>
-    <footer class="sh-footer">
-        <div id="map"></div>
-        <div class="sh-contact-info">
-            <div class="sh-contact-section sh-find-us">
-                <h3>Find Us</h3>
-                <a href="https://www.google.com/maps/dir/Seven+Hills+Technology+4700+Ashwood+Dr,+Blue+Ash,+OH+45241//@39.2695923,-84.3749387,15z" target="_blank">4700 Ashwood Drive STE 120, Blue Ash, OH 45241</a>
-            </div>
-            <div class="sh-contact-section sh-call-us">
-                <h3>Call Us</h3>
-                <a href="tel:+15138184650">513.818.4650</a>
-            </div>
-            <div class="sh-contact-section sh-email-us">
-                <h3>Email Us</h3>
-                <a href="mailto:info@sevenhillstechnology.com">info@sevenhillstechnology.com</a>
-            </div>
+<footer class="sh-footer">
+    <div id="map"></div>
+    <div class="sh-contact-info">
+        <div class="sh-contact-section sh-find-us">
+            <h3>Find Us</h3>
+            <a href="https://www.google.com/maps/dir/Seven+Hills+Technology+4700+Ashwood+Dr,+Blue+Ash,+OH+45241//@39.2695923,-84.3749387,15z"
+                rel="noopener" target="_blank">4700 Ashwood Drive STE 120, Blue Ash, OH 45241</a>
         </div>
-        <div class="sh-contact-form">
+        <div class="sh-contact-section sh-call-us">
+            <h3>Call Us</h3>
+            <a href="tel:+15138184650">513.818.4650</a>
+        </div>
+        <div class="sh-contact-section sh-email-us">
+            <h3>Email Us</h3>
+            <a href="mailto:info@sevenhillstechnology.com">info@sevenhillstechnology.com</a>
+        </div>
+    </div>
+    <!-- <div class="sh-contact-form">
             <h3>Connect With Us</h3>
             <form id="contactForm">
                 <input type="text" placeholder="Full Name" required />
@@ -83,23 +84,29 @@
                 <input type="text" placeholder="Message" required />
                 <button class="sh-button" type="submit">Submit</button>
             </form>
+        </div> -->
+    <div class="sh-bottom-navigation">
+        <div class="sh-social-links">
+            <a href="#" target="_blank">
+                <img src="images/google.svg" alt="google" />
+            </a>
+            <a href="https://www.facebook.com/sevenhillstechnologyus/" rel="noopener" target="_blank">
+                <img src="images/facebook.svg" alt="facebook" />
+            </a>
+            <a href="https://www.linkedin.com/company-beta/10632515" rel="noopener" target="_blank">
+                <img src="images/linkedin.svg" alt="linkedin" />
+            </a>
         </div>
-        <div class="sh-bottom-navigation">
-            <div class="sh-social-links">
-                <a href="#" target="_blank"><img src="images/google.svg" alt="google"/></a>
-                <a href="https://www.facebook.com/sevenhillstechnologyus/" target="_blank"><img src="images/facebook.svg" alt="facebook"/></a>
-                <a href="https://www.linkedin.com/company-beta/10632515" target="_blank"><img src="images/linkedin.svg" alt="linkedin"/></a>
-            </div>
-            <div class="sh-bottom-navigation-links">
-                <a href="#">Home</a>
-                <a href="#">Services</a>
-                <a href="#">Partnerships</a>
-                <a href="#">About Us</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact Us</a>
-            </div>
+        <div class="sh-bottom-navigation-links">
+            <a href="/">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Partnerships</a>
+            <a href="#">About Us</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact Us</a>
         </div>
-    </footer>
+    </div>
+</footer>
 
     <!-- Do we need these? -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -109,39 +116,7 @@
     <script src="//s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin.min.js"></script>
     <script type="text/javascript">
         let drawTriggered = false;
-        function isScrolledIntoView(elem)
-        {
-            var docViewTop = $(window).scrollTop();
-            var docViewBottom = docViewTop + $(window).height();
-            var elemTop = $(elem).offset().top;
-            var elemBottom = elemTop + $(elem).height();
-            return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom) && (elemBottom <=      docViewBottom) && (elemTop >= docViewTop));
-
-        }
-        function updateSlider() {
-
-        }
-
-        window.onscroll = () => {
-            const cityOutline = document.getElementById("sh-city-outline");
-            const missionTitle = document.getElementById("mission-title");
-
-            const shapes = $("rect, circle, ellipse, polyline, polygon, path");
-
-            if (isScrolledIntoView(missionTitle) && !drawTriggered) {
-                drawTriggered = true;
-
-                const shapes = $("rect, circle, ellipse, polyline, polygon, path");
-                const tl = new TimelineMax({onUpdate:updateSlider, repeat:0, yoyo:false});
-
-                tl.staggerFromTo(shapes, 1, {opacity:0}, {opacity:100}, 0.005);
-
-                cityOutline.style.opacity = 1;
-
-                $(".sh-mission .sh-fade-in").css('opacity', '1');
-            }
-        }
-
+        
         function initMap() {
             // The location of Sevenhills
             var sevenhills = {lat: 39.2718967, lng: -84.3743106};
