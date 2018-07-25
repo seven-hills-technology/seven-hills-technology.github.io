@@ -11,24 +11,30 @@ layout: home
     </div>
     <div class="sh-description">A custom software development company, we were built to offer a smarter alternative to traditional software consulting. Our experts have the skillsets required to help you start, grow, and support your business.</div>
     <div class="sh-product-list">
-        <div class="sh-product sh-product-flex-teams">
-            <div class="sh-product-image"></div>
-            <h3>Flex Teams</h3>
-            <p>Need a development team to help you strategically plan and implement software in your business? We provide a team of 2 or more developers that learn your business, then help build or implement what you need to accelerate your growth. Scales from part time to full time to fit any budget.</p>
-            <a href="#"><button class="sh-button">Learn More</button></a>
-        </div>
+        <a href="#">
+            <div class="sh-product sh-product-flex-teams">
+                <div class="sh-product-image"></div>
+                <h3>Flex Teams</h3>
+                <p>Need a development team to help you strategically plan and implement software in your business? We provide a team of 2 or more developers that learn your business, then help build or implement what you need to accelerate your growth. Scales from part time to full time to fit any budget.</p>
+                <button class="sh-button">Learn More</button>
+            </div>
+        </a>
+        <a href="#">
         <div class="sh-product sh-product-project-teams">
             <div class="sh-product-image"></div>
             <h3>Project Teams</h3>
             <p>Do you already have an idea of what you need, and need someone to build it? We have teams ready to go to take your project at any stage, and deliver it on time and on budget. Fits well for short or long term projects with specific goals and / or budgets.</p>
-            <a href="#"><button class="sh-button">Learn More</button></a>
+            <button class="sh-button">Learn More</button>
         </div>
+        </a>
+        <a href="#">
         <div class="sh-product sh-product-incubator">
             <div class="sh-product-image"></div>
             <h3>Incubator</h3>
             <p>This is a text for a blurb about our incubator offerings. Incubation is providing the development at either a minimal cost or for free in exchange for ownership</p>
-            <a href="#"><button class="sh-button">Learn More</button></a>
+            <button class="sh-button">Learn More</button>
         </div>
+        </a>
     </div>
      
 </section>

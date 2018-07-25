@@ -213,6 +213,10 @@ body {
             flex-wrap: wrap;
             justify-content: space-evenly;
             font-size: .8rem;
+
+            a:hover {
+                text-decoration: none;
+            }
         
             .sh-product {
                 color: $brand-1;
