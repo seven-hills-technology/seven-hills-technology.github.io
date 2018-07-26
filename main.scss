@@ -126,6 +126,29 @@ body {
             font-size: 3rem;
             font-weight: bold;
         }
+        h3 {
+            color: white;
+            text-align: right;
+            font-size: 2rem;
+            font-weight: 100;
+        }
+
+        @media (max-width: 846px ) {
+            h2 {
+                margin-top: 40vh;
+            }
+
+            h3 {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 380px) {
+            h2 {
+                margin-top: 30vh;
+                font-size: 2rem;
+            }
+        }
     }
 
     .navbar-light .navbar-nav .nav-link {

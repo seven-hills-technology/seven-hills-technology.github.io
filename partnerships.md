@@ -27,20 +27,20 @@ title: Partnerships
         </div>
         <div class="sh-partner">
             <div class="sh-partner-logo">
-                <img src="/images/ps.png" alt="ProspectStream"/>
-            </div>
-            <div class="sh-partner-content">
-                <div class="sh-partner-title">ProspectStream</div>
-                <div>ProspectStream offers complete sales process management software. Everything from call lists to custom tracking is available through the cloud-based interface. <a href="http://wwww.prospectstream.com" alt="ProspectStream.com">For more information, please visit ProspectStream.com</a></div>
-            </div>
-        </div>
-        <div class="sh-partner">
-            <div class="sh-partner-logo">
                 <img src="/images/gapps.svg" alt="Google Apps for Business"/>
             </div>
             <div class="sh-partner-content">
                 <div class="sh-partner-title">Google Apps</div>
                 <div>Get Gmail, Docs, Drive, and Calendar for business. All you need to do your best work, together in one package that works seamlessly from your computer, phone or tablet. Get support directly from Seven Hills Technology. <a href="mailto:info@sevenhillstechnology.com">Please send us an e-mail if you're interested in purchasing a G Suite subscription with support from us.</a></div>
+            </div>
+        </div>
+        <div class="sh-partner">
+            <div class="sh-partner-logo">
+                <img src="/images/ps.png" alt="ProspectStream"/>
+            </div>
+            <div class="sh-partner-content">
+                <div class="sh-partner-title">ProspectStream</div>
+                <div>ProspectStream offers complete sales process management software. Everything from call lists to custom tracking is available through the cloud-based interface. <a href="http://wwww.prospectstream.com" alt="ProspectStream.com">For more information, please visit ProspectStream.com</a></div>
             </div>
         </div>
         <div class="sh-partner">
