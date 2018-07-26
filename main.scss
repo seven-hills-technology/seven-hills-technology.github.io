@@ -111,8 +111,14 @@ body {
     
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+
+    @media (min-width: 1025px) {
+        & {
+            background-attachment: fixed;
+        }
+    }
     background-size: cover;
+    image-rendering: pixelated;
 
     height: 100vh;
 
@@ -388,7 +394,7 @@ body {
         .sh-city-outline {
             margin-top: 10px;
             margin-bottom: 20px;
-            width: 950px;
+            width: 70%;
         }
 
         p {
@@ -422,7 +428,9 @@ body {
             flex-direction: row;
             justify-content: space-evenly;
             flex-wrap: wrap;
+            height: 252px;
             margin-bottom: 40px;
+            align-items: flex-start;
 
             .sh-value {
                 display: flex;
