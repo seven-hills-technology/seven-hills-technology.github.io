@@ -34,33 +34,24 @@
             </button>
             <div class="collapse navbar-collapse mb-auto" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Services
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="/flex-teams">Flex Teams</a>
-                            <a class="dropdown-item" href="/project-teams">Project Teams</a>
-                            <a class="dropdown-item" href="/incubator">Incubator</a>
-                        </div>
-                    </li>
+                    {% for item in site.data.pagelist.docs %}
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Partnerships</a>
+                        {% if item.children.size > 0 %}
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    {{item.title}}
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    {% for child in item.children %}
+                                    <a class="dropdown-item" href="{{child.friendlyUrl}}">{{child.title}}</a>
+                                    {% endfor %}
+                                </div>
+                            </li>
+                        {% else %}
+                        <a class="nav-link" href="{{ item.friendlyUrl }}" alt="{{ item.title }}">{{ item.title }}</a>
+                        {% endif %}
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
         </nav>

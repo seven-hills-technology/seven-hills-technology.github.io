@@ -1,0 +1,38 @@
+--- 
+docs: 
+  - 
+    title: Home
+    url: /index.html
+    friendlyUrl: /
+  - 
+    children: 
+      - 
+        title: "Flex Teams"
+        url: /flex-teams.html
+        friendlyUrl: flex-teams
+      - 
+        title: "Project Teams"
+        url: /project-teams.html
+        friendlyUrl: project-teams
+      - 
+        title: Incubator
+        url: /incubator.html
+        friendlyUrl: incubator
+    title: Services
+  - 
+    title: Partnerships
+    url: /partnerships.html
+    friendlyUrl: partnerships
+  - 
+    title: "About Us"
+    url: /about.html
+    friendlyUrl: about
+  - 
+    title: Blog
+    url: /blog.html
+    friendlyUrl: blog
+  - 
+    title: "Contact Us"
+    url: /contact-us.html
+    friendlyUrl: contact-us
+docs_list_title: Pages
