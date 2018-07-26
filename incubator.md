@@ -1,7 +1,6 @@
 ---
-
 layout: default
-
+title: Incubator
 ---
 
 <section class="sh-intro">

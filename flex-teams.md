@@ -1,7 +1,6 @@
 ---
-
 layout: default
-
+title: Flex Teams
 ---
 
 <section class="sh-intro">

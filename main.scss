@@ -328,6 +328,18 @@ body {
                         background-position: center center;
                     }
                 }
+
+                @media(max-width: 414px) {
+                    & .sh-product-image {
+                        min-height: 100px;
+                    }
+                }
+
+                @media(max-width: 364px) {
+                    & {
+                        height: 700px;
+                    }
+                }
             }
         }
     }
@@ -530,6 +542,83 @@ body {
             width: 375px;
         }
     }
+
+    .sh-partners {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & .sh-partner {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: left;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            max-width: 1000px;
+            border-bottom: 1px solid #B7B4B4;
+
+            &:last-of-type{
+                border-bottom: none;
+            }
+
+            & .sh-partner-logo {
+                display: flex;
+                min-width: 465px;
+                justify-content: left;
+                &>img {
+                    height: 100px;
+                }
+            }
+            & .sh-partner-content {
+                display: flex;
+                flex-direction: column;
+                margin-left: 45px;
+                width: 450px;
+                
+                
+                & .sh-partner-title {
+                    font-weight: bold;
+                    color: $brand-2;
+                    font-size: 20px;
+                }
+            }
+
+            @media (max-width: 979px) {
+                & {
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+                & .sh-partner-logo {
+                    justify-content: center;
+
+                    &>img {
+                        max-width: 90%;
+                    }
+                }
+
+                & .sh-partner-content {
+                    padding-top: 15px;
+                }
+            }
+
+            @media(max-width: 530px) {
+                & .sh-partner-logo {
+                    min-width: 0;
+                    &>img {
+                        height: 50px;
+                    }
+                }
+
+                & .sh-partner-content {
+                    min-width: 0;
+                    width: 80%;
+                }
+            }
+        }
+    }
+
 }
 
 .sh-get-in-touch {

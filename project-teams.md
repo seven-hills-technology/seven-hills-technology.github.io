@@ -1,7 +1,6 @@
 ---
-
 layout: default
-
+title: Project Teams
 ---
 
 <section class="sh-intro">
