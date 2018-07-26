@@ -428,7 +428,6 @@ body {
             flex-direction: row;
             justify-content: space-evenly;
             flex-wrap: wrap;
-            height: 252px;
             margin-bottom: 40px;
             align-items: flex-start;
 
@@ -440,6 +439,7 @@ body {
                 padding-left: 20px;
                 padding-right: 20px;
                 max-width: 280px;
+                flex: 1 1 280px;
 
                 img {
                     height: 100px;
