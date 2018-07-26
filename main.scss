@@ -22,7 +22,7 @@ body {
     color: $brand-1;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .dropdown-item.active {
     color: $brand-2;
 }
 
@@ -36,6 +36,10 @@ body {
     &:hover, &:focus {
         background-color: #fff;
         color: $brand-2;
+    }
+
+    &.active {
+        background-color: #fff;
     }
 }
 
@@ -128,7 +132,7 @@ body {
         color: white;
     }
     
-    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .dropdown-item.active {
         color: white;
     }
     

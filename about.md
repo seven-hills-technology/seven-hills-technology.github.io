@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Meet our team
-permalink: /about/
 ---
 
 <section class="sh-about-us">
