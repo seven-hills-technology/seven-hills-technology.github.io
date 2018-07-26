@@ -45,7 +45,7 @@ title: Seven Hills Technology
         {% include city.html %}
     </div>
     <!-- <img src="images/city.svg" alt="City outline" /> -->
-    <p class="sh-fade-in">The mission of Seven Hills Technology is to accelerate our clients’ growth by helping plan, implement, and support technology solutions through an in depth knowledge of their business.</p>
+    <h4 class="sh-fade-in">The mission of Seven Hills Technology is to accelerate our clients’ growth by helping plan, implement, and support technology solutions through an in depth knowledge of their business.</h4>
 </section>
 <section class="sh-white-band">
     <h2>Our Unique Approach</h2>

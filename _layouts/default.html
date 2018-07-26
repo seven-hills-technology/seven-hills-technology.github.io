@@ -81,7 +81,7 @@ in depth knowledge of their business. Click the link below to transform your bus
         <a class="git-button" href="mailto:info@sevenhillstechnology.com">Contact Us</a>
     </section>
 <footer class="sh-footer">
-    <div id="map"></div>
+    <div class="map"></div>
     <div class="sh-contact-info">
         <div class="sh-contact-section sh-find-us">
             <h3>Find Us</h3>
@@ -142,191 +142,195 @@ in depth knowledge of their business. Click the link below to transform your bus
             // The location of Sevenhills
             var sevenhills = {lat: 39.2718967, lng: -84.3743106};
             // The map, centered at Sevenhills
-            var map = new google.maps.Map(
-                document.getElementById('map'), {
-                    zoom: 14, 
-                    center: sevenhills,
-                    styles: [
-                        {
-                            "elementType": "geometry",
-                            "stylers": [
+            var elements = document.getElementsByClassName("map");
+            for(var i=0; i < elements.length; i++) {
+                var element = elements[i];
+                var map = new google.maps.Map(
+                    element, {
+                        zoom: 14, 
+                        center: sevenhills,
+                        styles: [
                             {
-                                "color": "#f5f5f5"
-                            }
-                            ]
-                        },
-                        {
-                            "elementType": "labels.icon",
-                            "stylers": [
+                                "elementType": "geometry",
+                                "stylers": [
+                                {
+                                    "color": "#f5f5f5"
+                                }
+                                ]
+                            },
                             {
-                                "visibility": "off"
-                            }
-                            ]
-                        },
-                        {
-                            "elementType": "labels.text.fill",
-                            "stylers": [
+                                "elementType": "labels.icon",
+                                "stylers": [
+                                {
+                                    "visibility": "off"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#616161"
-                            }
-                            ]
-                        },
-                        {
-                            "elementType": "labels.text.stroke",
-                            "stylers": [
+                                "elementType": "labels.text.fill",
+                                "stylers": [
+                                {
+                                    "color": "#616161"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#f5f5f5"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "administrative.land_parcel",
-                            "elementType": "labels.text.fill",
-                            "stylers": [
+                                "elementType": "labels.text.stroke",
+                                "stylers": [
+                                {
+                                    "color": "#f5f5f5"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#bdbdbd"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "poi",
-                            "elementType": "geometry",
-                            "stylers": [
+                                "featureType": "administrative.land_parcel",
+                                "elementType": "labels.text.fill",
+                                "stylers": [
+                                {
+                                    "color": "#bdbdbd"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#eeeeee"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "poi",
-                            "elementType": "labels.text.fill",
-                            "stylers": [
+                                "featureType": "poi",
+                                "elementType": "geometry",
+                                "stylers": [
+                                {
+                                    "color": "#eeeeee"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#757575"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "poi.park",
-                            "elementType": "geometry",
-                            "stylers": [
+                                "featureType": "poi",
+                                "elementType": "labels.text.fill",
+                                "stylers": [
+                                {
+                                    "color": "#757575"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#e5e5e5"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "poi.park",
-                            "elementType": "labels.text.fill",
-                            "stylers": [
+                                "featureType": "poi.park",
+                                "elementType": "geometry",
+                                "stylers": [
+                                {
+                                    "color": "#e5e5e5"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#9e9e9e"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "road",
-                            "elementType": "geometry",
-                            "stylers": [
+                                "featureType": "poi.park",
+                                "elementType": "labels.text.fill",
+                                "stylers": [
+                                {
+                                    "color": "#9e9e9e"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#ffffff"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "road.arterial",
-                            "elementType": "labels.text.fill",
-                            "stylers": [
+                                "featureType": "road",
+                                "elementType": "geometry",
+                                "stylers": [
+                                {
+                                    "color": "#ffffff"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#757575"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "road.highway",
-                            "elementType": "geometry",
-                            "stylers": [
+                                "featureType": "road.arterial",
+                                "elementType": "labels.text.fill",
+                                "stylers": [
+                                {
+                                    "color": "#757575"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#dadada"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "road.highway",
-                            "elementType": "geometry.fill",
-                            "stylers": [
+                                "featureType": "road.highway",
+                                "elementType": "geometry",
+                                "stylers": [
+                                {
+                                    "color": "#dadada"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#5bdaff"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "road.highway",
-                            "elementType": "labels.text.fill",
-                            "stylers": [
+                                "featureType": "road.highway",
+                                "elementType": "geometry.fill",
+                                "stylers": [
+                                {
+                                    "color": "#5bdaff"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#616161"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "road.local",
-                            "elementType": "labels.text.fill",
-                            "stylers": [
+                                "featureType": "road.highway",
+                                "elementType": "labels.text.fill",
+                                "stylers": [
+                                {
+                                    "color": "#616161"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#9e9e9e"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "transit.line",
-                            "elementType": "geometry",
-                            "stylers": [
+                                "featureType": "road.local",
+                                "elementType": "labels.text.fill",
+                                "stylers": [
+                                {
+                                    "color": "#9e9e9e"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#e5e5e5"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "transit.station",
-                            "elementType": "geometry",
-                            "stylers": [
+                                "featureType": "transit.line",
+                                "elementType": "geometry",
+                                "stylers": [
+                                {
+                                    "color": "#e5e5e5"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#eeeeee"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "water",
-                            "elementType": "geometry",
-                            "stylers": [
+                                "featureType": "transit.station",
+                                "elementType": "geometry",
+                                "stylers": [
+                                {
+                                    "color": "#eeeeee"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#c9c9c9"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "water",
-                            "elementType": "geometry.fill",
-                            "stylers": [
+                                "featureType": "water",
+                                "elementType": "geometry",
+                                "stylers": [
+                                {
+                                    "color": "#c9c9c9"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#baebfe"
-                            }
-                            ]
-                        },
-                        {
-                            "featureType": "water",
-                            "elementType": "labels.text.fill",
-                            "stylers": [
+                                "featureType": "water",
+                                "elementType": "geometry.fill",
+                                "stylers": [
+                                {
+                                    "color": "#baebfe"
+                                }
+                                ]
+                            },
                             {
-                                "color": "#9e9e9e"
+                                "featureType": "water",
+                                "elementType": "labels.text.fill",
+                                "stylers": [
+                                {
+                                    "color": "#9e9e9e"
+                                }
+                                ]
                             }
-                            ]
-                        }
-                    ]
-                });
-            // The marker, positioned at Sevenhills
-            var marker = new google.maps.Marker({position: sevenhills, map: map});
+                        ]
+                    });
+                // The marker, positioned at Sevenhills
+                var marker = new google.maps.Marker({position: sevenhills, map: map});
+            }
         }
         
     </script>

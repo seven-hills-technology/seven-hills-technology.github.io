@@ -397,8 +397,8 @@ body {
             width: 70%;
         }
 
-        p {
-            max-width: 700px;
+        h4 {
+            max-width: 800px;
             text-align: center;
         }
     }
@@ -599,6 +599,7 @@ body {
                 justify-content: left;
                 &>img {
                     height: 100px;
+                    max-width: 462px;
                 }
             }
             & .sh-partner-content {
@@ -648,6 +649,44 @@ body {
                 }
             }
         }
+    }
+
+    .sh-contact-us {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .map {
+            margin-right: 10px;
+            margin-top: 20px;
+            height: 400px;
+            width: 600px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+
+            .sh-contact-section {
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 20px;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+            }
+        }
+
+        a {
+            
+        }
+
     }
 
 }
@@ -721,7 +760,7 @@ body {
         color: white;
     }
 
-    #map {
+    .map {
         margin-right: 10px;
         margin-top: 20px;
         height: 200px;
