@@ -49,7 +49,7 @@ title: Partnerships
             </div>
             <div class="sh-partner-content">
                 <div class="sh-partner-title">Elastic</div>
-                <div>Elastic is the world's leading software provider for making structured and unstructured data usable in real time for search, logging, security, and analytics use cases. Elastic's global community has more than 80,000 members across 45 countries. We are working on setting up a Cincinnati meetup for Elastic. If you're interested in speaking, please contact us! <a href="https://elastic.co" alt="Elastic.co">For more information, please visit Elastic.co</a>
+                <div>Elastic is the world's leading software provider for making structured and unstructured data usable in real time for search, logging, security, and analytics use cases. Elastic's global community has more than 80,000 members across 45 countries. We are working on setting up a Cincinnati meetup for Elastic. <a href="">If you're interested in attending or speaking, please fill out our form!</a><br/><br/> <a href="https://elastic.co" alt="Elastic.co">For more information on Elastic, please visit Elastic.co</a>
 </div>
             </div>
         </div>
