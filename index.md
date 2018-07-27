@@ -10,7 +10,7 @@ title: Seven Hills Technology
     <div class="sh-tagline">
         <h2 class="sh-header-lines"><span>A Smarter Way To Build Software</span></h2>
     </div>
-    <div class="sh-description">A custom software development company, we were built to offer a smarter alternative to traditional software consulting. Our experts have the skillsets required to help you start, grow, and support your business.</div>
+    <div class="sh-description">A custom software development company, we were built to offer a smarter alternative to traditional software consulting. Whether it's a cloud application to drive efficiency or that mobile app you've always dreamed of, our experts have the skillsets required to help you start, grow, and support your business.</div>
     <div class="sh-product-list">
         <a href="/flex-teams">
             <div class="sh-product sh-product-flex-teams">
@@ -46,6 +46,31 @@ title: Seven Hills Technology
     </div>
     <!-- <img src="images/city.svg" alt="City outline" /> -->
     <h4 class="sh-fade-in">The mission of Seven Hills Technology is to accelerate our clients’ growth by helping plan, implement, and support technology solutions through an in depth knowledge of their business.</h4>
+</section>
+<section class="sh-light-band">
+    <h2>What We Create</h2>
+    <div class="sh-values">
+        <div class="sh-value">
+            <img src="/images/cloud.svg" alt="Web Apps" />
+            <h3>Web Apps</h3>
+            <p>We build cloud-based web apps that scale from small startup to enterprise.</p>
+        </div>
+        <div class="sh-value">
+            <img src="/images/mobile.svg" alt="Mobile Apps" />
+            <h3>Mobile Apps</h3>
+            <p>Native iOS and Android applications to bring your idea to life.</p>
+        </div>
+        <div class="sh-value">
+            <img src="/images/integration.svg" alt="Integrations" />
+            <h3>Integrations</h3>
+            <p>We're able to make your systems talk to each other, whether it be web or mobile.</p>
+        </div>
+        <div class="sh-value">
+            <img src="/images/iot.svg" alt="Internet of Things" />
+            <h3>Internet of Things</h3>
+            <p>Our IoT services will help you link all of your devices together.</p>
+        </div>
+    </div>
 </section>
 <section class="sh-white-band">
     <h2>Our Unique Approach</h2>
