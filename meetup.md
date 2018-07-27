@@ -9,6 +9,6 @@ title: About Us
     </div>
     <div class="sh-meetup">
         <p><a href="https://www.meetup.com/Cincinnati-Elastic-Stack-Meetup/" alt="Meetup.com">Join our group on Meetup</a> or fill out the form below to be notified when we have a date and time for the Cincinnati Elastic meetup.</p>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdjqBCo1XWyD4NJqDT9k1hfymTtuue_32a4tCiR95H3XvQGXA/viewform?embedded=true" width="700" height="1250" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdjqBCo1XWyD4NJqDT9k1hfymTtuue_32a4tCiR95H3XvQGXA/viewform?embedded=true" width="100%" height="1250" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </div>
 </section>
