@@ -971,12 +971,6 @@ a {
     align-items: center;
 }
 
-
-
-
-
-
-
 .sh-g-suite {
     padding-left: 5%;
     padding-right: 5%;
@@ -1099,3 +1093,27 @@ a {
         }
     }
 }
+
+#postFilters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: #E8E8E8;
+
+    & > div {
+        display: flex;
+        flex-direction: column;
+        padding: 10px; 
+        cursor: pointer;
+
+        & > a {
+            color: $brand-1;
+
+            &:hover {
+                color: $brand-1;
+            }
+        }
+    }
+}
+
