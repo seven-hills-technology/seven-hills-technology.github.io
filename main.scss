@@ -170,6 +170,23 @@ body {
     }
 }
 
+.sh-home-scroll-notifier-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+    color: #fff;
+    padding-right: 10%;
+}
+
+.sh-home-scroll-notifier {
+    display: flex;
+    flex-direction: column;
+}
+
 .sh-button {
     padding-top: 5px;
     padding-bottom: 5px;
