@@ -18,6 +18,10 @@ docs:
         title: Incubator
         url: /incubator.html
         friendlyUrl: incubator
+      - 
+        title: "G Suite"
+        url: /gsuite.html
+        friendlyUrl: gsuite
     title: Services
   - 
     title: Partnerships

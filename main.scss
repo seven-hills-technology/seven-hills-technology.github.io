@@ -956,6 +956,11 @@ body {
     margin: 0 auto;
 }
 
+#gsuite {
+    text-align: center;
+    margin: 0 auto;
+}
+
 a {
     cursor: pointer;
 }
@@ -965,4 +970,133 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+
+
+
+.sh-g-suite {
+    padding-left: 5%;
+    padding-right: 5%;
+    display:flex;
+    flex-direction: column;
+
+
+    .sh-tagline {
+        margin-top: 40px;
+        h2 {
+            color: $light-text;
+            margin-bottom: 30px;
+        }
+    }
+
+    .sh-description {
+        margin-top: 20px;
+        color: $light-text;
+        max-width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+
+    .sh-button {
+        border: none;
+    }
+    
+
+    .sh-product-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 80%;
+
+        a:hover {
+            text-decoration: none;
+        }
+    
+        .sh-product {
+            color: $brand-1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            max-width: 425px;
+            min-width: 340px;
+            
+            padding: 20px;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 2%;
+            margin-right: 2%;
+            border-bottom: 1px solid $brand-1;
+            transition: 0.5s;
+            background-size: 100% 100%;
+            background-color: #fff;
+
+            &:hover {
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.9);
+                background-color: rgb(194, 231, 248);
+
+                .sh-button {
+                    transition: 0.5s;
+                    background-color: $brand-1;
+                }
+            }
+
+            h3 {
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            h4 {
+                margin-top: 20px;
+                font-size: 1.2em;
+                font-weight: bold;
+                text-align: left;
+            }
+
+            p {
+                margin-top: 10px;
+                text-align: left;
+            }
+
+
+            a {
+                text-align: center;
+                
+                button {
+                    width: 200px;
+                }
+            }
+
+            .sh-feature-list {
+                list-style: none;
+                padding-left: 0;
+
+                li {
+                    img {
+                        margin-right: 10px;
+                    }
+
+                    margin-top: 5px;
+                }
+            }
+
+            .sh-list-image {
+                width: 24px;
+                height: 24px;
+            }
+
+            @media(max-width: 364px) {
+                & {
+                    height: 700px;
+                }
+            }
+        }
+    }
 }
