@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Project Teams
+title: G Suite
 ---
 
 <section class="sh-intro">
