@@ -31,10 +31,10 @@ docs:
     title: "About Us"
     url: /about.html
     friendlyUrl: about
-  # - 
-  #   title: Blog
-  #   url: /blog.html
-  #   friendlyUrl: blog
+  - 
+    title: Blog
+    url: /blog.html
+    friendlyUrl: blog
   - 
     title: "Contact Us"
     url: /contact-us.html
