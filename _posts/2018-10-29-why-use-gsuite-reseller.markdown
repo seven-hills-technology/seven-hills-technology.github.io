@@ -10,6 +10,8 @@ sticky: true
 author: Brad Gardner
 ---
 
+![Google G Suite Logo](/images/gsuite.png){:class="img-center"}
+
 Launched in the fall of 2006, G Suite, formerly known as Google Apps, has been the leading provider for cloud native productivity applications for over 12 years. G Suite owes it's success largely to the ease of implementation and use of the platform. Many users are familiar with Gmail when their company starts or signs up with G Suite, helping provide a smooth transition to using products they already know in their day to day jobs. 
 
 In addition to the end users, IT staff generally benefit from migrating older on-site email servers and IT resources out to Google, freeing them up to focus on other tasks that provide added business value instead of spending much of their time supporting IT infrastructure. For a small company, the move can be quick and painless, potentially making the switch inside of a single day. Even for larger deployments, there are a wealth of tools and existing knowledge drawing from the 12 years of collective experience moving companies to the platform.
