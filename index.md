@@ -37,7 +37,6 @@ title: Seven Hills Technology
         </div>
         </a>
     </div>
-     
 </section>
 <section class="sh-dark-band">
     <h2 id="mission-title" class="sh-fade-in">Our Mission</h2>

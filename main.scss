@@ -822,16 +822,15 @@ body {
         color: #fff;
         text-decoration: none;
 
-        transition: 1s;
 
         &:hover {
-            color: $brand-2;
+            color: $brand-1;
             background-color: #fff;
             text-decoration: none;
             transition: 1s;
         }
         &:visited {
-            color: #fff;
+            color: $brand-1;
             text-decoration: none;
         }
     }
