@@ -3,7 +3,7 @@ docs:
   - 
     title: Home
     url: /index.html
-    friendlyUrl: /
+    friendlyUrl: 
   - 
     children: 
       - 

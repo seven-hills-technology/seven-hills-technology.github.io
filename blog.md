@@ -13,26 +13,22 @@ title: Blog
         Read about our findings, musings, and client success stories.
     </div>
     <div class="sh-blog">
-        <div id="postContainer">
+        <div id="categoryContainer">
             {% assign categories_list = site.categories %}
-            <div id="postFilters">
+            <div id="postFilters" class="tabs" data-tabs>
                 <div>
-                    <a data-toggle="collapse" 
-                       href="#featured"  
-                       role="button" 
-                       aria-expanded="false" 
-                       aria-controls="featuredPosts">
+                    <a href="#featuredPosts"
+                       aria-controls="featuredPosts"
+                       data-tab>
                         Featured
                     </a>
                 </div>
                 {% if categories_list.first[0] == null %}
                     {% for category in categories_list %}
                         <div>
-                            <a data-toggle="collapse" 
-                               href="#{{ category }}" 
-                               role="button" 
-                               aria-expanded="false" 
-                               aria-controls="{{ category }}">
+                            <a href="#{{ category }}" 
+                               aria-controls="{{ category }}"
+                               data-tab>
                                 {{ category | capitalize }} ({{ site.tags[category].size }})
                             </a>
                         </div>
@@ -40,28 +36,74 @@ title: Blog
                 {% else %}
                     {% for category in categories_list %}
                         <div>
-                            <a data-toggle="collapse" 
-                               href="#{{ category[0] | downcase }}" 
-                               role="button" 
-                               aria-expanded="false" 
-                               aria-controls="{{ category[0] }}">
+                            <a href="#{{ category[0] | downcase }}" 
+                               aria-controls="{{ category[0] }}"
+                               data-tab>
                                 {{ category[0] | capitalize }} ({{ category[1].size }})
                             </a>
                         </div>
                     {% endfor %}
                 {% endif %}
             </div>
-            <div id="featuredPosts" class="collapse">
-                Featured
-            </div>
-            {% for category in categories_list %}
-                {{ category[0] }}
-            {% endfor %}
             {% assign categories_list = nil %}
         </div>
-        {% for post in site.posts %}
-        {{post.title}}
-        {% endfor %}
+        <div id="contentContainer" data-tabs-content>
+            <div id="featuredPosts" data-tabs-pane class="tabs-pane active post-list" style="margin-bottom: 1rem">
+                {% assign featuredPosts = site.posts | where: "sticky", "true" %}
+                <h3>Featured</h3>  
+                {% for post in featuredPosts %}
+                    {% if post.title != null %}
+                        {% if group == null or group == post.group %}
+                        <li>
+                            <div class="sh-post">
+                                <a href="{{ site.url }}{{ post.url }}" class="post-title">{{ post.title }}</a>
+                                <div class="post-excerpt">
+                                    {{ post.excerpt }}
+                                </div>
+                                <div class="read-more-button">
+                                    <a href="{{ site.url }}{{ post.url }}">Read More</a>
+                                </div>
+                                <div class="author">
+                                    Written by {{post.author}} on {{post.date | date_to_long_string}}
+                                </div>
+                            </div>
+                        </li>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+                {% assign pages_list = nil %}
+                {% assign group = nil %}
+            </div>
+            {% for tag in site.categories %} 
+            <div data-tabs-pane class="tabs-pane" id="{{ tag[0] }}">
+                <ul class="post-list">
+                    {% assign pages_list = tag[1] %}  
+                        {% for post in pages_list %}
+                            {% if post.title != null %}
+                                {% if group == null or group == post.group %}
+                                <li>
+                                    <div class="sh-post">
+                                        <a href="{{ site.url }}{{ post.url }}" class="post-title">{{ post.title }}</a>
+                                        <div class="post-excerpt">
+                                            {{ post.excerpt }}
+                                        </div>
+                                        <div class="read-more-button">
+                                            <a href="{{ site.url }}{{ post.url }}">Read More</a>
+                                        </div>
+                                        <div class="author">
+                                            Written by {{post.author}} on {{post.date | date_to_long_string}}
+                                        </div>
+                                    </div>
+                                </li>
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                    {% assign pages_list = nil %}
+                    {% assign group = nil %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
     </div>
 </section>
 

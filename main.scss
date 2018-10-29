@@ -1113,7 +1113,70 @@ a {
             &:hover {
                 color: $brand-1;
             }
+
+            &.active {
+                font-weight: bold;
+            }
         }
     }
 }
 
+.sh-blog {
+    width: 800px;
+    margin: 0 auto;
+    min-width: 400px;
+}
+
+@media screen and (max-width:900px) {
+    .sh-blog {
+        width: 100%;
+    }
+}
+
+#contentContainer {
+    h3 {
+        font-size: 22px;
+        font-weight: bold;
+        font-variant: small-caps;
+        text-align: center;
+        color: $brand-1;
+    }
+
+    .post-list {
+        padding-left: 0;
+
+        &>li {
+            list-style: none;
+            padding-top: 10px;
+
+            &>div.sh-post {
+                min-height: 150px;
+                border-bottom: 1px solid $brand-1;
+
+                .post-title {
+                    color: $brand-2;
+                    font-weight: bold;
+                    font-size: 1.15em;
+                }
+
+                .post-excerpt {
+                    color: $light-text;
+                }
+
+                .read-more-button {
+                    margin-top: 10px;
+
+                    &>a {
+                        color: $brand-1;
+                    }
+                }
+
+                .author {
+                    margin-top: 5px;
+                    font-size: 13px;
+                    color:$light-text;
+                }
+            }
+        }
+    }
+}
