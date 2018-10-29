@@ -3,8 +3,7 @@ layout: default
 title: Blog
 ---
 
-<style type="text/css" rel="stylesheet" href="/css/tabby.min.css"/>
-<script type="text/javascript" src="/js/tabby.min.js"></script>
+<link rel="stylesheet" href="/css/tabby.min.css"/>
 
 <section class="sh-intro">
     <div class="sh-tagline">
@@ -49,7 +48,6 @@ title: Blog
                                 {{ category[0] | capitalize }} ({{ category[1].size }})
                             </a>
                         </div>
-                        WORK WITH TABBY
                     {% endfor %}
                 {% endif %}
             </div>
@@ -66,3 +64,9 @@ title: Blog
         {% endfor %}
     </div>
 </section>
+
+
+<script type="text/javascript" src="/js/tabby.min.js"></script>
+<script type="text/javascript">
+    tabby.init();
+</script>
