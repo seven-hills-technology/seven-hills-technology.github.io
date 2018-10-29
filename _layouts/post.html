@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
     <link rel="stylesheet" href="/main.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?">
 </head>
 
@@ -83,9 +85,16 @@
         <div class="publish-info">
             <strong>{{page.author}}</strong> on <strong>{{page.date | date_to_long_string}}</strong>
         </div>
+        <div class="share-bar-container">
+            {% include share-bar.html %}
+        </div>
 
         <div class="post-body">
             {{content}}
+        </div>
+
+        <div class="share-bar-container">
+            {% include share-bar.html %}
         </div>
     </section>
     <section class="sh-get-in-touch">
