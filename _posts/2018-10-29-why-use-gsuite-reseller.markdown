@@ -10,7 +10,7 @@ sticky: true
 author: Brad Gardner
 ---
 
-Launched in the fall of 2006, G Suite (then Google Apps) has been the leading provider for cloud native productivity applications for over 12 years. G Suite owes it's success largely to the ease of implementation and use of the platform. Many users are familiar with Gmail when their company starts or signs up with G Suite, helping provide a smooth transition to using products they already know in their day to day jobs. 
+Launched in the fall of 2006, G Suite, formerly known as Google Apps, has been the leading provider for cloud native productivity applications for over 12 years. G Suite owes it's success largely to the ease of implementation and use of the platform. Many users are familiar with Gmail when their company starts or signs up with G Suite, helping provide a smooth transition to using products they already know in their day to day jobs. 
 
 In addition to the end users, IT staff generally benefit from migrating older on-site email servers and IT resources out to Google, freeing them up to focus on other tasks that provide added business value instead of spending much of their time supporting IT infrastructure. For a small company, the move can be quick and painless, potentially making the switch inside of a single day. Even for larger deployments, there are a wealth of tools and existing knowledge drawing from the 12 years of collective experience moving companies to the platform.
 
@@ -32,11 +32,11 @@ Even companies with dedicated IT staff benefit from using a reseller. IT organiz
 
 ## Customized and local support
 
-Resellers often sell locally, providing a level of support that you cannot get directly from Google. Having someone on-site to help with migrating users, teaching them how to use a new platform, and providing on going support and training can be the deciding factor between users adopting a new system successfully, or struggling with it for a longer period of time.
+Resellers often sell locally, providing a level of support that you cannot get directly from Google. Having someone on-site to help with migrating users, teaching them how to use a new platform, and providing on-going support and training can be the deciding factor between users adopting a new system successfully, or struggling with it for a longer period of time.
 
 ## Access to additional support and training
 
-Most resellers will offer support plans or addtional ad-hoc support time at an hourly rate to cover day to day support or on-going training to make sure employees are able to use G Suite effectively. On going training directly with employees is often the best way to ensure they know and understand how to use G Suite, and also teaches them advanced features that can make them more productive in their day to day activity.
+Most resellers will offer support plans or addtional ad-hoc support time at an hourly rate to cover day to day support or on-going training to make sure employees are able to use G Suite effectively. On-going training directly with employees is often the best way to ensure they know and understand how to use G Suite, and also teaches them advanced features that can make them more productive in their day to day activity.
 
 ## Custom applications and integrations
 
@@ -49,3 +49,6 @@ As helpful as working with a G Suite reseller can be, it may also be unnecessary
 1. You have an IT staff who has the time and capability to migrate and support your staff.
 2. You don't need any custom applications or integrations into G Suite.
 3. You have strict data privacy requirements that make working with 3rd parties difficult.
+
+
+Contact us below to see if G Suite is a fit for your company!
