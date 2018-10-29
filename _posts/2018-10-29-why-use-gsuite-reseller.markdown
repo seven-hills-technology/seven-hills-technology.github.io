@@ -53,4 +53,4 @@ As helpful as working with a G Suite reseller can be, it may also be unnecessary
 3. You have strict data privacy requirements that make working with 3rd parties difficult.
 
 
-Contact us below to see if G Suite is a fit for your company!
+# Ready to start? [Learn more about G Suite](https://sevenhillstechnology.com/gsuite)
