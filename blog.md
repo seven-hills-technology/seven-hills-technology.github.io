@@ -23,27 +23,18 @@ title: Blog
                         Featured
                     </a>
                 </div>
-                {% if categories_list.first[0] == null %}
-                    {% for category in categories_list %}
-                        <div>
-                            <a href="#{{ category }}" 
-                               aria-controls="{{ category }}"
-                               data-tab>
-                                {{ category | capitalize }} ({{ site.tags[category].size }})
-                            </a>
-                        </div>
-                    {% endfor %}
-                {% else %}
-                    {% for category in categories_list %}
-                        <div>
-                            <a href="#{{ category[0] | downcase }}" 
-                               aria-controls="{{ category[0] }}"
-                               data-tab>
-                                {{ category[0] | capitalize }} ({{ category[1].size }})
-                            </a>
-                        </div>
-                    {% endfor %}
-                {% endif %}
+                {% for category in categories_list %}
+                    <div>
+                        <a href="#{{ category | first | remove: " "}}" 
+                            aria-controls="{{ category | first }}"
+                            data-tab>
+                            {% assign words = category | first | split: ' ' %}
+                            {% for word in words %}
+                                {{ word | capitalize }}
+                            {% endfor %}
+                        </a>
+                    </div>
+                {% endfor %}
             </div>
             {% assign categories_list = nil %}
         </div>
@@ -61,7 +52,7 @@ title: Blog
                                     {{ post.excerpt }}
                                 </div>
                                 <div class="read-more-button">
-                                    <a href="{{ site.url }}{{ post.url }}">Read More</a>
+                                    <a href="{{ site.url }}{{ post.url }}">Read More...</a>
                                 </div>
                                 <div class="author">
                                     Written by {{post.author}} on {{post.date | date_to_long_string}}
@@ -75,29 +66,29 @@ title: Blog
                 {% assign group = nil %}
             </div>
             {% for tag in site.categories %} 
-            <div data-tabs-pane class="tabs-pane" id="{{ tag[0] }}">
+            <div data-tabs-pane class="tabs-pane" id="{{ tag | first | remove: " " }}">
                 <ul class="post-list">
                     {% assign pages_list = tag[1] %}  
-                        {% for post in pages_list %}
-                            {% if post.title != null %}
-                                {% if group == null or group == post.group %}
-                                <li>
-                                    <div class="sh-post">
-                                        <a href="{{ site.url }}{{ post.url }}" class="post-title">{{ post.title }}</a>
-                                        <div class="post-excerpt">
-                                            {{ post.excerpt }}
-                                        </div>
-                                        <div class="read-more-button">
-                                            <a href="{{ site.url }}{{ post.url }}">Read More</a>
-                                        </div>
-                                        <div class="author">
-                                            Written by {{post.author}} on {{post.date | date_to_long_string}}
-                                        </div>
+                    {% for post in pages_list %}
+                        {% if post.title != null %}
+                            {% if group == null or group == post.group %}
+                            <li>
+                                <div class="sh-post">
+                                    <a href="{{ site.url }}{{ post.url }}" class="post-title">{{ post.title }}</a>
+                                    <div class="post-excerpt">
+                                        {{ post.excerpt }}
                                     </div>
-                                </li>
-                                {% endif %}
+                                    <div class="read-more-button">
+                                        <a href="{{ site.url }}{{ post.url }}">Read More...</a>
+                                    </div>
+                                    <div class="author">
+                                        Written by {{post.author}} on {{post.date | date_to_long_string}}
+                                    </div>
+                                </div>
+                            </li>
                             {% endif %}
-                        {% endfor %}
+                        {% endif %}
+                    {% endfor %}
                     {% assign pages_list = nil %}
                     {% assign group = nil %}
                 </ul>

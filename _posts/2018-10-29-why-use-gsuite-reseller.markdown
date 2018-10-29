@@ -1,26 +1,22 @@
 ---
-layout: default
+layout: post
 title:  "Why should you use a G Suite Resller?"
+tagline: "As of February 2018, Google had 4 million businesses using G Suite for email and file storage, collaborating on documents, video conferencing and more"
 date:   2018-10-29 7:27:37 -0400
-categories: Google
+categories: google
 tags: [google, gsuite, email]
 excerpt: As of February 2018, Google had 4 million businesses using G Suite for email and file storage, collaborating on documents, video conferencing and more. 
 sticky: true
 author: Brad Gardner
 ---
 
-
-
-
-# Why should you use a G Suite Resller?
-
-As of February 2018, Google had 4 million businesses using G Suite for email and file storage, collaborating on documents, video conferencing and more. Launched in the fall of 2006, G Suite (then Google Apps) has been the leading provider for cloud native productivity applications for over 12 years. G Suite owes it's success largely to the ease of implementation and use of the platform. Many users are familiar with Gmail when their company starts or signs up with G Suite, helping provide a smooth transition to using products they already know in their day to day jobs. 
+Launched in the fall of 2006, G Suite (then Google Apps) has been the leading provider for cloud native productivity applications for over 12 years. G Suite owes it's success largely to the ease of implementation and use of the platform. Many users are familiar with Gmail when their company starts or signs up with G Suite, helping provide a smooth transition to using products they already know in their day to day jobs. 
 
 In addition to the end users, IT staff generally benefit from migrating older on-site email servers and IT resources out to Google, freeing them up to focus on other tasks that provide added business value instead of spending much of their time supporting IT infrastructure. For a small company, the move can be quick and painless, potentially making the switch inside of a single day. Even for larger deployments, there are a wealth of tools and existing knowledge drawing from the 12 years of collective experience moving companies to the platform.
 
 So if G Suite is easy to use for end uers, and easy to implement for IT staff, what benefits could a reseller possibly provide?
 
-# The benefits of using a G Suite Reseller
+# The Benefits of Using a G Suite Reseller
 
 ## The subscription cost is the same
 
@@ -46,7 +42,7 @@ Most resellers will offer support plans or addtional ad-hoc support time at an h
 
 An email and productivity platform is unlikely to be the only software a company uses. A G Suite reseller can help you find other products on the marketplace that integrate with your existing systems for the purposes of accounting, time tracking, invoicing, project management, and more. In many cases, the reseller may also be able to build custom software to provide a more specific need or integration.
 
-# When should you go directly to Google?
+# When Should You Go Directly to Google?
 
 As helpful as working with a G Suite reseller can be, it may also be unnecessary for your business. Generally a reseller is going to be unecessary if the following applies to your business.
 
