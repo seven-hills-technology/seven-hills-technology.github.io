@@ -823,17 +823,19 @@ body {
         border-radius: 3px;
         color: #fff;
         text-decoration: none;
+        transition: 0.45s;
+
+        &:visited {
+            color: #fff;
+            text-decoration: none;
+        }
 
 
         &:hover {
             color: $brand-1;
             background-color: #fff;
             text-decoration: none;
-            transition: 1s;
-        }
-        &:visited {
-            color: $brand-1;
-            text-decoration: none;
+            transition: 0.45s;
         }
     }
 }
@@ -1017,25 +1019,23 @@ a {
             color: $brand-1;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            height: 100%;
             
             max-width: 425px;
             min-width: 340px;
             
             padding: 20px;
-            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+            box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.5);
             margin-top: 20px;
             margin-bottom: 20px;
             margin-left: 2%;
             margin-right: 2%;
-            border-bottom: 1px solid $brand-1;
             transition: 0.5s;
             background-size: 100% 100%;
             background-color: #fff;
 
             &:hover {
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.9);
-                background-color: rgb(194, 231, 248);
+                box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.9);
 
                 .sh-button {
                     transition: 0.5s;
@@ -1085,12 +1085,6 @@ a {
             .sh-list-image {
                 width: 24px;
                 height: 24px;
-            }
-
-            @media(max-width: 364px) {
-                & {
-                    height: 700px;
-                }
             }
         }
     }

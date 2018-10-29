@@ -15,7 +15,6 @@ title: G Suite
 <section class="sh-g-suite sh-dark-band">
     <h2>Available Plans</h2>
     <div class="sh-product-list">
-        <a>
         <div class="sh-product">
             <h3>Basic</h3>
             <h4>Communication</h4>
@@ -45,7 +44,6 @@ title: G Suite
             <h4>Cost</h4>
             <h3>$5 / user / month</h3>
         </div>
-        </a><a>
         <div class="sh-product">
             <h3>Business</h3>
             <h4>Communication</h4>
@@ -79,7 +77,6 @@ title: G Suite
             <h4>Cost</h4>
             <h3>$10 / user / month</h3>
         </div>
-        </a><a>
         <div class="sh-product">
             <h3>Enterprise</h3>
             <h4>Communication</h4>
@@ -117,6 +114,5 @@ title: G Suite
             <h4>Cost</h4>
             <h3>$25 / user / month</h3>
         </div>
-        </a>
     </div>
 </section>
