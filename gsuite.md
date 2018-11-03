@@ -1,6 +1,6 @@
 ---
 layout: default
-title: G Suite
+title: G Suite with Seven Hills Technology
 ---
 
 <section class="sh-intro">
@@ -10,7 +10,10 @@ title: G Suite
             <img src="/images/gsuite.png" alt="G Suite" />
         </div>
     </div>
-    <div class="sh-description">With G Suite supported by Seven Hills Technology, you get all of the benefits of hosting your email and productivity tools with Google, combined with the local, professional, and personal support from Seven Hills Technology.</div>
+    <div class="sh-description">With G Suite supported by Seven Hills Technology, you get all of the benefits of hosting your email and productivity tools with Google, combined with the local, professional, and personal support from Seven Hills Technology.
+        <br/><br/>
+        <h3>Not sure if you should use a G Suite Reseller? <a href="/google/2018/10/29/why-use-gsuite-reseller.html">Check out the benefits!</a></h3>
+    </div>
 </section>
 <section class="sh-g-suite sh-dark-band">
     <h2>Available Plans</h2>
