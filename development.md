@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Flex Teams
+title: Seven Hills Technology Custom Application Development Cincinnati Ohio
 ---
 
 <section class="sh-intro">
     <div class="sh-tagline">
-        <h2 class="sh-header-lines"><span>Flex Teams</span></h2>
-        <div id="flexTeamFeature" >
-            <img src="/images/flex-teams-color.svg" alt="Flex Teams" />
+        <h2 class="sh-header-lines"><span>Custom Development</span></h2>
+        <div id="projectTeamFeature" >
+            <img src="/images/development-color.svg" alt="Custom Development" />
         </div>
     </div>
     <div class="sh-description">
-        Flex Teams provide software development as a service. Whether you need 10 hours per month or 500 hours per month, Seven Hills Technology provides a flexible development team to accomplish your goals.
+        Project Teams get you from point A to point B. Know exactly what you need? Our Project Teams will make sure you get there smoothly, cost-effectively, and with the highest-quality end product.
     </div>
 </section>
 
@@ -20,23 +20,37 @@ title: Flex Teams
     <div class="steps">
         <div class="step">
             <div class="step-number">1</div>
-            <div class="step-title">Discovery</div>
+            <div class="step-title">Discover</div>
             <div class="step-caption">
-                We learn about you, your business, and your challenges.
+                We learn where you are, and where you want to be.
             </div>
         </div>
         <div class="step">
             <div class="step-number">2</div>
-            <div class="step-title">Design</div>
+            <div class="step-title">Define</div>
             <div class="step-caption">
-                We discuss and outline various solutions for the discovered challenges
+                We’ll help you define each specific task that needs to be done.
             </div>
         </div>
         <div class="step">
             <div class="step-number">3</div>
+            <div class="step-title">Refine</div>
+            <div class="step-caption">
+                We walk back to the start, and make sure everything is covered.
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">4</div>
+            <div class="step-title">Design</div>
+            <div class="step-caption">
+                We show you exactly how your end product is going to look and function.
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
             <div class="step-title">Development</div>
             <div class="step-caption">
-                Once the solution is agreed upon, we get to work.
+                We get to work, and you get results.
             </div>
         </div>
     </div>

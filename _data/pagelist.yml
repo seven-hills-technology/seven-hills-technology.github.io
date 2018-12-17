@@ -7,17 +7,13 @@ docs:
   - 
     children: 
       - 
-        title: "Flex Teams"
-        url: /flex-teams.html
-        friendlyUrl: flex-teams
+        title: "Consulting"
+        url: /consulting.html
+        friendlyUrl: consulting
       - 
-        title: "Project Teams"
-        url: /project-teams.html
-        friendlyUrl: project-teams
-      - 
-        title: Incubator
-        url: /incubator.html
-        friendlyUrl: incubator
+        title: "Development"
+        url: /development.html
+        friendlyUrl: development
       - 
         title: "G Suite"
         url: /gsuite.html

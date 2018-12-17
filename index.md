@@ -3,36 +3,36 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Seven Hills Technology in Cincinnati
+title: Seven Hills Technology in Cincinnati Ohio
 ---
 
 <section class="sh-intro">
     <div class="sh-tagline">
-        <h2 class="sh-header-lines"><span>A Smarter Way To Build Software</span></h2>
+        <h2 class="sh-header-lines"><span>We're in the business of solving problems.</span></h2>
     </div>
-    <div class="sh-description">A custom software development company, we were built to offer a smarter alternative to traditional software consulting. Whether it's a cloud application to drive efficiency or that mobile app you've always dreamed of, our experts have the skillsets required to help you start, grow, and support your business.</div>
+    <div class="sh-description">Here’s how we help businesses of all shapes and sizes grow with technology.</div>
     <div class="sh-product-list">
-        <a href="/flex-teams">
-            <div class="sh-product sh-product-flex-teams">
+        <a href="/consulting">
+            <div class="sh-product sh-product-consulting">
                 <div class="sh-product-image"></div>
-                <h3>Flex Teams</h3>
-                <p>Need a development team to help you strategically plan and implement software in your business? We provide a team of 2 or more developers that learn your business, then help build or implement what you need to accelerate your growth. Scales from part time to full time to fit any budget.</p>
+                <h3>Strategic Software Planning</h3>
+                <p>We work with you to evelop a deep understanding of your business, how software and technology impacts it, where it can improve, and how we can help. We then come up with a strategy to attack and get to work.</p>
                 <button class="sh-button">Learn More</button>
             </div>
         </a>
-        <a href="/project-teams">
-        <div class="sh-product sh-product-project-teams">
+        <a href="/development">
+        <div class="sh-product sh-product-development">
             <div class="sh-product-image"></div>
-            <h3>Project Teams</h3>
-            <p>Do you already have an idea of what you need, and need someone to build it? We have teams ready to go to take your project at any stage, and deliver it on time and on budget. Fits well for short or long term projects with specific goals and / or budgets.</p>
+            <h3>Custom Application Development</h3>
+            <p>Off the shelf software products don't fit the need of every business. When business requirements are too complex or specific to a business or industry, or the cost for the correct software is way too high, building something custom is what you need. We can build software to fit your exact and custom needs, on any budget.</p>
             <button class="sh-button">Learn More</button>
         </div>
         </a>
-        <a href="/incubator">
-        <div class="sh-product sh-product-incubator">
+        <a href="/gsuite">
+        <div class="sh-product sh-product-gsuite">
             <div class="sh-product-image"></div>
-            <h3>Incubator</h3>
-            <p>Do you have an idea for an application but don't have a team or funds to launch it? Join us in our office, and work with our developers to draw from decades of experience building high quality applications. Let us help you launch your idea with a full development team.</p>
+            <h3>Google GSuite</h3>
+            <p>We help companies establish a solid foundation of technology in their company using Google GSuite for email, documents, voice and video conferencing and more. GSuite provides best in class productivity applications usable directly in the web browser.</p>
             <button class="sh-button">Learn More</button>
         </div>
         </a>

@@ -305,7 +305,7 @@ body {
             flex-direction: column;
             justify-content: center;
             max-width: 425px;
-            height: 550px;
+            height: 650px;
             padding: 40px;
             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
             margin-top: 20px;
@@ -344,7 +344,7 @@ body {
                 min-height: 150px;
             }
 
-            &.sh-product-flex-teams {
+            &.sh-product-consulting {
 
                 &:hover {
 
@@ -356,13 +356,13 @@ body {
 
                 .sh-product-image {
                     transition: 0.25s ease-in;
-                    background-image: url('/images/flex-teams-color.svg');
+                    background-image: url('/images/consulting-color.svg');
                     background-repeat: no-repeat;
                     background-position: center center;
                 }
             }
 
-            &.sh-product-project-teams {
+            &.sh-product-development {
 
                 &:hover {
                     .sh-button {
@@ -373,16 +373,15 @@ body {
 
                 .sh-product-image {
                     transition: 0.25s ease-in;
-                    background-image: url('/images/project-teams-color.svg');
+                    background-image: url('/images/development-color.svg');
                     background-repeat: no-repeat;
                     background-position: center center;
                 }
             }
 
-            &.sh-product-incubator {
+            &.sh-product-gsuite {
 
                 &:hover {
-
                     .sh-button {
                         transition: 0.5s;
                         background-color: $brand-1;
@@ -390,9 +389,8 @@ body {
                 }
 
                 .sh-product-image {
-                    transition: 0.25s;
-                    transition-timing-function: ease-in;
-                    background-image: url('/images/incubator-color.svg');
+                    transition: 0.25s ease-in;
+                    background-image: url('/images/gsuite2.png');
                     background-repeat: no-repeat;
                     background-position: center center;
                 }

@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Project Teams
+title: Seven Hills Technology Software Consulting Cincinnati Ohio
 ---
 
 <section class="sh-intro">
     <div class="sh-tagline">
-        <h2 class="sh-header-lines"><span>Project Teams</span></h2>
-        <div id="projectTeamFeature" >
-            <img src="/images/project-teams-color.svg" alt="Project Teams" />
+        <h2 class="sh-header-lines"><span>Technology Consulting</span></h2>
+        <div id="flexTeamFeature" >
+            <img src="/images/consulting-color.svg" alt="consulting" />
         </div>
     </div>
     <div class="sh-description">
-        Project Teams get you from point A to point B. Know exactly what you need? Our Project Teams will make sure you get there smoothly, cost-effectively, and with the highest-quality end product.
+        Every modern business is reliant on software and technology to provide for their basic functions and to grow efficiently. Having a solid foundation of technology driving your business is what allows companies to focus on what makes them different from their competition. We provide experienced consultants that learn your business in detail, and help you create and execute a plan to grow with software and technology that is within your budget.
     </div>
 </section>
 
@@ -20,37 +20,23 @@ title: Project Teams
     <div class="steps">
         <div class="step">
             <div class="step-number">1</div>
-            <div class="step-title">Discover</div>
+            <div class="step-title">Discovery</div>
             <div class="step-caption">
-                We learn where you are, and where you want to be.
+                We learn about you, your business, and your challenges.
             </div>
         </div>
         <div class="step">
             <div class="step-number">2</div>
-            <div class="step-title">Define</div>
+            <div class="step-title">Design</div>
             <div class="step-caption">
-                We’ll help you define each specific task that needs to be done.
+                We discuss and outline various solutions for the discovered challenges
             </div>
         </div>
         <div class="step">
             <div class="step-number">3</div>
-            <div class="step-title">Refine</div>
-            <div class="step-caption">
-                We walk back to the start, and make sure everything is covered.
-            </div>
-        </div>
-        <div class="step">
-            <div class="step-number">4</div>
-            <div class="step-title">Design</div>
-            <div class="step-caption">
-                We show you exactly how your end product is going to look and function.
-            </div>
-        </div>
-        <div class="step">
-            <div class="step-number">5</div>
             <div class="step-title">Development</div>
             <div class="step-caption">
-                We get to work, and you get results.
+                Once the solution is agreed upon, we get to work.
             </div>
         </div>
     </div>
