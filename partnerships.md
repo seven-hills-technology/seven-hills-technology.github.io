@@ -36,15 +36,6 @@ title: Partnerships
         </div>
         <div class="sh-partner">
             <div class="sh-partner-logo">
-                <img src="/images/ps.png" alt="ProspectStream"/>
-            </div>
-            <div class="sh-partner-content">
-                <div class="sh-partner-title">ProspectStream</div>
-                <div>ProspectStream offers complete sales process management software. Everything from call lists to custom tracking is available through the cloud-based interface. <a href="http://www.prospectstream.com" alt="ProspectStream.com">For more information, please visit ProspectStream.com</a></div>
-            </div>
-        </div>
-        <div class="sh-partner">
-            <div class="sh-partner-logo">
                 <img src="/images/elastic.svg" alt="Elastic"/>
             </div>
             <div class="sh-partner-content">
