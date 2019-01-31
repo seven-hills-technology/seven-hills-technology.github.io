@@ -75,13 +75,21 @@
     <section class="sh-content">
         {{content}}
     </section>
+
+    {% if page.url == '/gsuite.html' %}
+    <div class="last-light-blue">
+        <div class="sh-band-flair light-top git-flair"></div>
+    </div>
+    {% else %}
+    <div class="sh-band-flair light-top"></div>
+    {% endif %}
     <section class="sh-get-in-touch">
         <h2>Interested in a quick conversation? We're here to help.</h2>
-        <!-- <div class="git-text">
-            Interested in a quick conversation? We're here to help.
-        </div> -->
         <a class="git-button" href="https://app.hubspot.com/meetings/bradgardner/1-hour-consultation" target="_blank">Schedule Now</a>
     </section>
+    <div class="last-light-blue">
+        <div class="sh-band-flair light-bottom git-flair"></div>
+    </div>
 <footer class="sh-footer">
     <div class="map"></div>
     <div class="sh-contact-info">
@@ -99,15 +107,6 @@
             <a href="mailto:info@sevenhillstechnology.com">info@sevenhillstechnology.com</a>
         </div>
     </div>
-    <!-- <div class="sh-contact-form">
-            <h3>Connect With Us</h3>
-            <form id="contactForm">
-                <input type="text" placeholder="Full Name" required />
-                <input type="text" placeholder="Email" required />
-                <input type="text" placeholder="Message" required />
-                <button class="sh-button" type="submit">Submit</button>
-            </form>
-        </div> -->
     <div class="sh-bottom-navigation">
         <div class="sh-social-links">
                 <a href="https://goo.gl/maps/WPw5bgXBk4x" target="_blank"><img src="/images/google.svg" alt="google"/></a>

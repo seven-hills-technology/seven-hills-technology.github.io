@@ -21,11 +21,13 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="/main.css">
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?">
 </head>
 
-<body>
+<body class="line-background">
     <header class="sh-header sh-home-header">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="/">
@@ -59,19 +61,22 @@
                 </ul>
             </div>
         </nav>
-        <div class="sh-home-header-content">
-            <h2>Solving Business Problems</h2>
-            <h3 class="hidden-xs">With Software and Technology</h3>
+<div class="sh-home-header-content">
+    <div class="contact-button-wrapper">
+            <h2>Solving business problems with software and technology.</h2>
+            <a class="contact-button" href="https://app.hubspot.com/meetings/bradgardner/1-hour-consultation" target="_blank">Start for Free</a>
         </div>
+    </div>
         <div class="sh-home-scroll-notifier-wrapper">
             <div class="sh-home-scroll-notifier">
-                <img src="/images/down-arrow.svg" width="50" />
+                <i class="fal fa-chevron-down"></i>
             </div>
         </div>
     </header>
     <section class="sh-content">
         {{content}}
     </section>
+    <div class="sh-band-flair light-top"></div>
     <section class="sh-get-in-touch">
         <h2>Interested in a quick conversation? We're here to help.</h2>
         <!-- <div class="git-text">
@@ -80,6 +85,9 @@
         <a class="git-button" href="https://app.hubspot.com/meetings/bradgardner/1-hour-consultation" target="_blank">Schedule
             Now</a>
     </section>
+    <div class="last-light-blue">
+        <div class="sh-band-flair light-bottom" id='#gitFlair'></div>
+    </div>
     <footer class="sh-footer">
         <div class="map"></div>
         <div class="sh-contact-info">

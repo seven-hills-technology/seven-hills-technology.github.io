@@ -15,6 +15,7 @@ title: Seven Hills Technology Custom Application Development Cincinnati Ohio
     </div>
 </section>
 
+<div class="sh-band-flair dark-top"></div> 
 <section class="sh-dark-band">
     <h2 class="sh-dark-band-header">How It Works</h2>
     <div class="steps">
@@ -55,6 +56,7 @@ title: Seven Hills Technology Custom Application Development Cincinnati Ohio
         </div>
     </div>
 </section>
+<div class="sh-band-flair dark-bottom"></div> 
 
 <section class="sh-white-band">
     <h2 class="sh-white-band-header">Our Development Process</h2>

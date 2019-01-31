@@ -10,42 +10,10 @@ title: Seven Hills Technology in Cincinnati Ohio
     <div class="sh-tagline">
         <h2 class="sh-header-lines"><span>We're in the business of solving problems.</span></h2>
     </div>
-    <div class="sh-description">Here’s how we help businesses of all shapes and sizes grow with technology.</div>
-    <div class="sh-product-list">
-        <a href="/consulting">
-            <div class="sh-product sh-product-consulting">
-                <div class="sh-product-image"></div>
-                <h3>Strategic Software Planning</h3>
-                <p>We work with you to evelop a deep understanding of your business, how software and technology impacts it, where it can improve, and how we can help. We then come up with a strategy to attack and get to work.</p>
-                <button class="sh-button">Learn More</button>
-            </div>
-        </a>
-        <a href="/development">
-        <div class="sh-product sh-product-development">
-            <div class="sh-product-image"></div>
-            <h3>Custom Application Development</h3>
-            <p>Off the shelf software products don't fit the need of every business. When business requirements are too complex or specific to a business or industry, or the cost for the correct software is way too high, building something custom is what you need. We can build software to fit your exact and custom needs, on any budget.</p>
-            <button class="sh-button">Learn More</button>
-        </div>
-        </a>
-        <a href="/gsuite">
-        <div class="sh-product sh-product-gsuite">
-            <div class="sh-product-image"></div>
-            <h3>Google GSuite</h3>
-            <p>We help companies establish a solid foundation of technology in their company using Google GSuite for email, documents, voice and video conferencing and more. GSuite provides best in class productivity applications usable directly in the web browser.</p>
-            <button class="sh-button">Learn More</button>
-        </div>
-        </a>
-    </div>
+    <div class="sh-description home-description">Here’s how we help businesses of all shapes and sizes grow with technology.</div>
 </section>
-<section class="sh-dark-band">
-    <h2 id="mission-title" class="sh-fade-in">Our Mission</h2>
-    <div class="sh-city-outline">
-        {% include city.html %}
-    </div>
-    <!-- <img src="images/city.svg" alt="City outline" /> -->
-    <h4 class="sh-fade-in">The mission of Seven Hills Technology is to accelerate our clients’ growth by helping plan, implement, and support technology solutions through an in depth knowledge of their business.</h4>
-</section>
+
+<div class="sh-band-flair light-top"></div>
 <section class="sh-light-band">
     <h2>What We Create</h2>
     <div class="sh-values">
@@ -71,14 +39,86 @@ title: Seven Hills Technology in Cincinnati Ohio
         </div>
     </div>
 </section>
+<div class="sh-band-flair light-bottom"></div>
+
 <section class="sh-white-band">
-    <h2>Our Unique Approach</h2>
-    <p>
-        Technology changes daily, so why hasn’t consulting? Traditional software development consulting is expensive, requires tons of up-front planning, and often leads to overly-expensive projects for underwhelming results.
-    </p>
-    <p>
-        With Seven Hills Technology you get the flexiblity of in person planning and communication, combined with the ability for work to be done anywhere and any time.  We're local to Cincinnati, and love working with local businesses, and when it's time to sit down and work we provide our developers with the best tools and the best environment for them to be productive for your business. A unique pairing of on-site / off-site ability allows us to have developers in your office working with your team, or in our own workshop completely on your schedule.
-    </p>
+    <div class="sh-product-list">
+        <div class="sh-product-wrapper">
+            <div class="small-image-wrapper">
+                <div class="icon small-icon d-block d-md-none">
+                    <img src="/images/development-color.svg" alt="Custom Software Development Icon" height="150">
+                </div>
+            </div>
+            <div class="sh-product">
+                <div class="text">
+                    <h3><a href="/development" alt="Custom Software Development">Custom Software Development</a></h3>
+                    <div>
+                        Off the shelf software products don't fit the need of every business. When business requirements are too complex or specific to a business or industry, or the cost for the correct software is way too high, building something custom is what you need. We can build software to fit your exact and custom needs, on any budget.
+                    </div>
+                    <div class="small-link">
+                        <a href="/development" alt="Development">Click here to learn more.</a>
+                    </div>
+                </div>
+                <div class="icon pull-right d-none d-md-block">
+                    <img src="/images/development-color.svg" height="200">
+                </div>
+            </div>
+        </div>
+        <div class="sh-product-wrapper">
+            <div class="small-image-wrapper">
+                <div class="icon small-icon d-block d-md-none">
+                    <img src="/images/consulting-color.svg" height="150">
+                </div>
+            </div>
+            <div class="sh-product">
+                <div class="text">
+                    <h3><a href="/consulting" alt="Strategic Software Planning">Strategic Software Planning</a></h3>
+                    <div>
+                        We work with you to evelop a deep understanding of your business, how software and technology impacts it, where it can improve, and how we can help. We then come up with a strategy to attack and get to work.
+                    </div>
+                    <div class="small-link">
+                        <a href="/consulting" alt="Strategic Software Planning">Click here to learn more.</a>
+                    </div>
+                </div>
+                <div class="icon pull-right d-none d-md-block">
+                    <img src="/images/consulting-color.svg" height="200">
+                </div>
+            </div>
+        </div>
+        <div class="sh-product-wrapper">
+            <div class="small-image-wrapper">
+                <div class="icon small-icon d-block d-md-none">
+                    <img src="/images/gsuite2.png" height="150">
+                </div>
+            </div>
+            <div class="sh-product">
+                <div class="text">
+                    <h3><a href="/gsuite" alt="Google GSuite">Google GSuite</a></h3>
+                    <div>We help companies establish a solid foundation of technology in their company using Google GSuite for email, documents, voice and video conferencing and more. GSuite provides best in class productivity applications usable directly in the web browser.</div>
+                    <div class="small-link">
+                        <a href="/gsuite" alt="Google GSuite">Click here to learn more.</a>
+                    </div>
+                </div>
+                <div class="icon pull-right d-none d-md-block">
+                    <img src="/images/gsuite2.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="sh-band-flair dark-top"></div>
+<section class="sh-dark-band">
+    <h2 id="mission-title" class="sh-fade-in">Our Mission</h2>
+    <div class="sh-city-outline">
+        {% include city.html %}
+    </div>
+    <!-- <img src="images/city.svg" alt="City outline" /> -->
+    <h4 class="sh-fade-in">The mission of Seven Hills Technology is to accelerate our clients’ growth by helping plan, implement, and support technology solutions through an in depth knowledge of their business.</h4>
+</section>
+<div class="sh-band-flair dark-bottom"></div>
+
+<section class="sh-white-band">
     <h2>Core Values</h2>
     <div class="sh-values">
         <div class="sh-value">
