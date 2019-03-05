@@ -74,7 +74,7 @@ title: Seven Hills Technology in Cincinnati Ohio
                 <div class="text">
                     <h3><a href="/consulting" alt="Strategic Software Planning">Strategic Software Planning</a></h3>
                     <div>
-                        We work with you to evelop a deep understanding of your business, how software and technology impacts it, where it can improve, and how we can help. We then come up with a strategy to attack and get to work.
+                        We work with you to develop a deep understanding of your business, how software and technology impacts it, where it can improve, and how we can help. We then come up with a strategy to attack and get to work.
                     </div>
                     <div class="small-link">
                         <a href="/consulting" alt="Strategic Software Planning">Click here to learn more.</a>
