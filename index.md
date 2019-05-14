@@ -90,7 +90,6 @@ title: Seven Hills Technology in Cincinnati Ohio
         </div>
     </div>
 </section>
-
 <div class="sh-band-flair dark-top"></div>
 <section class="sh-dark-band">
     <h2 id="mission-title" class="sh-fade-in">Technical Expertise meets Creativity</h2>
@@ -101,7 +100,6 @@ title: Seven Hills Technology in Cincinnati Ohio
     <h4 class="sh-fade-in">At Seven Hills Technology, our approach is built on a foundation of technical expertise, but we know that the real value and understanding begins when you see the way a mobile app or technology solution actually works and can impact your business. Meet the team of experts at Seven Hills ready to help you accelerate to the next level.</h4>
 </section>
 <div class="sh-band-flair dark-bottom"></div>
-
 <section class="sh-white-band">
     <h2>Advanced Solutions for Modern Businesses and Organizations</h2>
     <div>
