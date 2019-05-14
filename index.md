@@ -10,32 +10,35 @@ title: Seven Hills Technology in Cincinnati Ohio
     <div class="sh-tagline">
         <h2 class="sh-header-lines"><span>We're in the business of solving problems.</span></h2>
     </div>
-    <div class="sh-description home-description">Here’s how we help businesses of all shapes and sizes grow with technology.</div>
+    <div class="sh-description home-description">Seven Hills Technology is a mobile and web application development company with one goal: to help your organization succeed by developing custom software solutions to meet your needs.
+    </div>
+    <div class="sh-description home-description">Business of all sizes and industries can grow with technology, and we’re here to show you how. 
+    </div>
 </section>
 
 <div class="sh-band-flair light-top"></div>
 <section class="sh-light-band">
-    <h2>What We Create</h2>
+    <h2>Software solutions</h2>
     <div class="sh-values">
         <div class="sh-value">
             <img src="/images/cloud.svg" alt="Web Apps" />
-            <h3>Web Apps</h3>
-            <p>We build cloud-based web apps that scale from small startup to enterprise.</p>
+            <h3>Web Applications</h3>
+            <p>Customize your web applications with our design-centered development and user-tested solutions.</p>
         </div>
         <div class="sh-value">
             <img src="/images/mobile.svg" alt="Mobile Apps" />
-            <h3>Mobile Apps</h3>
-            <p>Native iOS and Android applications to bring your idea to life.</p>
+            <h3>Mobile Applications</h3>
+            <p>Get more information to the right people at the right time with Native iOS and Android apps.</p>
         </div>
         <div class="sh-value">
             <img src="/images/integration.svg" alt="Integrations" />
             <h3>Integrations</h3>
-            <p>We're able to make your systems talk to each other, whether it be web or mobile.</p>
+            <p>Improve efficiencies on web and mobile by aligning your existing platforms so they can directly talk to each other.</p>
         </div>
         <div class="sh-value">
             <img src="/images/iot.svg" alt="Internet of Things" />
             <h3>Internet of Things</h3>
-            <p>Our IoT services will help you link all of your devices together.</p>
+            <p>Take advantage of a connected world by controlling and collecting data from devices like building sensors or everyday household items.</p>
         </div>
     </div>
 </section>
@@ -53,7 +56,7 @@ title: Seven Hills Technology in Cincinnati Ohio
                 <div class="text">
                     <h3><a href="/development" alt="Custom Software Development">Custom Software Development</a></h3>
                     <div>
-                        Off the shelf software products don't fit the need of every business. When business requirements are too complex or specific to a business or industry, or the cost for the correct software is way too high, building something custom is what you need. We can build software to fit your exact and custom needs, on any budget.
+                        Your technology solution or mobile application needs to work the way you expect it to, and that begins with design. Seven Hills Technology begins every project with design-drive development, which means you can see, experience, and test your solution right from the very beginning of the creation process through the final steps of deployment. We can build software to fit your exact and custom needs, on any budget.
                     </div>
                     <div class="small-link">
                         <a href="/development" alt="Development">Click here to learn more.</a>
@@ -72,9 +75,9 @@ title: Seven Hills Technology in Cincinnati Ohio
             </div>
             <div class="sh-product">
                 <div class="text">
-                    <h3><a href="/consulting" alt="Strategic Software Planning">Strategic Software Planning</a></h3>
+                    <h3><a href="/consulting" alt="Strategic Software Planning">Strategic Planning</a></h3>
                     <div>
-                        We work with you to develop a deep understanding of your business, how software and technology impacts it, where it can improve, and how we can help. We then come up with a strategy to attack and get to work.
+                        Great partnerships require great transparency, and we’re here to help you open the ‘black box’ of software development. We offer strategic planning services to help you put structure around your technology needs, both in short-term and long-term perspectives. This clarity of where you are today and where you’re heading in the future ensures you make the right investments at the right time in solutions that will support your goals.
                     </div>
                     <div class="small-link">
                         <a href="/consulting" alt="Strategic Software Planning">Click here to learn more.</a>
@@ -85,67 +88,32 @@ title: Seven Hills Technology in Cincinnati Ohio
                 </div>
             </div>
         </div>
-        <div class="sh-product-wrapper">
-            <div class="small-image-wrapper">
-                <div class="icon small-icon d-block d-md-none">
-                    <img src="/images/gsuite2.png" height="150">
-                </div>
-            </div>
-            <div class="sh-product">
-                <div class="text">
-                    <h3><a href="/gsuite" alt="Google GSuite">Google GSuite</a></h3>
-                    <div>We help companies establish a solid foundation of technology in their company using Google GSuite for email, documents, voice and video conferencing and more. GSuite provides best in class productivity applications usable directly in the web browser.</div>
-                    <div class="small-link">
-                        <a href="/gsuite" alt="Google GSuite">Click here to learn more.</a>
-                    </div>
-                </div>
-                <div class="icon pull-right d-none d-md-block">
-                    <img src="/images/gsuite2.png">
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 
 <div class="sh-band-flair dark-top"></div>
 <section class="sh-dark-band">
-    <h2 id="mission-title" class="sh-fade-in">Our Mission</h2>
+    <h2 id="mission-title" class="sh-fade-in">Technical Expertise meets Creativity</h2>
     <div class="sh-city-outline">
         {% include city.html %}
     </div>
     <!-- <img src="images/city.svg" alt="City outline" /> -->
-    <h4 class="sh-fade-in">The mission of Seven Hills Technology is to accelerate our clients’ growth by helping plan, implement, and support technology solutions through an in depth knowledge of their business.</h4>
+    <h4 class="sh-fade-in">At Seven Hills Technology, our approach is built on a foundation of technical expertise, but we know that the real value and understanding begins when you see the way a mobile app or technology solution actually works and can impact your business. Meet the team of experts at Seven Hills ready to help you accelerate to the next level.</h4>
 </section>
 <div class="sh-band-flair dark-bottom"></div>
 
 <section class="sh-white-band">
-    <h2>Core Values</h2>
-    <div class="sh-values">
-        <div class="sh-value">
-            <img src="/images/values-insightful.svg" alt="insightful" />
-            <h3>Insightful</h3>
-            <p>We will develop a deep understanding of your business in order to help make informed business decisions.</p>
-        </div>
-        <div class="sh-value">
-            <img src="/images/values-integrity-bw.svg" alt="integrity" />
-            <h3>Integrity</h3>
-            <p>We will build the right solutions for you and your business, and we won't sell you anything you don't need.</p>
-        </div>
-        <div class="sh-value">
-            <img src="/images/values-craftsmanship.svg" alt="craftsmanship" />
-            <h3>Craftsmanship</h3>
-            <p>We will build or implement the highest quality software solutions for your goals and stand by our work.</p>
-        </div>
-        <div class="sh-value">
-            <img src="/images/values-accountability-bw.svg" alt="accountability" />
-            <h3>Accountability</h3>
-            <p>We will be open and transparent about all work we perform, leaving no suprises in timing or cost.</p>
-        </div>
-        <div class="sh-value">
-            <img src="/images/values-economical.svg" alt="economical" />
-            <h3>Economical</h3>
-            <p>We will remain conscious of your budget, and develop cost effective solutions that meet your goals.</p>
-        </div>
+    <h2>Advanced Solutions for Modern Businesses and Organizations</h2>
+    <div>
+        <p>You have the power to operate more efficiently, communicate more effectively, and save your team time and money. Here are some of our clients’ outcomes after partnering with Seven Hills Technology:</p>
+        <ul>
+            <li>More efficient operations</li>
+            <li>Better methods of distributing information and alerts</li>
+            <li>Higher levels of employee/community engagement</li>
+            <li>Less downtime due to systems and/or software performance</li>
+            <li>Increased visibility and faster reporting solutions</li>
+            <li>Faster connectivity between devices and platforms</li>
+        </ul>
     </div>
 </section>
 <!-- <section class="sh-clients">Clients</section> -->
