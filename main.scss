@@ -715,6 +715,36 @@ body {
             max-width: 800px;
             text-align: center;
         }
+
+        .sh-values {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            .sh-value {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                max-width: 280px;
+                flex: 1 1 280px;
+                img {
+                    height: 100px;
+                }
+                h3 {
+                    font-weight: bold;
+                    font-size: 1.1rem;
+                    margin-top: 10px;
+                }
+                p {
+                    text-align: center;
+                    color: white;
+                }
+            }
+        }
     }
 
     .sh-white-band {
