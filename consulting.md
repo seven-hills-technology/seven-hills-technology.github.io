@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Seven Hills Technology Software Consulting Cincinnati Ohio
+title: Technology Consulting
 ---
 
 <section class="sh-intro">

@@ -63,14 +63,14 @@ title: Seven Hills Technology in Cincinnati Ohio
                     </div>
                 </div>
                 <div class="icon pull-right d-none d-md-block">
-                    <img src="/images/development-color.svg" height="200">
+                    <img src="/images/development-color.svg" alt="Custom Software Development Icon" height="200">
                 </div>
             </div>
         </div>
         <div class="sh-product-wrapper">
             <div class="small-image-wrapper">
                 <div class="icon small-icon d-block d-md-none">
-                    <img src="/images/consulting-color.svg" height="150">
+                    <img src="/images/consulting-color.svg" alt="Strategic Software Planning Icon" height="150">
                 </div>
             </div>
             <div class="sh-product">
@@ -84,7 +84,7 @@ title: Seven Hills Technology in Cincinnati Ohio
                     </div>
                 </div>
                 <div class="icon pull-right d-none d-md-block">
-                    <img src="/images/consulting-color.svg" height="200">
+                    <img src="/images/consulting-color.svg" alt="Strategic Software Planning Icon" height="200">
                 </div>
             </div>
         </div>

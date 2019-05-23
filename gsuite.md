@@ -1,6 +1,6 @@
 ---
 layout: default
-title: G Suite with Seven Hills Technology
+title: Google G Suite
 ---
 
 <section class="sh-intro">

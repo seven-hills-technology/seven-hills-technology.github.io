@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Seven Hills Technology Custom Application Development Cincinnati Ohio
+title: Custom Development
 ---
 
 <section class="sh-intro">
