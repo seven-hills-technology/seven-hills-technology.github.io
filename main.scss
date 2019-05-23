@@ -103,22 +103,23 @@ body {
 .sh-home-header {
     height: 105vh;
     min-height: 630px;
+    background-position: center;
 
-    @media (min-width: 1201px) {
-        background-image: url(images/cover@3x.png);
+    @media (min-width: 1800px) {
+        background-image: url(images/website-cover@4x.png);
+    }
+
+    @media (max-width: 1800px) {
+        background-image: url(images/website-cover@3x.png);
         height: 110vh
     }
 
-    @media (min-width: 1800px) {
-        background-image: url(images/cover@4x.png);
-    }
-
     @media (max-width: 1200px) {
-        background-image: url(images/cover@2x.png);
+        background-image: url(images/website-cover@2x.png);
     }
 
     @media (max-width: 760px) {
-        background-image: url(images/cover.png);
+        background-image: url(images/website-cover.png);
     }
     
     background-repeat: no-repeat;
