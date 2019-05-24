@@ -12,40 +12,40 @@ description: Seven Hills Technology provides custom development of web apps and 
         </div>
     </div>
     <div class="sh-description">
-        Project Teams get you from point A to point B. Know exactly what you need? Our Project Teams will make sure you get there smoothly, cost-effectively, and with the highest-quality end product.
+        Trusting Seven Hills Technology to help with your business or organization’s solution doesn’t mean you are left out of the development process! In fact, our most successful clients are those organizations and people who consider us a partner. Our Project Teams will make sure you understand the process, have the opportunity to provide feedback along the way, and get to a final product smoothly, cost-effectively, and with the highest-quality solutions.
     </div>
 </section>
 
 <div class="sh-band-flair dark-top"></div> 
 <section class="sh-dark-band">
-    <h2 class="sh-dark-band-header">How It Works</h2>
+    <h2 class="sh-dark-band-header">What to Expect in Custom Development:</h2>
     <div class="steps">
         <div class="step">
             <div class="step-number">1</div>
             <div class="step-title">Discover</div>
             <div class="step-caption">
-                We learn where you are, and where you want to be.
+                You share where your business is and, in turn, where you’d like to be in the future. 
             </div>
         </div>
         <div class="step">
             <div class="step-number">2</div>
             <div class="step-title">Define</div>
             <div class="step-caption">
-                We’ll help you define each specific task that needs to be done.
+                We’ll outline and define each specific task that needs to be done to meet the goals of the project.
             </div>
         </div>
         <div class="step">
             <div class="step-number">3</div>
             <div class="step-title">Refine</div>
             <div class="step-caption">
-                We walk back to the start, and make sure everything is covered.
+                With your guidance and review, we walk back to the start of the process and make sure everything is covered.
             </div>
         </div>
         <div class="step">
             <div class="step-number">4</div>
             <div class="step-title">Design</div>
             <div class="step-caption">
-                We show you exactly how your end product is going to look and function.
+                You test and review our proposed solution, and we’ll show you exactly how your end product is going to look and function.
             </div>
         </div>
         <div class="step">
