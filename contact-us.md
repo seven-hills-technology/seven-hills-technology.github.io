@@ -6,7 +6,7 @@ description: Contact Seven Hills Technology in Cincinnati Ohio to get started wi
 
 <section class="sh-intro">
     <div class="sh-tagline">
-        <h2 class="sh-header-lines"><span>Contact Us</span></h2>
+        <h1 class="sh-header-lines"><span>Contact Us</span></h1>
     </div>
     <div class="sh-description"></div>
     <div class="sh-contact-us">

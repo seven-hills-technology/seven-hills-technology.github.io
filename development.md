@@ -6,7 +6,7 @@ description: Seven Hills Technology provides custom development of web apps and 
 
 <section class="sh-intro">
     <div class="sh-tagline">
-        <h2 class="sh-header-lines"><span>Custom Development</span></h2>
+        <h1 class="sh-header-lines"><span>Custom Development</span></h1>
         <div id="projectTeamFeature" >
             <img src="/images/development-color.svg" alt="Custom Development" />
         </div>

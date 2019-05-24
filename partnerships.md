@@ -9,7 +9,7 @@ description: Seven Hills Technology partners with local companies to provide bes
 
 <section class="sh-intro">
     <div class="sh-tagline">
-        <h2 class="sh-header-lines"><span>Partnerships</span></h2>
+        <h1 class="sh-header-lines"><span>Partnerships</span></h1>
     </div>
     <div class="sh-description">
         We work with distinguished partners to help us provide the best services possible. 

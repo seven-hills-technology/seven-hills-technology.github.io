@@ -8,7 +8,7 @@ title: Seven Hills Technology in Cincinnati Ohio
 
 <section class="sh-intro">
     <div class="sh-tagline">
-        <h2 class="sh-header-lines"><span>We're in the business of solving problems.</span></h2>
+        <h1 class="sh-header-lines"><span>We're in the business of solving problems.</span></h1>
     </div>
     <div class="sh-description home-description">Seven Hills Technology is a mobile and web application development company with one goal: to help your organization succeed by developing custom software solutions to meet your needs.
     </div>

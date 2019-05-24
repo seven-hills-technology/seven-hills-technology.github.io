@@ -6,7 +6,7 @@ description: The team at Seven Hills Technology brings experience and a wide var
 
 <section class="sh-intro">
     <div class="sh-tagline">
-        <h2 class="sh-header-lines"><span>About Seven Hills Technology</span></h2>
+        <h1 class="sh-header-lines"><span>About Seven Hills Technology</span></h1>
     </div>
     <div class="sh-description">
         <p>Seven Hills Technology is based in Cincinnati, Ohio--also known as the City of Seven Hills. But our story goes beyond the geography of our surroundings. We work internationally with clients of all sizes and in various industries.</p>

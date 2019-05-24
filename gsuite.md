@@ -6,7 +6,7 @@ description: Seven Hills Technology provides support and implementation of Googl
 
 <section class="sh-intro">
     <div class="sh-tagline">
-        <h2 class="sh-header-lines"><span>G Suite</span></h2>
+        <h1 class="sh-header-lines"><span>G Suite</span></h1>
         <div id="gsuite" >
             <img src="/images/gsuite.png" alt="G Suite" />
         </div>

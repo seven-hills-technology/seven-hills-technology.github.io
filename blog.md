@@ -8,7 +8,7 @@ description: A place to share knowledge on software development and other techno
 
 <section class="sh-intro">
     <div class="sh-tagline">
-        <h2 class="sh-header-lines"><span>Blog</span></h2>
+        <h1 class="sh-header-lines"><span>Blog</span></h1>
     </div>
     <div class="sh-description">
         Read about our findings, musings, and client success stories.

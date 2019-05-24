@@ -6,7 +6,7 @@ description: Seven Hills Technology provides software consulting services in any
 
 <section class="sh-intro">
     <div class="sh-tagline">
-        <h2 class="sh-header-lines"><span>Technology Consulting</span></h2>
+        <h1 class="sh-header-lines"><span>Technology Consulting</span></h1>
         <div id="flexTeamFeature" >
             <img src="/images/consulting-color.svg" alt="consulting" />
         </div>
