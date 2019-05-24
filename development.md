@@ -14,6 +14,10 @@ description: Seven Hills Technology provides custom development of web apps and 
     <div class="sh-description">
         Trusting Seven Hills Technology to help with your business or organization’s solution doesn’t mean you are left out of the development process! In fact, our most successful clients are those organizations and people who consider us a partner. Our Project Teams will make sure you understand the process, have the opportunity to provide feedback along the way, and get to a final product smoothly, cost-effectively, and with the highest-quality solutions.
     </div>
+    <h2 class="sh-header-lines"><span>Is custom development right for you?</span></h2>
+    <div class="sh-description">
+        Sometimes an off the shelf software package fits your needs well, but other times the investment in fitting that software into your business and integrating with your existing workflow drives the cost up in unforseen ways. For those situations, where you have a specific business need, and the off the shelf options are not quite fitting in, building custom software to fit your internal business is the cost effective and lower risk approach. By working with an experienced development partner such as Seven Hills Technology, you can drive the risk down even further and avoid additional unexpected costs.
+    </div>
 </section>
 
 <div class="sh-band-flair dark-top"></div> 

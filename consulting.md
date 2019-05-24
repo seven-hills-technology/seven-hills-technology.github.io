@@ -14,6 +14,10 @@ description: Seven Hills Technology provides software consulting services in any
     <div class="sh-description">
         Today, reliable software and technology solutions are fundamentals of nearly every modern and growing business. Your business thrives when it has a solid foundation of technology to drive you to the next level and separate your products and services from the competition. We provide experienced consultants who learn your business in detail and help you create and execute a plan to grow with software and technology that is within your budget.
     </div>
+    <h2 class="sh-header-lines"><span>Is consulting right for you?</span></h2>
+    <div class="sh-description">
+        As companies grow and technology changes, it's difficult to keep up with both. Bringing in an outside resource who spends their time focused on how technology is evolving and how that impacts businesses as they grow is a great way to accelerate your internal efforts. Whether you are moving to Kubernetes, moving to cloud based hosting, or re-engineering your internal software to a microservice architecture, the experienced consultants at Seven Hills Technology will provide guidance and experience along the way.
+    </div>
 </section>
 
 <div class="sh-band-flair dark-top"></div>
