@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Technology Consulting
+description: Seven Hills Technology provides software consulting services in any industry with local experienced consultants skilled at delivering high quality software solutions to clients.
 ---
 
 <section class="sh-intro">
@@ -11,33 +12,33 @@ title: Technology Consulting
         </div>
     </div>
     <div class="sh-description">
-        Every modern business is reliant on software and technology to provide for their basic functions and to grow efficiently. Having a solid foundation of technology driving your business is what allows companies to focus on what makes them different from their competition. We provide experienced consultants that learn your business in detail, and help you create and execute a plan to grow with software and technology that is within your budget.
+        Today, reliable software and technology solutions are fundamentals of nearly every modern and growing business. Your business thrives when it has a solid foundation of technology to drive you to the next level and separate your products and services from the competition. We provide experienced consultants who learn your business in detail and help you create and execute a plan to grow with software and technology that is within your budget.
     </div>
 </section>
 
 <div class="sh-band-flair dark-top"></div>
 <section class="sh-dark-band">
-    <h2 class="sh-dark-band-header">How It Works</h2>
+    <h2 class="sh-dark-band-header">What to Expect in Strategic Planning:</h2>
     <div class="steps">
         <div class="step">
             <div class="step-number">1</div>
-            <div class="step-title">Discovery</div>
+            <div class="step-title">Discover</div>
             <div class="step-caption">
-                We learn about you, your business, and your challenges.
+                You share with us the important and relevant qualities and differentiators of your business and the challenges you face.
             </div>
         </div>
         <div class="step">
             <div class="step-number">2</div>
             <div class="step-title">Design</div>
             <div class="step-caption">
-                We discuss and outline various solutions for the discovered challenges
+                Together, we discuss and outline various solutions to resolve your technology roadblocks.
             </div>
         </div>
         <div class="step">
             <div class="step-number">3</div>
-            <div class="step-title">Development</div>
+            <div class="step-title">Develop</div>
             <div class="step-caption">
-                Once the solution is agreed upon, we get to work.
+                Once we agree on a solution and way forward, our team gets to work.
             </div>
         </div>
     </div>

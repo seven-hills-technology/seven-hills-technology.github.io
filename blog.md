@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blog
+description: A place to share knowledge on software development and other technology or small business topics.
 ---
 
 <link rel="stylesheet" href="/css/tabby.min.css"/>

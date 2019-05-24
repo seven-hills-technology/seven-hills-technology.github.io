@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Google G Suite
+description: Seven Hills Technology provides support and implementation of Google's GSuite. Using Seven Hills Technology as your reseller gives you the support you need to stay productive with GSuite.
 ---
 
 <section class="sh-intro">
@@ -46,7 +47,7 @@ title: Google G Suite
                     <li><img class="sh-list-image" src="/images/admin.png" alt="admin" /> Administrator Controls</li>
                 </ul>
                 <h4>Cost</h4>
-                <h3>$5 / user / month</h3>
+                <h3>$6 / user / month</h3>
             </div>
         </div>
         <div class="sh-product-wrapper vertical">
@@ -81,7 +82,7 @@ title: Google G Suite
                     <li><img class="sh-list-image" src="/images/bullet.png" alt="retention" /> Retention Policies</li>
                 </ul>
                 <h4>Cost</h4>
-                <h3>$10 / user / month</h3>
+                <h3>$12 / user / month</h3>
             </div>
         </div>
         <div class="sh-product-wrapper vertical">

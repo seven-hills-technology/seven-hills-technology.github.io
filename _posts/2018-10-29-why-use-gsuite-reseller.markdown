@@ -8,6 +8,7 @@ tags: [google, gsuite, email]
 excerpt: As of February 2018, Google had 4 million businesses using G Suite for email and file storage, collaborating on documents, video conferencing and more. 
 sticky: true
 author: Brad Gardner
+description: Using a reseller for GSuite gives you front line support and the peace of mind that you don't miss any implementation details when deploying GSuite. Set up GSuite with Seven Hills Technology today.
 ---
 
 ![Google G Suite Logo](/images/gsuite.png){:class="img-center"}

@@ -16,7 +16,7 @@
 title: Seven Hills Technology
 email: info@sevenhillstechnology.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Seven Hills Technology creates strategic software plans and custom applications to help businesses grow.
+  Seven Hills Technology is a software company in Cincinnati Ohio, specializing in custom web applications, mobile applications, and integrations.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sevenhillstechnology.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sevenhillstech

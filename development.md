@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Custom Development
+description: Seven Hills Technology provides custom development of web apps and mobile apps to clients in the Cincinnati area. 
 ---
 
 <section class="sh-intro">

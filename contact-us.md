@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact Us
+description: Contact Seven Hills Technology in Cincinnati Ohio to get started with your development or technology project today.
 ---
 
 <section class="sh-intro">

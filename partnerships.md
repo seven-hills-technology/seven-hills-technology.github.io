@@ -4,6 +4,7 @@
 
 layout: default
 title: Partnerships
+description: Seven Hills Technology partners with local companies to provide best in class service even outside of our core competencies.
 ---
 
 <section class="sh-intro">
