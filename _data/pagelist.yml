@@ -15,9 +15,9 @@ docs:
         url: /development.html
         friendlyUrl: development
       - 
-        title: "G Suite"
-        url: /gsuite.html
-        friendlyUrl: gsuite
+        title: "Public Sector"
+        url: /public-sector.html
+        friendlyUrl: public-sector
     title: Services
   - 
     title: Partnerships
