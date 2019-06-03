@@ -754,13 +754,13 @@ body {
             text-align: center;
         }
 
-        .sh-values {
+        .sh-services {
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
             flex-wrap: wrap;
             align-items: flex-start;
-            .sh-value {
+            .sh-service {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -793,8 +793,8 @@ body {
         justify-content: center;
         padding-left: 10px;
         padding-right: 10px;
-        padding-top: 200px;
-        padding-bottom: 200px;
+        padding-top: 95px;
+        padding-bottom: 95px;
 
         h1 {
             text-align: center;
@@ -805,14 +805,13 @@ body {
         h2 {
             text-align: center;
             margin-bottom: 30px;
-            margin-top: 40px;
         }
 
         p {
             max-width: 1000px;
         }
 
-        .sh-values {
+        .sh-services {
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
@@ -820,7 +819,7 @@ body {
             margin-bottom: 40px;
             align-items: flex-start;
 
-            .sh-value {
+            .sh-service {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -1257,6 +1256,11 @@ body {
     margin: 0 auto;
 }
 
+#publicSectorFeature {
+    width: 200px;
+    margin: 0 auto;
+}
+
 #gsuite {
     text-align: center;
     margin: 0 auto;
@@ -1542,6 +1546,63 @@ a {
                     border: none;
                 }
             }
+        }
+    }
+}
+
+#govtServices {
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1010px;
+
+    @media (max-width: 859px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .govt-service {
+        p {
+            color: $brand-1 !important;
+        }
+    }
+}
+
+#govtWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    & div {
+        padding: 30px;
+    }
+
+    & p {
+        margin-top: 40px;
+    }
+
+    @media (max-width: 790px) {
+        & p {
+            margin-top: 20px;
+        }
+    }
+
+    @media (max-width: 750px) {
+        flex-direction: column;
+        align-items: center;
+
+        #treeFrogImageWrapper>img {
+            height: 300px;
+        }
+    }
+
+    #treeFrogTextWrapper {
+        max-width: 530px;
+
+        #playStoreButtons {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
         }
     }
 }
