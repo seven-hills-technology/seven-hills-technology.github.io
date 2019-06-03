@@ -41,7 +41,7 @@ title: Custom Software for Governments/Public Sector
 
 <section class="sh-white-band">
     <h2 class="sh-white-band-header">How We Can Help You</h2>
-    <div class="sh-services govt-services">
+    <div class="sh-services" id="govtServices">
         <div class="sh-service govt-service">
             <img src="/images/cloud-blue.svg" alt="Web Apps" />
             <h3>Web Applications</h3>
