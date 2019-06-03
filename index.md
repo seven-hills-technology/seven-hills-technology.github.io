@@ -88,6 +88,27 @@ title: Seven Hills Technology in Cincinnati Ohio
                 </div>
             </div>
         </div>
+        <div class="sh-product-wrapper">
+            <div class="small-image-wrapper">
+                <div class="icon small-icon d-block d-md-none">
+                    <img src="/images/government.svg" alt="Government and Public Sector Icon" height="150">
+                </div>
+            </div>
+            <div class="sh-product">
+                <div class="text">
+                    <h3><a href="/public-sector" alt="Government and Public Sector">Government and Public Sector</a></h3>
+                    <div>
+                        Governments and public entities rely on software 24/7 to keep the public safe and informed. We are revolutionizing public software to be beautiful and efficient, much like software created by and for private companies. Great software paves the way for greater transparency and a happier population.
+                    </div>
+                    <div class="small-link">
+                        <a href="/public-sector" alt="Government and Public">Click here to learn more.</a>
+                    </div>
+                </div>
+                <div class="icon pull-right d-none d-md-block">
+                    <img src="/images/government.svg" alt="Government and Public Sector Icon" height="200">
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <div class="sh-band-flair dark-top"></div>
