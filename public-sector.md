@@ -31,8 +31,8 @@ title: Custom Software for Governments/Public Sector
                 We had the pleasure of working with students at Bermuda College during the duration of this project. Dubbed the “Workforce Development Partnership,” Seven Hills Technology had the privilege of becoming the first technology vendor to create an app in cooperation with the students. While some students had past experience in programming, many started from scratch. We started at the basics and had the students working on significant parts of the app by the conclusion of the project.
             </p>
             <div id="playStoreButtons">
-                <img />
-                <img />
+                <a href="https://itunes.apple.com/us/app/bermuda-tree-frog/id1457602409?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-03-27&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a> 
+                <a href='https://play.google.com/store/apps/details?id=gov.bermuda.treeFrog&hl=en_US&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' style="height: 60px;"/></a>
             </div>
         </div>
     </div>
