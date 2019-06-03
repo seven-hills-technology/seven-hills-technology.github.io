@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Custom Software for Governments/Public Sector
+description: Seven Hills Technology designs and develops beautiful, efficient, and modern software for governments and public entities.
 ---
 
 <section class="sh-intro">
