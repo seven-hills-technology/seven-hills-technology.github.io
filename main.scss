@@ -389,21 +389,23 @@ body {
     height: 90px;
     &.light-top {
         background: url('/images/light-blue-top.svg') no-repeat center center;
+        background-size: 100% 100%;
     }
 
     &.light-bottom {
         background: url('/images/light-blue-bottom.svg') no-repeat center center;
+        background-size: 100% 100%;
     }
 
     &.dark-top {
         background: url('/images/dark-blue-top.svg') no-repeat center center;
+        background-size: 100% 100%;
     }
 
     &.dark-bottom {
         background: url('/images/dark-blue-bottom.svg') no-repeat center center;
+        background-size: 100% 100%;
     }
-
-    background-size: 100% 100%;
     
     &>img {
         user-select: none;
