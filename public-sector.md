@@ -6,9 +6,9 @@ description: Seven Hills Technology designs and develops beautiful, efficient, a
 
 <section class="sh-intro">
     <div class="sh-tagline">
-        <h2 class="sh-header-lines"><span>Government and Public Sector</span></h2>
+        <h1 class="sh-header-lines"><span>Government and Public Sector</span></h1>
         <div id="publicSectorFeature" >
-            <img src="/images/government.svg" style="width: 200px"/>
+            <img src="/images/government.svg" alt="government and public sector" style="width: 200px"/>
         </div>
     </div>
     <div class="sh-description">
