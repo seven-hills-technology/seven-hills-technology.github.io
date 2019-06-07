@@ -12,7 +12,7 @@ description: Seven Hills Technology partners with local companies to provide bes
         <h1 class="sh-header-lines"><span>Partnerships</span></h1>
     </div>
     <div class="sh-description">
-        We work with distinguished partners to help us provide the best services possible. 
+        Our clients trust us to provide expert services that drive them towards their goals but the picture doesn't end with us and the projects we deliver. This is why we work with distinguished partners to help us provide the best services possible that may be outside of our area of expertise but incredibly important to the sucess of the organization.
     </div>
 </section>
 <section class="sh-white-band">

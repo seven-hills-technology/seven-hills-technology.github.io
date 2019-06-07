@@ -12,7 +12,7 @@ description: Seven Hills Technology designs and develops beautiful, efficient, a
         </div>
     </div>
     <div class="sh-description">
-        Software in the public sector isn’t often given the love and attention it deserves. Seven Hills Technology is revolutionizing the way public software is built and maintained by bringing modern development practices, cutting-edge technology, detailed UX focus, and fully-dedicated staff members.
+        Software in the public sector isn’t often given the love and attention it deserves. Seven Hills Technology is revolutionizing the way public software is built and maintained by bringing modern development practices, cutting-edge technology, detailed UX focus, and fully-dedicated staff members. Partnering with Seven Hills Technology for public sector work brings a fresh approach to an underserved market.
     </div>
 </section>
 
