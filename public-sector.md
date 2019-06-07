@@ -8,7 +8,7 @@ description: Seven Hills Technology designs and develops beautiful, efficient, a
     <div class="sh-tagline">
         <h1 class="sh-header-lines"><span>Government and Public Sector</span></h1>
         <div id="publicSectorFeature" >
-            <img src="/images/government.svg" alt="government and public sector" style="width: 200px"/>
+            <img src="/images/government.svg" alt="government and public sector"/>
         </div>
     </div>
     <div class="sh-description">
@@ -18,7 +18,7 @@ description: Seven Hills Technology designs and develops beautiful, efficient, a
 
 <div class="sh-band-flair dark-top"></div>
 <section class="sh-dark-band">
-    <h2 class="sh-dark-band-header">Facilitating Government Transparency and Communication</h2>
+    <h1 class="sh-dark-band-header">Facilitating Government Transparency and Communication</h1>
     <div id="govtWrapper">
         <div id="treeFrogImageWrapper">
             <img src="/images/tree-frog-device-frame.png" alt="Image of Bermuda Tree Frog App" />
@@ -41,21 +41,21 @@ description: Seven Hills Technology designs and develops beautiful, efficient, a
 <div class="sh-band-flair dark-bottom"></div>
 
 <section class="sh-white-band">
-    <h2 class="sh-white-band-header">How We Can Help You</h2>
+    <h1 class="sh-white-band-header">How We Can Help You</h1>
     <div class="sh-services" id="govtServices">
         <div class="sh-service govt-service">
             <img src="/images/cloud-blue.svg" alt="Web Apps" />
-            <h3>Web Applications</h3>
+            <h2>Web Applications</h2>
             <p>Customize your web applications with our design-centered development and user-tested solutions.</p>
         </div>
         <div class="sh-service govt-service">
             <img src="/images/mobile-blue.svg" alt="Mobile Apps" />
-            <h3>Mobile Applications</h3>
+            <h2>Mobile Applications</h2>
             <p>Get more information to the right people at the right time with Native iOS and Android apps.</p>
         </div>
         <div class="sh-service govt-service">
             <img src="/images/integration-blue.svg" alt="Integrations" />
-            <h3>Integrations</h3>
+            <h2>Integrations</h2>
             <p>Improve efficiencies on web and mobile by aligning your existing platforms so they can directly talk to each other.</p>
         </div>
     </div>
