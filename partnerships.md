@@ -41,7 +41,7 @@ description: Seven Hills Technology partners with local companies to provide bes
             </div>
             <div class="sh-partner-content">
                 <div class="sh-partner-title">Elastic</div>
-                <div>Elastic is the world's leading software provider for making structured and unstructured data usable in real time for search, logging, security, and analytics use cases. Elastic's global community has more than 80,000 members across 45 countries. We are the proud organizers of the Elastic User Group meetup in Cincinnati. <a href="https://www.meetup.com/Cincinnati-Elastic-Fantastics/">If you're interested in attending or speaking, join our Meetup page!</a><br/><br/> <a href="https://elastic.co" alt="Elastic.co">For more information on Elastic, please visit Elastic.co</a>
+                <div>Elastic is the world's leading software provider for making structured and unstructured data usable in real time for search, logging, security, and analytics use cases. Elastic's global community has more than 80,000 members across 45 countries. We are the proud organizers of the Elastic User Group meetup in Cincinnati and we assist companies in planning and implementing Elasticsearch in their organization as well as conduct training for internal staff to utilize and manage Elasticsearch in their infrastructure. <a href="https://www.meetup.com/Cincinnati-Elastic-Fantastics/">If you're interested in attending or speaking, join our Meetup page!</a><br/><br/> <a href="https://elastic.co" alt="Elastic.co">For more information on Elastic, please visit Elastic.co</a>
 </div>
             </div>
         </div>
