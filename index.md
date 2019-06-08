@@ -22,22 +22,22 @@ title: Seven Hills Technology in Cincinnati Ohio
     <div class="sh-services">
         <div class="sh-service">
             <img src="/images/cloud-blue.svg" alt="Web Apps" />
-            <h2>Web Applications</h2>
+            <h3>Web Applications</h3>
             <p>Customize your web applications with our design-centered development and user-tested solutions.</p>
         </div>
         <div class="sh-service">
             <img src="/images/mobile-blue.svg" alt="Mobile Apps" />
-            <h2>Mobile Applications</h2>
+            <h3>Mobile Apps</h3>
             <p>Get more information to the right people at the right time with Native iOS and Android apps.</p>
         </div>
         <div class="sh-service">
             <img src="/images/integration-blue.svg" alt="Integrations" />
-            <h2>Integrations</h2>
+            <h3>Integrations</h3>
             <p>Improve efficiencies on web and mobile by aligning your existing platforms so they can directly talk to each other.</p>
         </div>
         <div class="sh-service">
             <img src="/images/iot.svg" alt="Internet of Things" />
-            <h2>Internet of Things</h2>
+            <h3>Internet of Things</h3>
             <p>Take advantage of a connected world by controlling and collecting data from devices like building sensors or everyday household items.</p>
         </div>
     </div>

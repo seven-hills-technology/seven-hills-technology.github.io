@@ -10,9 +10,6 @@ description: A place to share knowledge on software development and other techno
     <div class="sh-tagline">
         <h1 class="sh-header-lines"><span>Blog</span></h1>
     </div>
-    <div class="sh-description">
-        Read about our findings, musings, and client success stories.
-    </div>
     <div class="sh-blog">
         <div id="categoryContainer">
             {% assign categories_list = site.categories %}
@@ -42,18 +39,17 @@ description: A place to share knowledge on software development and other techno
         <div id="contentContainer" data-tabs-content>
             <div id="featuredPosts" data-tabs-pane class="tabs-pane active post-list" style="margin-bottom: 1rem">
                 {% assign featuredPosts = site.posts | where: "sticky", "true" %}
-                <h3>Featured</h3>  
                 {% for post in featuredPosts %}
                     {% if post.title != null %}
                         {% if group == null or group == post.group %}
                         <li>
                             <div class="sh-post">
-                                <a href="{{ site.url }}{{ post.url }}" class="post-title">{{ post.title }}</a>
+                                <h3><a href="{{ site.url }}{{ post.url }}" class="post-title">{{ post.title }}</a></h3>
                                 <div class="post-excerpt">
                                     {{ post.excerpt }}
                                 </div>
                                 <div class="read-more-button">
-                                    <a href="{{ site.url }}{{ post.url }}">Read More...</a>
+                                    <a href="{{ site.url }}{{ post.url }}">Read More <i class="fa fa-arrow-right"></i></a>
                                 </div>
                                 <div class="author">
                                     Written by {{post.author}} on {{post.date | date_to_long_string}}
@@ -75,12 +71,12 @@ description: A place to share knowledge on software development and other techno
                             {% if group == null or group == post.group %}
                             <li>
                                 <div class="sh-post">
-                                    <a href="{{ site.url }}{{ post.url }}" class="post-title">{{ post.title }}</a>
+                                    <h3><a href="{{ site.url }}{{ post.url }}" class="post-title">{{ post.title }}</a></h3>
                                     <div class="post-excerpt">
                                         {{ post.excerpt }}
                                     </div>
                                     <div class="read-more-button">
-                                        <a href="{{ site.url }}{{ post.url }}">Read More...</a>
+                                        <a href="{{ site.url }}{{ post.url }}">Read More <i class="fa fa-arrow-right"></i></a>
                                     </div>
                                     <div class="author">
                                         Written by {{post.author}} on {{post.date | date_to_long_string}}

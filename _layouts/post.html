@@ -32,7 +32,8 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="/main.css">
     <link rel="stylesheet" href="https://use.typekit.net/jnr1com.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG" crossorigin="anonymous">
 
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?">
 </head>
@@ -84,14 +85,13 @@
             </div>
         </nav>
     </header>
-    <section class="sh-intro">
+    <section class="sh-intro" style="margin-bottom: 10px">
         <div class="sh-tagline">
-            <h2 class="sh-header-lines"><span>Blog</span></h2>
+            <h1 class="sh-header-lines"><span>{{page.title}}</span></h1>
         </div>
     </section>
     <section class="sh-post-content">
-        <h1 class="title">{{page.title}}</h1>
-        <h3 class="tagline">{{page.tagline}}</h3>
+        <h2 class="tagline">{{page.tagline}}</h2>
         <div class="publish-info">
             <strong>{{page.author}}</strong> on <strong>{{page.date | date_to_long_string}}</strong>
         </div>

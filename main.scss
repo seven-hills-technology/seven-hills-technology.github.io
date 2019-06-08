@@ -15,11 +15,20 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 1.5em;
+    color: $text-gray;
 }
 
 .navbar {
     padding: 0px;
     font-weight: 300;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.dropdown-item {
+    font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -81,18 +90,19 @@ body {
 }
 
 h1 {
-    font-family: benton-modern-display, serif;
+    font-family: bitter, serif;
     font-weight: 600;
 }
 
 h2 {
-    font-family: benton-modern-display-conden, serif;
+    font-family: bitter, serif;
     font-weight: 400;
 }
 
 h3 {
-    font-family: benton-sans-condensed, sans-serif;
+    font-family: bitter, serif;
     font-weight: 400;
+    font-size: 1.6rem;
 }
 
 h4 {
@@ -100,6 +110,18 @@ h4 {
     font-weight: 300;
     font-size: 1.25rem;
 
+}
+
+a {
+    color: $brand-1;
+
+    &:visited {
+        color: $brand-1;
+    }
+
+    &:hover {
+        color: $brand-2;
+    }
 }
 
 @media (min-width: 992px) {
@@ -210,8 +232,8 @@ h4 {
             color: white;
             text-align: right;
             font-size: 3rem;
-            font-family: benton-sans-condensed, sans-serif;
-            font-weight: 400;
+            font-family: benton-sans, sans-serif; 
+            font-weight: 700;
 
             @media(max-width:1450px) {
                 text-align: center;
@@ -389,7 +411,6 @@ h4 {
 
     .sh-tagline {
         margin-top: 40px;
-        margin-bottom: 40px;
 
         h1 {
             color: $washed-blue;
@@ -610,6 +631,11 @@ h4 {
                 display: flex;
                 flex-direction: column;
                 align-self: center;
+                max-width: 263px;
+
+                &>img {
+                    width: 100%;
+                }
             }
 
             .small-icon {
@@ -826,7 +852,7 @@ h4 {
                     height: 100px;
                 }
 
-                h2 {
+                h3 {
                     margin-top: 15px;
                 }
 
@@ -887,7 +913,7 @@ h4 {
                     height: 100px;
                 }
 
-                h2 {
+                h3 {
                     margin-top: 15px;
                     color: $charcoal;
                 }
@@ -914,9 +940,8 @@ h4 {
         .step {
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             width: 250px;
-            height: 100%;
 
             & .step-number {
                 width: 118px;
@@ -1062,9 +1087,8 @@ h4 {
 
 
                 & .sh-partner-title {
-                    font-weight: bold;
-                    color: $brand-2;
-                    font-size: 20px;
+                    color: $brand-1;
+                    text-align: left;
                 }
             }
 
@@ -1368,7 +1392,7 @@ a {
 
     .sh-tagline {
         margin-top: 40px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
 
         h1 {
             color: $washed-blue;
@@ -1401,54 +1425,39 @@ a {
     padding-left: 10px;
     padding-right: 10px;
 
-    h1,
-    h2,
-    h3 {
-        margin-top: 10px;
-    }
-
-    h1 {
-        font-size: 1.75em;
-
-        &.title {
-            font-weight: bolder;
-            margin-top: 10px;
-            margin-bottom: 15px;
-        }
-    }
-
     h2 {
-        font-size: 1.35em;
+        font-size: 1.65em;
     }
 
-    h3 {
-        font-size: 1.15em;
-
-        &.tagline {
-            color: $washed-blue;
-            font-weight: bold;
-        }
+    .tagline {
+        font-family: benton-sans-condensed, sans-serif;
+        font-weight: 800;
+        color: $brand-1;
     }
+
 
     .publish-info {
         font-size: 12px;
-        color: $brand-1;
+        color: $text-gray;
     }
 
     .post-body {
         margin-top: 20px;
+        font-size: 18px;
+        color: $text-gray;
 
         h1 {
             font-size: 1.45em;
             font-weight: bold;
-            margin-bottom: 20px;
+            margin-bottom: 28px;
+            color: $brand-1;
         }
 
         h2,
         h3 {
             font-weight: bolder;
-            color: $washed-blue;
-            text-transform: uppercase
+            color: $charcoal;
+            margin-bottom: 18px;
         }
 
         h2 {
@@ -1462,6 +1471,11 @@ a {
         .img-center {
             display: block;
             margin: 0 auto;
+        }
+
+        p {
+            line-height: 2.15rem;
+            margin-bottom: 40px;
         }
     }
 }
@@ -1478,6 +1492,12 @@ a {
     font-size: 0.85em;
 }
 
+#shareText {
+    text-transform: uppercase;
+    font-family: benton-sans, sans-serif;
+    font-weight: 200;
+}
+
 /* All buttons */
 .share-buttons>a:hover {
     text-decoration: none;
@@ -1488,8 +1508,8 @@ a {
     margin: 0px;
     margin-bottom: 10px;
     margin-right: 3px;
-    border: 1px solid #D3D6D2;
     padding: 5px 10px 5px 10px;
+    border-radius: 21px;
 }
 
 .share-button:hover {
@@ -1498,11 +1518,11 @@ a {
 }
 
 /* Facebook button */
-.fa-facebook-official {
+.fa-facebook {
     color: #3b5998;
 }
 
-.fa-facebook-official:hover {
+.fa-facebook:hover {
     background-color: #3b5998;
 }
 
@@ -1556,7 +1576,10 @@ a {
     flex-direction: row;
     flex-wrap: nowrap;
     width: 100%;
-    background-color: #E8E8E8;
+    background-color: $off-white;
+    color: $brand-1;
+    font-size: 20px;
+    font-weight: 400;
 
     &>div {
         display: flex;
@@ -1591,14 +1614,6 @@ a {
 }
 
 #contentContainer {
-    h3 {
-        font-size: 22px;
-        font-weight: bold;
-        font-variant: small-caps;
-        text-align: center;
-        color: $brand-1;
-    }
-
     .post-list {
         padding-left: 0;
 
@@ -1610,28 +1625,34 @@ a {
                 min-height: 150px;
                 border-bottom: 1px solid $brand-1;
 
+                h3 {
+                    text-align: left;
+                    font-family: benton-sans-condensed, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.35rem;
+                }
+
                 .post-title {
-                    color: $brand-2;
-                    font-weight: bold;
-                    font-size: 1.15em;
+                    color: $brand-1;
                 }
 
                 .post-excerpt {
-                    color: $washed-blue;
+                    color: $text-gray;
                 }
 
                 .read-more-button {
                     margin-top: 10px;
 
                     &>a {
-                        color: $brand-1;
+                        color: $charcoal;
+                        text-transform: uppercase;
                     }
                 }
 
                 .author {
                     margin-top: 5px;
                     font-size: 13px;
-                    color: $washed-blue;
+                    color: $charcoal;
                 }
 
                 &:last-of-type {
