@@ -1424,6 +1424,11 @@ a {
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 20px;
+
+    &>.sh-header-lines {
+        text-align: left;
+    }
 
     h2 {
         font-size: 1.65em;
@@ -1471,6 +1476,7 @@ a {
         .img-center {
             display: block;
             margin: 0 auto;
+            max-width: 100%;
         }
 
         p {
@@ -1578,7 +1584,6 @@ a {
 .sh-blog {
     width: 800px;
     margin: 0 auto;
-    min-width: 400px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1589,6 +1594,10 @@ a {
         width: 315px;
         display: flex;
         flex-direction: column;
+
+        @media (max-width: 450px) {
+            width: 90%;
+        }
 
         &:only-child {
             margin: 0 auto;
