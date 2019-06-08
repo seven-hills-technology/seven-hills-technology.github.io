@@ -18,20 +18,20 @@ title: Seven Hills Technology in Cincinnati Ohio
 
 <div class="sh-band-flair light-top"></div>
 <section class="sh-light-band">
-    <h2>Software solutions</h2>
+    <h1>Software Solutions</h1>
     <div class="sh-services">
         <div class="sh-service">
-            <img src="/images/cloud.svg" alt="Web Apps" />
+            <img src="/images/cloud-blue.svg" alt="Web Apps" />
             <h3>Web Applications</h3>
             <p>Customize your web applications with our design-centered development and user-tested solutions.</p>
         </div>
         <div class="sh-service">
-            <img src="/images/mobile.svg" alt="Mobile Apps" />
-            <h3>Mobile Applications</h3>
+            <img src="/images/mobile-blue.svg" alt="Mobile Apps" />
+            <h3>Mobile Apps</h3>
             <p>Get more information to the right people at the right time with Native iOS and Android apps.</p>
         </div>
         <div class="sh-service">
-            <img src="/images/integration.svg" alt="Integrations" />
+            <img src="/images/integration-blue.svg" alt="Integrations" />
             <h3>Integrations</h3>
             <p>Improve efficiencies on web and mobile by aligning your existing platforms so they can directly talk to each other.</p>
         </div>
@@ -54,12 +54,12 @@ title: Seven Hills Technology in Cincinnati Ohio
             </div>
             <div class="sh-product">
                 <div class="text">
-                    <h3><a href="/development" alt="Custom Software Development">Custom Software Development</a></h3>
+                    <h2><a href="/development" alt="Custom Software Development">Custom Software Development</a></h2>
                     <div>
                         Your technology solution or mobile application needs to work the way you expect it to, and that begins with design. Seven Hills Technology begins every project with design-drive development, which means you can see, experience, and test your solution right from the very beginning of the creation process through the final steps of deployment. We can build software to fit your exact and custom needs, on any budget.
                     </div>
                     <div class="small-link">
-                        <a href="/development" alt="Development">Click here to learn more.</a>
+                        <a href="/development" alt="Development">Learn More <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="icon pull-right d-none d-md-block">
@@ -75,12 +75,12 @@ title: Seven Hills Technology in Cincinnati Ohio
             </div>
             <div class="sh-product">
                 <div class="text">
-                    <h3><a href="/consulting" alt="Strategic Software Planning">Strategic Planning</a></h3>
+                    <h2><a href="/consulting" alt="Strategic Software Planning">Strategic Planning</a></h2>
                     <div>
                         Great partnerships require great transparency, and we’re here to help you open the ‘black box’ of software development. We offer strategic planning services to help you put structure around your technology needs, both in short-term and long-term perspectives. This clarity of where you are today and where you’re heading in the future ensures you make the right investments at the right time in solutions that will support your goals.
                     </div>
                     <div class="small-link">
-                        <a href="/consulting" alt="Strategic Software Planning">Click here to learn more.</a>
+                        <a href="/consulting" alt="Strategic Software Planning">Learn More <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="icon pull-right d-none d-md-block">
@@ -96,12 +96,12 @@ title: Seven Hills Technology in Cincinnati Ohio
             </div>
             <div class="sh-product">
                 <div class="text">
-                    <h3><a href="/public-sector" alt="Government and Public Sector">Government and Public Sector</a></h3>
+                    <h2><a href="/public-sector" alt="Government and Public Sector">Government and Public Sector</a></h2>
                     <div>
                         Governments and public entities rely on software 24/7 to keep the public safe and informed. We are revolutionizing public software to be beautiful and efficient, much like software created by and for private companies. Great software paves the way for greater transparency and a happier population.
                     </div>
                     <div class="small-link">
-                        <a href="/public-sector" alt="Government and Public">Click here to learn more.</a>
+                        <a href="/public-sector" alt="Government and Public">Learn More <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="icon pull-right d-none d-md-block">
@@ -113,7 +113,7 @@ title: Seven Hills Technology in Cincinnati Ohio
 </section>
 <div class="sh-band-flair dark-top"></div>
 <section class="sh-dark-band">
-    <h2 id="mission-title" class="sh-fade-in">Technical Expertise meets Creativity</h2>
+    <h1 id="mission-title" class="sh-fade-in">Technical Expertise Meets Creativity</h1>
     <div class="sh-city-outline">
         {% include city.html %}
     </div>
@@ -122,7 +122,7 @@ title: Seven Hills Technology in Cincinnati Ohio
 </section>
 <div class="sh-band-flair dark-bottom"></div>
 <section class="sh-white-band">
-    <h2>Advanced Solutions for Modern Businesses and Organizations</h2>
+    <h1>Advanced Solutions for Modern Businesses and Organizations</h1>
     <div>
         <p>You have the power to operate more efficiently, communicate more effectively, and save your team time and money. Here are some of our clients’ outcomes after partnering with Seven Hills Technology:</p>
         <ul>

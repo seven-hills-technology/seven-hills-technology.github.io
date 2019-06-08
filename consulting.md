@@ -22,7 +22,7 @@ description: Seven Hills Technology provides software consulting services in any
 
 <div class="sh-band-flair dark-top"></div>
 <section class="sh-dark-band">
-    <h2 class="sh-dark-band-header">What to Expect in Strategic Planning:</h2>
+    <h1 class="sh-dark-band-header">What to Expect in Strategic Planning:</h1>
     <div class="steps">
         <div class="step">
             <div class="step-number">1</div>
@@ -50,7 +50,7 @@ description: Seven Hills Technology provides software consulting services in any
 <div class="sh-band-flair dark-bottom"></div>
 
 <section class="sh-white-band">
-    <h2 class="sh-white-band-header">Our Development Process</h2>
+    <h1 class="sh-white-band-header">Our Development Process</h1>
     <div class="dev-steps">
         <div class="dev-step-list">
             <div class="dev-step">
