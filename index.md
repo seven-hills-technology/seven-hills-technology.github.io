@@ -36,7 +36,7 @@ title: Seven Hills Technology in Cincinnati Ohio
             <p>Improve efficiencies on web and mobile by aligning your existing platforms so they can directly talk to each other.</p>
         </div>
         <div class="sh-service">
-            <img src="/images/iot.svg" alt="Internet of Things" />
+            <img src="/images/iot-blue.svg" alt="Internet of Things" />
             <h3>Internet of Things</h3>
             <p>Take advantage of a connected world by controlling and collecting data from devices like building sensors or everyday household items.</p>
         </div>
