@@ -803,7 +803,7 @@ a {
         justify-content: center;
         align-items: center;
         background-color: $off-white;
-        color: $charcoal;
+        color: $brand-1;
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 50px;
@@ -1206,13 +1206,13 @@ a {
         height: 60px;
         border: 2px solid $charcoal;
         border-radius: 3px;
-        color: $charcoal;
+        color: $brand-1;
         text-decoration: none;
         transition: 0.45s;
         font-weight: 600;
 
         &:visited {
-            color: $charcoal;
+            color: $brand-1;
             text-decoration: none;
         }
 
