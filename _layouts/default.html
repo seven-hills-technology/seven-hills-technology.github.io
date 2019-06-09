@@ -13,11 +13,14 @@
     </script> -->
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-M9HVWVZ');</script>
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M9HVWVZ');</script>
     <!-- End Google Tag Manager -->
 
     <!-- Start of HubSpot Embed Code -->
@@ -26,7 +29,9 @@
     <title>{{page.title}} | Seven Hills Technology</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description"
+        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta charset="utf-8" />
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
@@ -34,24 +39,27 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.typekit.net/jnr1com.css">
     <link rel="stylesheet" href="/main.css">
-<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?">
-<!-- Facebook Pixel Code -->
-<script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '161430064803305');
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=161430064803305&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Facebook Pixel Code -->
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?">
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '161430064803305');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=161430064803305&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 </head>
 
 <body>
@@ -60,8 +68,8 @@
             <a class="navbar-brand" href="/">
                 <img class="sh-logo" src="/images/logo.svg" alt="Sevenhills Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse mb-auto" id="navbarNav">
@@ -69,32 +77,35 @@
                     {% for item in site.data.pagelist.docs %}
                     <li class="nav-item">
                         {% if item.children.size > 0 %}
-                            <li class="nav-item dropdown">
-                                {% assign childActive = item.children | where:"url",page.url %}
-                                {% if childActive.size > 0 %}
-                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                {% else %}
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <li class="nav-item dropdown">
+                        {% assign childActive = item.children | where:"url",page.url %}
+                        {% if childActive.size > 0 %}
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {% else %}
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {% endif %}
-                                    {{item.title}}
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    {% for child in item.children %}
-                                    {% if page.url == child.url %}
-                                    <a class="dropdown-item active" href="/{{child.friendlyUrl}}">{{child.title}}</a>
-                                    {% else %}
-                                    <a class="dropdown-item" href="/{{child.friendlyUrl}}">{{child.title}}</a>
-                                    {% endif %}
-                                    {% endfor %}
-                                </div>
-                            </li>
-                        {% else %}
-                        {% if page.url == item.url %}
-                        <a class="nav-link active" href="/{{ item.friendlyUrl }}" alt="{{ item.title }}">{{ item.title }}</a>
-                        {% else %}
-                        <a class="nav-link" href="/{{ item.friendlyUrl }}" alt="{{ item.title }}">{{ item.title }}</a>
-                        {% endif %}
-                        {% endif %}
+                                {{item.title}}
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                {% for child in item.children %}
+                                {% if page.url == child.url %}
+                                <a class="dropdown-item active" href="/{{child.friendlyUrl}}">{{child.title}}</a>
+                                {% else %}
+                                <a class="dropdown-item" href="/{{child.friendlyUrl}}">{{child.title}}</a>
+                                {% endif %}
+                                {% endfor %}
+                            </div>
+                    </li>
+                    {% else %}
+                    {% if page.url == item.url %}
+                    <a class="nav-link active" href="/{{ item.friendlyUrl }}"
+                        alt="{{ item.title }}">{{ item.title }}</a>
+                    {% else %}
+                    <a class="nav-link" href="/{{ item.friendlyUrl }}" alt="{{ item.title }}">{{ item.title }}</a>
+                    {% endif %}
+                    {% endif %}
                     </li>
                     {% endfor %}
                 </ul>
@@ -114,251 +125,265 @@
     {% endif %}
     <section class="sh-get-in-touch">
         <h2>Interested in a quick conversation? We're here to help.</h2>
-        <a class="git-button" href="https://app.hubspot.com/meetings/bradgardner/1-hour-consultation" target="_blank">Schedule Now</a>
+        <a class="git-button" href="https://app.hubspot.com/meetings/bradgardner/1-hour-consultation"
+            target="_blank">Schedule Now</a>
     </section>
     <div class="last-light-blue">
         <div class="sh-band-flair light-bottom git-flair"></div>
     </div>
-<footer class="sh-footer">
-    <div class="map"></div>
-    <div class="sh-contact-info">
-        <div class="sh-contact-section sh-find-us">
-            <h3>Find Us</h3>
-            <a href="https://www.google.com/maps/dir/Seven+Hills+Technology+4700+Ashwood+Dr,+Blue+Ash,+OH+45241//@39.2695923,-84.3749387,15z"
-                rel="noopener" target="_blank">4700 Ashwood Drive STE 120, Blue Ash, OH 45241</a>
+    <footer class="sh-footer">
+        <div class="map"></div>
+        <div class="sh-contact-info">
+            <div class="sh-contact-section sh-find-us">
+                <h3>Find Us</h3>
+                <a href="https://www.google.com/maps/dir/Seven+Hills+Technology+4700+Ashwood+Dr,+Blue+Ash,+OH+45241//@39.2695923,-84.3749387,15z"
+                    rel="noopener" target="_blank">4700 Ashwood Drive STE 120, Blue Ash, OH 45241</a>
+            </div>
+            <div class="sh-contact-section sh-call-us">
+                <h3>Call Us</h3>
+                <a href="tel:+15138184650">513.818.4650</a>
+            </div>
+            <div class="sh-contact-section sh-email-us">
+                <h3>Email Us</h3>
+                <a href="mailto:info@sevenhillstechnology.com">info@sevenhillstechnology.com</a>
+            </div>
         </div>
-        <div class="sh-contact-section sh-call-us">
-            <h3>Call Us</h3>
-            <a href="tel:+15138184650">513.818.4650</a>
+        <div class="sh-bottom-navigation">
+            <div class="sh-social-links">
+                <a href="https://goo.gl/maps/WPw5bgXBk4x" target="_blank"><img src="/images/google.svg"
+                        alt="google" /></a>
+                <a href="https://www.facebook.com/sevenhillstechnologyus/" rel="noopener" target="_blank"><img
+                        src="/images/facebook.svg" alt="facebook" /></a>
+                <a href="https://www.linkedin.com/company/seven-hills-technology/" rel="noopener" target="_blank"><img
+                        src="/images/linkedin.svg" alt="linkedin" /></a>
+            </div>
+            <div class="sh-bottom-navigation-links">
+                <a href="/">Home</a>
+                <a href="#">Services</a>
+                <a href="/partnerships">Partnerships</a>
+                <a href="/about">About Us</a>
+                <a href="/blog">Blog</a>
+                <a href="/contact-us">Contact Us</a>
+            </div>
         </div>
-        <div class="sh-contact-section sh-email-us">
-            <h3>Email Us</h3>
-            <a href="mailto:info@sevenhillstechnology.com">info@sevenhillstechnology.com</a>
-        </div>
-    </div>
-    <div class="sh-bottom-navigation">
-        <div class="sh-social-links">
-                <a href="https://goo.gl/maps/WPw5bgXBk4x" target="_blank"><img src="/images/google.svg" alt="google"/></a>
-                <a href="https://www.facebook.com/sevenhillstechnologyus/" rel="noopener" target="_blank"><img src="/images/facebook.svg" alt="facebook"/></a>
-                <a href="https://www.linkedin.com/company/seven-hills-technology/" rel="noopener" target="_blank"><img src="/images/linkedin.svg" alt="linkedin"/></a>
-        </div>
-        <div class="sh-bottom-navigation-links">
-            <a href="/">Home</a>
-            <a href="#">Services</a>
-            <a href="/partnerships">Partnerships</a>
-            <a href="/about">About Us</a>
-            <a href="/blog">Blog</a>
-            <a href="/contact-us">Contact Us</a>
-        </div>
-    </div>
-</footer>
+    </footer>
 
     <!-- Do we need these? -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
     <script src="//s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin.min.js"></script>
     <script type="text/javascript">
+        const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+        observer.observe();
+
         let drawTriggered = false;
-        
+
         function initMap() {
             // The location of Sevenhills
-            var sevenhills = {lat: 39.2718967, lng: -84.3743106};
+            var sevenhills = { lat: 39.2718967, lng: -84.3743106 };
             // The map, centered at Sevenhills
             var elements = document.getElementsByClassName("map");
-            for(var i=0; i < elements.length; i++) {
+            for (var i = 0; i < elements.length; i++) {
                 var element = elements[i];
                 var map = new google.maps.Map(
                     element, {
-                        zoom: 14, 
+                        zoom: 14,
                         center: sevenhills,
                         styles: [
                             {
                                 "elementType": "geometry",
                                 "stylers": [
-                                {
-                                    "color": "#f5f5f5"
-                                }
+                                    {
+                                        "color": "#f5f5f5"
+                                    }
                                 ]
                             },
                             {
                                 "elementType": "labels.icon",
                                 "stylers": [
-                                {
-                                    "visibility": "off"
-                                }
+                                    {
+                                        "visibility": "off"
+                                    }
                                 ]
                             },
                             {
                                 "elementType": "labels.text.fill",
                                 "stylers": [
-                                {
-                                    "color": "#616161"
-                                }
+                                    {
+                                        "color": "#616161"
+                                    }
                                 ]
                             },
                             {
                                 "elementType": "labels.text.stroke",
                                 "stylers": [
-                                {
-                                    "color": "#f5f5f5"
-                                }
+                                    {
+                                        "color": "#f5f5f5"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "administrative.land_parcel",
                                 "elementType": "labels.text.fill",
                                 "stylers": [
-                                {
-                                    "color": "#bdbdbd"
-                                }
+                                    {
+                                        "color": "#bdbdbd"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "poi",
                                 "elementType": "geometry",
                                 "stylers": [
-                                {
-                                    "color": "#eeeeee"
-                                }
+                                    {
+                                        "color": "#eeeeee"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "poi",
                                 "elementType": "labels.text.fill",
                                 "stylers": [
-                                {
-                                    "color": "#757575"
-                                }
+                                    {
+                                        "color": "#757575"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "poi.park",
                                 "elementType": "geometry",
                                 "stylers": [
-                                {
-                                    "color": "#e5e5e5"
-                                }
+                                    {
+                                        "color": "#e5e5e5"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "poi.park",
                                 "elementType": "labels.text.fill",
                                 "stylers": [
-                                {
-                                    "color": "#9e9e9e"
-                                }
+                                    {
+                                        "color": "#9e9e9e"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "road",
                                 "elementType": "geometry",
                                 "stylers": [
-                                {
-                                    "color": "#ffffff"
-                                }
+                                    {
+                                        "color": "#ffffff"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "road.arterial",
                                 "elementType": "labels.text.fill",
                                 "stylers": [
-                                {
-                                    "color": "#757575"
-                                }
+                                    {
+                                        "color": "#757575"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "road.highway",
                                 "elementType": "geometry",
                                 "stylers": [
-                                {
-                                    "color": "#dadada"
-                                }
+                                    {
+                                        "color": "#dadada"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "road.highway",
                                 "elementType": "geometry.fill",
                                 "stylers": [
-                                {
-                                    "color": "#5bdaff"
-                                }
+                                    {
+                                        "color": "#5bdaff"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "road.highway",
                                 "elementType": "labels.text.fill",
                                 "stylers": [
-                                {
-                                    "color": "#616161"
-                                }
+                                    {
+                                        "color": "#616161"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "road.local",
                                 "elementType": "labels.text.fill",
                                 "stylers": [
-                                {
-                                    "color": "#9e9e9e"
-                                }
+                                    {
+                                        "color": "#9e9e9e"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "transit.line",
                                 "elementType": "geometry",
                                 "stylers": [
-                                {
-                                    "color": "#e5e5e5"
-                                }
+                                    {
+                                        "color": "#e5e5e5"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "transit.station",
                                 "elementType": "geometry",
                                 "stylers": [
-                                {
-                                    "color": "#eeeeee"
-                                }
+                                    {
+                                        "color": "#eeeeee"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "water",
                                 "elementType": "geometry",
                                 "stylers": [
-                                {
-                                    "color": "#c9c9c9"
-                                }
+                                    {
+                                        "color": "#c9c9c9"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "water",
                                 "elementType": "geometry.fill",
                                 "stylers": [
-                                {
-                                    "color": "#baebfe"
-                                }
+                                    {
+                                        "color": "#baebfe"
+                                    }
                                 ]
                             },
                             {
                                 "featureType": "water",
                                 "elementType": "labels.text.fill",
                                 "stylers": [
-                                {
-                                    "color": "#9e9e9e"
-                                }
+                                    {
+                                        "color": "#9e9e9e"
+                                    }
                                 ]
                             }
                         ]
                     });
                 // The marker, positioned at Sevenhills
-                var marker = new google.maps.Marker({position: sevenhills, map: map});
+                var marker = new google.maps.Marker({ position: sevenhills, map: map });
             }
         }
-        
+
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6xMX3ed5ioFtxeQju5wddbWkcDfTeyug&callback=initMap"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6xMX3ed5ioFtxeQju5wddbWkcDfTeyug&callback=initMap"></script>
 
     <script type="application/ld+json">
         {
@@ -386,7 +411,7 @@
             ]
         }
         </script>
-        <script type="application/ld+json">
+    <script type="application/ld+json">
         {
             "@context": "http://schema.org",
             "@type": "Organization",
@@ -410,9 +435,9 @@
         }
         </script>
 
-        <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9HVWVZ"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9HVWVZ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 </body>
 

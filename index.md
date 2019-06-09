@@ -21,22 +21,22 @@ title: Seven Hills Technology in Cincinnati Ohio
     <h1>Software Solutions</h1>
     <div class="sh-services">
         <div class="sh-service">
-            <img src="/images/cloud-blue.svg" alt="Web Apps" />
+            <img class="lozad" data-src="/images/cloud.svg" alt="Web Apps" />
             <h3>Web Applications</h3>
             <p>Customize your web applications with our design-centered development and user-tested solutions.</p>
         </div>
         <div class="sh-service">
-            <img src="/images/mobile-blue.svg" alt="Mobile Apps" />
-            <h3>Mobile Apps</h3>
+            <img class="lozad" data-src="/images/mobile.svg" alt="Mobile Apps" />
+            <h3>Mobile Applications</h3>
             <p>Get more information to the right people at the right time with Native iOS and Android apps.</p>
         </div>
         <div class="sh-service">
-            <img src="/images/integration-blue.svg" alt="Integrations" />
+            <img class="lozad" data-src="/images/integration.svg" alt="Integrations" />
             <h3>Integrations</h3>
             <p>Improve efficiencies on web and mobile by aligning your existing platforms so they can directly talk to each other.</p>
         </div>
         <div class="sh-service">
-            <img src="/images/iot-blue.svg" alt="Internet of Things" />
+            <img class="lozad" data-src="/images/iot.svg" alt="Internet of Things" />
             <h3>Internet of Things</h3>
             <p>Take advantage of a connected world by controlling and collecting data from devices like building sensors or everyday household items.</p>
         </div>
@@ -49,7 +49,7 @@ title: Seven Hills Technology in Cincinnati Ohio
         <div class="sh-product-wrapper">
             <div class="small-image-wrapper">
                 <div class="icon small-icon d-block d-md-none">
-                    <img src="/images/development-color.svg" alt="Custom Software Development Icon" height="150">
+                    <img class="lozad" data-src="/images/development-color.svg" alt="Custom Software Development Icon" height="150">
                 </div>
             </div>
             <div class="sh-product">
@@ -63,14 +63,14 @@ title: Seven Hills Technology in Cincinnati Ohio
                     </div>
                 </div>
                 <div class="icon pull-right d-none d-md-block">
-                    <img src="/images/development-color.svg" alt="Custom Software Development Icon" height="200">
+                    <img class="lozad" data-src="/images/development-color.svg" alt="Custom Software Development Icon" height="200">
                 </div>
             </div>
         </div>
         <div class="sh-product-wrapper">
             <div class="small-image-wrapper">
                 <div class="icon small-icon d-block d-md-none">
-                    <img src="/images/consulting-color.svg" alt="Strategic Software Planning Icon" height="150">
+                    <img class="lozad" data-src="/images/consulting-color.svg" alt="Strategic Software Planning Icon" height="150">
                 </div>
             </div>
             <div class="sh-product">
@@ -84,14 +84,14 @@ title: Seven Hills Technology in Cincinnati Ohio
                     </div>
                 </div>
                 <div class="icon pull-right d-none d-md-block">
-                    <img src="/images/consulting-color.svg" alt="Strategic Software Planning Icon" height="200">
+                    <img class="lozad" data-src="/images/consulting-color.svg" alt="Strategic Software Planning Icon" height="200">
                 </div>
             </div>
         </div>
         <div class="sh-product-wrapper">
             <div class="small-image-wrapper">
                 <div class="icon small-icon d-block d-md-none">
-                    <img src="/images/government.svg" alt="Government and Public Sector Icon" height="150">
+                    <img class="lozad" data-src="/images/government.svg" alt="Government and Public Sector Icon" height="150">
                 </div>
             </div>
             <div class="sh-product">
@@ -105,7 +105,7 @@ title: Seven Hills Technology in Cincinnati Ohio
                     </div>
                 </div>
                 <div class="icon pull-right d-none d-md-block">
-                    <img src="/images/government.svg" alt="Government and Public Sector Icon" height="200">
+                    <img class="lozad" data-src="/images/government.svg" alt="Government and Public Sector Icon" height="200">
                 </div>
             </div>
         </div>
