@@ -59,7 +59,7 @@ title: Seven Hills Technology in Cincinnati Ohio
                         Your technology solution or mobile application needs to work the way you expect it to, and that begins with design. Seven Hills Technology begins every project with design-drive development, which means you can see, experience, and test your solution right from the very beginning of the creation process through the final steps of deployment. We can build software to fit your exact and custom needs, on any budget.
                     </div>
                     <div class="small-link">
-                        <a href="/development" alt="Development">Learn More <i class="fa fa-arrow-right"></i></a>
+                        <a href="/development" alt="Development">More about Custom Development <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="icon pull-right d-none d-md-block">
@@ -80,7 +80,7 @@ title: Seven Hills Technology in Cincinnati Ohio
                         Great partnerships require great transparency, and we’re here to help you open the ‘black box’ of software development. We offer strategic planning services to help you put structure around your technology needs, both in short-term and long-term perspectives. This clarity of where you are today and where you’re heading in the future ensures you make the right investments at the right time in solutions that will support your goals.
                     </div>
                     <div class="small-link">
-                        <a href="/consulting" alt="Strategic Software Planning">Learn More <i class="fa fa-arrow-right"></i></a>
+                        <a href="/consulting" alt="Strategic Software Planning">More about Strategic Planning <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="icon pull-right d-none d-md-block">
@@ -101,7 +101,7 @@ title: Seven Hills Technology in Cincinnati Ohio
                         Governments and public entities rely on software 24/7 to keep the public safe and informed. We are revolutionizing public software to be beautiful and efficient, much like software created by and for private companies. Great software paves the way for greater transparency and a happier population.
                     </div>
                     <div class="small-link">
-                        <a href="/public-sector" alt="Government and Public">Learn More <i class="fa fa-arrow-right"></i></a>
+                        <a href="/public-sector" alt="Government and Public">More about Public Sector <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="icon pull-right d-none d-md-block">
