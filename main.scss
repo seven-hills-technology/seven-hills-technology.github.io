@@ -160,20 +160,20 @@ a {
     background-position: center;
 
     @media (min-width: 1800px) {
-        background-image: url(images/website-cover@4x.png);
+        background-image: url(images/website-cover@4x.jpg);
     }
 
     @media (max-width: 1800px) {
-        background-image: url(images/website-cover@3x.png);
+        background-image: url(images/website-cover@3x.jpg);
         height: 110vh
     }
 
     @media (max-width: 1200px) {
-        background-image: url(images/website-cover@2x.png);
+        background-image: url(images/website-cover@2x.jpg);
     }
 
     @media (max-width: 760px) {
-        background-image: url(images/website-cover.png);
+        background-image: url(images/website-cover.jpg);
     }
 
     background-repeat: no-repeat;
