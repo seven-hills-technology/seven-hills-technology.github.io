@@ -653,6 +653,15 @@ a {
             max-width: 1000px;
             text-align: center;
         }
+
+        .sh-dark-band-content {
+            max-width: 780px;
+
+            a {
+                color: $off-white;
+                font-weight: bold;
+            }
+        }
     }
 
     .sh-light-band {
@@ -1201,6 +1210,16 @@ a {
 }
 
 #projectTeamFeature {
+    max-width: 800px;
+    margin: 0 auto;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.sh-page-feature {
     max-width: 800px;
     margin: 0 auto;
 
