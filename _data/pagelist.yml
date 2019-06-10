@@ -36,6 +36,10 @@ docs:
     url: /elastic-meetup.html
     friendlyUrl: elastic-meetup
   - 
+    title: Elastic
+    url: /elasticsearch.html
+    friendlyUrl: elasticsearch
+  - 
     title: "Contact Us"
     url: /contact-us.html
     friendlyUrl: contact-us
