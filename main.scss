@@ -677,6 +677,23 @@ a {
         padding-bottom: 50px;
         overflow: hidden;
 
+        .git-button {
+            color: #fff;
+    
+            &:visited {
+                color: $brand-1;
+                text-decoration: none;
+            }
+    
+    
+            &:hover {
+                color: $brand-1;
+                background-color: #fff;
+                text-decoration: none;
+                transition: 0.45s;
+            }
+        }
+
         h1 {
             text-align: center;
             margin-bottom: 30px;
@@ -1062,33 +1079,33 @@ a {
         width: 60%;
         margin-bottom: 30px;
     }
+}
 
-    & .git-button {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        width: 170px;
-        height: 60px;
-        border: 2px solid $charcoal;
-        border-radius: 3px;
+.git-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 170px;
+    height: 60px;
+    border: 2px solid $charcoal;
+    border-radius: 3px;
+    color: $brand-1;
+    text-decoration: none;
+    transition: 0.45s;
+    font-weight: 600;
+
+    &:visited {
         color: $brand-1;
         text-decoration: none;
+    }
+
+
+    &:hover {
+        color: $off-white;
+        background-color: $charcoal;
+        text-decoration: none;
         transition: 0.45s;
-        font-weight: 600;
-
-        &:visited {
-            color: $brand-1;
-            text-decoration: none;
-        }
-
-
-        &:hover {
-            color: $off-white;
-            background-color: $charcoal;
-            text-decoration: none;
-            transition: 0.45s;
-        }
     }
 }
 
