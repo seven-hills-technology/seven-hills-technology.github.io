@@ -56,11 +56,11 @@
     <!-- End of HubSpot Embed Code -->
 </head>
 
-<body class="line-background">
-    <header class="sh-header sh-home-header">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+<body>
+    <header class="sh-header">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="/">
-                <img class="sh-logo" src="/images/logo-white.svg" alt="Sevenhills Logo">
+                <img class="sh-logo" src="/images/logo.svg" alt="Seven Hills Technology Logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,8 +72,14 @@
                     <li class="nav-item">
                         {% if item.children.size > 0 %}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
+                        {% assign childActive = item.children | where:"url",page.url %}
+                        {% if childActive.size > 0 %}
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {% else %}
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                {% endif %}
                             {{item.title}}
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -90,18 +96,6 @@
                 </ul>
             </div>
         </nav>
-        <div class="sh-home-header-content">
-            <div class="contact-button-wrapper">
-                <h1>Web and mobile applications for modern business challenges.</h1>
-                <a class="contact-button" href="https://app.hubspot.com/meetings/bradgardner/1-hour-consultation"
-                    rel="noreferrer" target="_blank">Start for Free</a>
-            </div>
-        </div>
-        <div class="sh-home-scroll-notifier-wrapper">
-            <div class="sh-home-scroll-notifier">
-                <i class="fal fa-chevron-down"></i>
-            </div>
-        </div>
     </header>
     <section class="sh-content">
         {{content}}

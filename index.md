@@ -7,12 +7,24 @@ title: Seven Hills Technology in Cincinnati Ohio
 ---
 
 <section class="sh-intro">
-    <div class="sh-tagline">
-        <h1 class="sh-header-lines"><span>We're in the business of solving problems.</span></h1>
-    </div>
-    <div class="sh-description home-description">Seven Hills Technology is a mobile and web application development company with one goal: to help your organization succeed by developing custom software solutions to meet your needs.
-    </div>
-    <div class="sh-description home-description">Business of all sizes and industries can grow with technology, and we’re here to show you how. 
+    <div class="sh-home-wrapper">
+        <div class="sh-home-illustration">
+            <img src="/images/home-illustration.svg" alt="">
+        </div>
+        <div class="sh-home-text">
+            <div class="sh-tagline">
+                <h1 class="sh-header-lines"><span>Web and mobile applications for modern business challenges.</span></h1>
+            </div>
+            <div class="sh-description home-description">Seven Hills Technology is a mobile and web application development company with one goal: to help your organization succeed by developing custom software solutions to meet your needs.
+            </div>
+            <div class="sh-description home-description">
+                Business of all sizes and industries can grow with technology, and we’re here to show you how. 
+                <div class="contact-button-wrapper">
+                    <a class="contact-button" href="https://app.hubspot.com/meetings/bradgardner/1-hour-consultation"
+                        rel="noreferrer" target="_blank">Start for Free</a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
