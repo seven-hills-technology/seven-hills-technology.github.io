@@ -18,6 +18,18 @@ docs:
         title: "Public Sector"
         url: /public-sector.html
         friendlyUrl: public-sector
+      - 
+        grouping:
+          name: Elastic
+          children:
+            - 
+              title: Elastic
+              url: /elasticsearch.html
+              friendlyUrl: elasticsearch
+            - 
+              title: Elastic Meetup
+              url: /elastic-meetup.html
+              friendlyUrl: elastic-meetup
     title: Services
   - 
     title: Partnerships

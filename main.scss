@@ -62,6 +62,12 @@ body {
     }
 }
 
+.grouping-name {
+    font-size: 13px;
+    color: $text-gray;
+    padding-left: 1.05rem;
+}
+
 ::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: $brand-2;
@@ -154,21 +160,40 @@ a {
     }
 }
 
-.sh-button {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: $button-disabled;
-    color: white;
-    cursor: pointer;
+.sh-button-wrapper {
+    display: flex;
+    justify-content: center;
 
-    &:hover {
-        background-color: $brand-1;
+    .sh-button {
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 170px;
+        height: 60px;
+        border: 2px solid $brand-1;
+        border-radius: 3px;
+        color: $brand-1;
+        text-decoration: none;
+        transition: 0.45s;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 16px;
+
+        &:visited {
+            color: $brand-1;
+            text-decoration: none;
+        }
+
+
+        &:hover {
+            color: $standard-white;
+            background-color: $brand-1;
+            text-decoration: none;
+            transition: 0.45s;
+        }
     }
-}
-
-.sh-button-active {
-    background-color: $brand-1;
-    color: white;
 }
 
 .sh-header-lines {
@@ -214,43 +239,6 @@ a {
         @media screen and (max-width: 1091px) {
             width: 100%;
         }
-
-        .contact-button-wrapper {
-            display: flex;
-            justify-content: center;
-
-            .contact-button {
-                display: flex;
-                align-self: center;
-                flex-direction: column;
-                justify-content: center;
-                text-align: center;
-                width: 170px;
-                height: 60px;
-                border: 2px solid $brand-1;
-                border-radius: 3px;
-                color: $brand-1;
-                text-decoration: none;
-                transition: 0.45s;
-                margin-top: 20px;
-                font-weight: 600;
-                font-size: 16px;
-
-                &:visited {
-                    color: $brand-1;
-                    text-decoration: none;
-                }
-
-
-                &:hover {
-                    color: $standard-white;
-                    background-color: $brand-1;
-                    text-decoration: none;
-                    transition: 0.45s;
-                }
-            }
-        }
-        
     }
 }
 
@@ -653,6 +641,84 @@ a {
             max-width: 1000px;
             text-align: center;
         }
+
+        .sh-dark-band-content {
+            max-width: 780px;
+
+            a {
+                color: $off-white;
+                font-weight: bold;
+            }
+        }
+
+        .sh-button-wrapper {
+            display: flex;
+            justify-content: center;
+
+            .sh-button {
+                display: flex;
+                align-self: center;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                width: 170px;
+                height: 60px;
+                border: 2px solid $standard-white;
+                border-radius: 3px;
+                color: $standard-white;
+                text-decoration: none;
+                transition: 0.45s;
+                margin-top: 20px;
+                font-weight: 600;
+                font-size: 16px;
+
+                &:visited {
+                    color: $standard-white;
+                    text-decoration: none;
+                }
+
+
+                &:hover {
+                    color: $brand-1;
+                    background-color: $standard-white;
+                    text-decoration: none;
+                    transition: 0.45s;
+                }
+            }
+        }
+
+        .sh-services {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            align-items: flex-start;
+
+            .sh-service {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                max-width: 280px;
+                flex: 1 1 280px;
+                color: $standard-white;
+
+                img {
+                    height: 100px;
+                }
+
+                h3 {
+                    margin-top: 15px;
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+        }
     }
 
     .sh-light-band {
@@ -667,6 +733,23 @@ a {
         padding-top: 50px;
         padding-bottom: 50px;
         overflow: hidden;
+
+        .git-button {
+            color: #fff;
+    
+            &:visited {
+                color: $brand-1;
+                text-decoration: none;
+            }
+    
+    
+            &:hover {
+                color: $brand-1;
+                background-color: #fff;
+                text-decoration: none;
+                transition: 0.45s;
+            }
+        }
 
         h1 {
             text-align: center;
@@ -687,6 +770,10 @@ a {
         h4 {
             max-width: 800px;
             text-align: center;
+        }
+
+        .sh-light-band-content {
+            max-width: 780px;
         }
 
         .sh-services {
@@ -743,10 +830,15 @@ a {
         h2 {
             text-align: center;
             margin-bottom: 30px;
+            color: $charcoal;
         }
 
         p {
             max-width: 1000px;
+        }
+
+        .sh-white-band-content {
+            max-width: 780px;
         }
 
         .sh-services {
@@ -1061,7 +1153,7 @@ a {
         text-align: center;
         width: 170px;
         height: 60px;
-        border: 2px solid $charcoal;
+        border: 2px solid $brand-1;
         border-radius: 3px;
         color: $brand-1;
         text-decoration: none;
@@ -1073,10 +1165,9 @@ a {
             text-decoration: none;
         }
 
-
         &:hover {
             color: $off-white;
-            background-color: $charcoal;
+            background-color: $brand-1;
             text-decoration: none;
             transition: 0.45s;
         }
@@ -1201,6 +1292,16 @@ a {
 }
 
 #projectTeamFeature {
+    max-width: 800px;
+    margin: 0 auto;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.sh-page-feature {
     max-width: 800px;
     margin: 0 auto;
 
@@ -1484,7 +1585,6 @@ a {
                 padding: 30px;
 
                 &>h4 {
-                    font-family: bitter, serif;
                     text-align: center;
                 }
             }
@@ -1578,6 +1678,63 @@ a {
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
+        }
+    }
+}
+
+.two-col-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    & div {
+        padding: 30px;
+    }
+
+    & p {
+        margin-top: 40px;
+    }
+
+    .image-wrapper {
+        max-width: 40%;
+        min-width: 500px;
+
+        &>img {
+            width: 100%;
+        }
+
+        @media (max-width: 750px) {
+            & {
+                max-width: 80%;
+                width: 80%;
+                min-width: 0;
+            }
+        }
+    }
+
+    @media (max-width: 790px) {
+        & p {
+            margin-top: 20px;
+        }
+    }
+
+    @media (max-width: 750px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-wrapper {
+        max-width: 530px;
+    }
+}
+
+.elastic-events {
+    .elastic-event {
+        margin-bottom: 50px;
+
+        .elastic-event-date {
+            font-weight: bold;
+            color: $brand-1;
         }
     }
 }
