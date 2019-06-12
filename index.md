@@ -19,7 +19,7 @@ title: Seven Hills Technology in Cincinnati Ohio
             </div>
             <div class="sh-description home-description">
                 Business of all sizes and industries can grow with technology, and we’re here to show you how. 
-                <div class="contact-button-wrapper">
+                <div class="contact-button-wrapper"> 
                     <a class="contact-button" href="https://app.hubspot.com/meetings/bradgardner/1-hour-consultation"
                         rel="noreferrer" target="_blank">Start for Free</a>
                 </div>
