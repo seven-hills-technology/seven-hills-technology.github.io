@@ -154,21 +154,40 @@ a {
     }
 }
 
-.sh-button {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: $button-disabled;
-    color: white;
-    cursor: pointer;
+.sh-button-wrapper {
+    display: flex;
+    justify-content: center;
 
-    &:hover {
-        background-color: $brand-1;
+    .sh-button {
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 170px;
+        height: 60px;
+        border: 2px solid $brand-1;
+        border-radius: 3px;
+        color: $brand-1;
+        text-decoration: none;
+        transition: 0.45s;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 16px;
+
+        &:visited {
+            color: $brand-1;
+            text-decoration: none;
+        }
+
+
+        &:hover {
+            color: $standard-white;
+            background-color: $brand-1;
+            text-decoration: none;
+            transition: 0.45s;
+        }
     }
-}
-
-.sh-button-active {
-    background-color: $brand-1;
-    color: white;
 }
 
 .sh-header-lines {
@@ -214,43 +233,6 @@ a {
         @media screen and (max-width: 1091px) {
             width: 100%;
         }
-
-        .contact-button-wrapper {
-            display: flex;
-            justify-content: center;
-
-            .contact-button {
-                display: flex;
-                align-self: center;
-                flex-direction: column;
-                justify-content: center;
-                text-align: center;
-                width: 170px;
-                height: 60px;
-                border: 2px solid $brand-1;
-                border-radius: 3px;
-                color: $brand-1;
-                text-decoration: none;
-                transition: 0.45s;
-                margin-top: 20px;
-                font-weight: 600;
-                font-size: 16px;
-
-                &:visited {
-                    color: $brand-1;
-                    text-decoration: none;
-                }
-
-
-                &:hover {
-                    color: $standard-white;
-                    background-color: $brand-1;
-                    text-decoration: none;
-                    transition: 0.45s;
-                }
-            }
-        }
-        
     }
 }
 
@@ -662,6 +644,39 @@ a {
                 font-weight: bold;
             }
         }
+
+        .sh-services {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            align-items: flex-start;
+
+            .sh-service {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                max-width: 280px;
+                flex: 1 1 280px;
+                color: $standard-white;
+
+                img {
+                    height: 100px;
+                }
+
+                h3 {
+                    margin-top: 15px;
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+        }
     }
 
     .sh-light-band {
@@ -713,6 +728,10 @@ a {
         h4 {
             max-width: 800px;
             text-align: center;
+        }
+
+        .sh-light-band-content {
+            max-width: 780px;
         }
 
         .sh-services {
@@ -769,10 +788,15 @@ a {
         h2 {
             text-align: center;
             margin-bottom: 30px;
+            color: $charcoal;
         }
 
         p {
             max-width: 1000px;
+        }
+
+        .sh-white-band-content {
+            max-width: 780px;
         }
 
         .sh-services {
@@ -1520,7 +1544,6 @@ a {
                 padding: 30px;
 
                 &>h4 {
-                    font-family: bitter, serif;
                     text-align: center;
                 }
             }
@@ -1614,6 +1637,17 @@ a {
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
+        }
+    }
+}
+
+.elastic-events {
+    .elastic-event {
+        margin-bottom: 50px;
+
+        .elastic-event-date {
+            font-weight: bold;
+            color: $brand-1;
         }
     }
 }

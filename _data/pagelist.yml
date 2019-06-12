@@ -18,6 +18,14 @@ docs:
         title: "Public Sector"
         url: /public-sector.html
         friendlyUrl: public-sector
+      - 
+        title: Elastic
+        url: /elasticsearch.html
+        friendlyUrl: elasticsearch
+      - 
+        title: Elastic Meetup
+        url: /elastic-meetup.html
+        friendlyUrl: elastic-meetup
     title: Services
   - 
     title: Partnerships
@@ -31,14 +39,6 @@ docs:
     title: Blog
     url: /blog.html
     friendlyUrl: blog
-  - 
-    title: Elastic Meetup
-    url: /elastic-meetup.html
-    friendlyUrl: elastic-meetup
-  - 
-    title: Elastic
-    url: /elasticsearch.html
-    friendlyUrl: elasticsearch
   - 
     title: "Contact Us"
     url: /contact-us.html
