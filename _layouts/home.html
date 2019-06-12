@@ -80,16 +80,37 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {% endif %}
-                            {{item.title}}
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            {% for child in item.children %}
-                            <a class="dropdown-item" href="{{child.friendlyUrl}}">{{child.title}}</a>
-                            {% endfor %}
-                        </div>
+                                {{item.title}}
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                {% for child in item.children %}
+                                {% if page.url == child.url %}
+                                <a class="dropdown-item active" href="/{{child.friendlyUrl}}">{{child.title}}</a>
+                                {% else if page.url.size > 0 %}
+                                <a class="dropdown-item" href="/{{child.friendlyUrl}}">{{child.title}}</a>
+                                {% endif %}
+                                {% if child.grouping.size > 0 %}
+                                <div class="dropdown-divider"></div>
+                                <span class="grouping-name">{{child.grouping.name}}</span>
+                                {% for grandchild in child.grouping.children %}
+                                {% if page.url == grandchild.url %}
+                                <a class="dropdown-item active"
+                                    href="/{{grandchild.friendlyUrl}}">{{grandchild.title}}</a>
+                                {% else if page.url.size > 0 %}
+                                <a class="dropdown-item" href="/{{grandchild.friendlyUrl}}">{{grandchild.title}}</a>
+                                {% endif %}
+                                {% endfor %}
+                                {% endif %}
+                                {% endfor %}
+                            </div>
                     </li>
                     {% else %}
-                    <a class="nav-link" href="{{ item.friendlyUrl }}" alt="{{ item.title }}">{{ item.title }}</a>
+                    {% if page.url == item.url %}
+                    <a class="nav-link active" href="/{{ item.friendlyUrl }}"
+                        alt="{{ item.title }}">{{ item.title }}</a>
+                    {% else %}
+                    <a class="nav-link" href="/{{ item.friendlyUrl }}" alt="{{ item.title }}">{{ item.title }}</a>
+                    {% endif %}
                     {% endif %}
                     </li>
                     {% endfor %}

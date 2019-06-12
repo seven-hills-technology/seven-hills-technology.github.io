@@ -62,6 +62,12 @@ body {
     }
 }
 
+.grouping-name {
+    font-size: 13px;
+    color: $text-gray;
+    padding-left: 1.05rem;
+}
+
 ::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: $brand-2;
