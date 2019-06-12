@@ -645,6 +645,42 @@ a {
             }
         }
 
+        .sh-button-wrapper {
+            display: flex;
+            justify-content: center;
+
+            .sh-button {
+                display: flex;
+                align-self: center;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                width: 170px;
+                height: 60px;
+                border: 2px solid $standard-white;
+                border-radius: 3px;
+                color: $standard-white;
+                text-decoration: none;
+                transition: 0.45s;
+                margin-top: 20px;
+                font-weight: 600;
+                font-size: 16px;
+
+                &:visited {
+                    color: $standard-white;
+                    text-decoration: none;
+                }
+
+
+                &:hover {
+                    color: $brand-1;
+                    background-color: $standard-white;
+                    text-decoration: none;
+                    transition: 0.45s;
+                }
+            }
+        }
+
         .sh-services {
             display: flex;
             flex-direction: row;
@@ -1103,33 +1139,32 @@ a {
         width: 60%;
         margin-bottom: 30px;
     }
-}
 
-.git-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    width: 170px;
-    height: 60px;
-    border: 2px solid $charcoal;
-    border-radius: 3px;
-    color: $brand-1;
-    text-decoration: none;
-    transition: 0.45s;
-    font-weight: 600;
-
-    &:visited {
+    & .git-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 170px;
+        height: 60px;
+        border: 2px solid $brand-1;
+        border-radius: 3px;
         color: $brand-1;
         text-decoration: none;
-    }
-
-
-    &:hover {
-        color: $off-white;
-        background-color: $charcoal;
-        text-decoration: none;
         transition: 0.45s;
+        font-weight: 600;
+
+        &:visited {
+            color: $brand-1;
+            text-decoration: none;
+        }
+
+        &:hover {
+            color: $off-white;
+            background-color: $brand-1;
+            text-decoration: none;
+            transition: 0.45s;
+        }
     }
 }
 
@@ -1638,6 +1673,52 @@ a {
             justify-content: space-around;
             align-items: center;
         }
+    }
+}
+
+.two-col-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    & div {
+        padding: 30px;
+    }
+
+    & p {
+        margin-top: 40px;
+    }
+
+    .image-wrapper {
+        max-width: 40%;
+        min-width: 500px;
+
+        &>img {
+            width: 100%;
+        }
+
+        @media (max-width: 750px) {
+            & {
+                max-width: 80%;
+                width: 80%;
+                min-width: 0;
+            }
+        }
+    }
+
+    @media (max-width: 790px) {
+        & p {
+            margin-top: 20px;
+        }
+    }
+
+    @media (max-width: 750px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-wrapper {
+        max-width: 530px;
     }
 }
 

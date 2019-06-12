@@ -3,15 +3,15 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Elasticsearch and Elastic Stack Consulting and Training
-description: Seven Hills Technology provides consulting and training for the Elastic Stack
+title: Elasticsearch Consulting and Training
+description: Seven Hills Technology provides consulting and training for Elasticsearch, Logstash, Kibana, Beats, and the rest of the Elastic Stack.
 ---
 
 <section class="sh-intro" style="margin-bottom: 0px">
     <div class="sh-tagline">
         <h1 class="sh-header-lines"><span>Elastic Stack Implementation and Training</span></h1>
         <div class="sh-page-feature" >
-            <img src="/images/kibana.jpg" alt="Elastic Stack" />
+            <img src="/images/elastic.svg" alt="Elastic Logo" />
         </div>
     </div>
     <div class="sh-description">
@@ -20,13 +20,25 @@ description: Seven Hills Technology provides consulting and training for the Ela
 </section>
 <div class="sh-band-flair dark-top"></div> 
 <section class="sh-dark-band">
-    <h2 class="sh-dark-band-header">Elastic Implementation Services</h2>
-    <p class="sh-dark-band-content">Implementing a new technology stack can be challenging and complex, below are some of the services we provide to assist clients with their rollout of the Elastic Stack. If you'd like to have someone help you fit Elasticsearch into your company seemlessly, lets get together and see where we can help.</p>
-    <a class="git-button" href="https://app.hubspot.com/meetings/bradgardner/1-hour-consultation" rel="noreferrer"
-            target="_blank">Let's Chat</a>
+    <h1 class="sh-dark-band-header">Elastic Implementation Services</h1>
+    <div class="two-col-wrapper">
+        <div class="image-wrapper">
+            <img src="/images/kibana-perspective.png" alt="Kibana Screenshot" />
+        </div>
+        <div class="text-wrapper">
+            <p>
+                Implementing a new technology stack can be challenging and complex, below are some of the services we provide to assist clients with their rollout of the Elastic Stack. If you'd like to have someone help you fit Elasticsearch into your company seemlessly, lets get together and see where we can help.
+            </p>
+            <div class="sh-button-wrapper">
+                <a class="sh-button" href="https://app.hubspot.com/meetings/bradgardner/1-hour-consultation" rel="noreferrer"
+                        target="_blank">Let's Chat</a>
+            </div>
+        </div>
+    </div>
 </section>
 <div class="sh-band-flair dark-bottom"></div> 
-<section class="sh-white-band" style="padding-top: 0">
+<section class="sh-white-band">
+    <h1>Common Uses for Elastic</h1>
     <div class="">
         <div class="">
             <h2>Search Relevance</h2>
