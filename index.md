@@ -30,7 +30,7 @@ title: Seven Hills Technology in Cincinnati Ohio
 
 <div class="sh-band-flair light-top"></div>
 <section class="sh-light-band">
-    <h1>Software Solutions</h1>
+    <h2>Software Development Solutions</h2>
     <div class="sh-services">
         <div class="sh-service">
             <img class="lozad" data-src="/images/cloud-blue.svg" alt="Web Apps" />
@@ -39,7 +39,7 @@ title: Seven Hills Technology in Cincinnati Ohio
         </div>
         <div class="sh-service">
             <img class="lozad" data-src="/images/mobile-blue.svg" alt="Mobile Apps" />
-            <h3>Mobile Applications</h3>
+            <h3>Mobile Apps</h3>
             <p>Get more information to the right people at the right time with Native iOS and Android apps.</p>
         </div>
         <div class="sh-service">
@@ -87,7 +87,7 @@ title: Seven Hills Technology in Cincinnati Ohio
             </div>
             <div class="sh-product">
                 <div class="text">
-                    <h2><a href="/consulting" alt="Strategic Software Planning">Strategic Planning</a></h2>
+                    <h2><a href="/consulting" alt="Strategic Software Planning">Strategic Planning and Consulting</a></h2>
                     <div>
                         Great partnerships require great transparency, and we’re here to help you open the ‘black box’ of software development. We offer strategic planning services to help you put structure around your technology needs, both in short-term and long-term perspectives. This clarity of where you are today and where you’re heading in the future ensures you make the right investments at the right time in solutions that will support your goals.
                     </div>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact Us
-description: Contact Seven Hills Technology in Cincinnati Ohio to get started with your development or technology project today.
+description: Contact Seven Hills Technology in Cincinnati Ohio to get started with your software development or technology project today.
 ---
 <script async defer id="mapScript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6xMX3ed5ioFtxeQju5wddbWkcDfTeyug&callback=initMap"></script>
 <section class="sh-intro">
