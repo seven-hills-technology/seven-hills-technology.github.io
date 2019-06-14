@@ -98,23 +98,31 @@ body {
 h1 {
     font-family: lato, sans-serif;
     font-weight: 300;
+    font-size: 2.75rem;
 }
 
 h2 {
     font-family: lato, sans-serif;
     font-weight: 300;
+    font-size: 2.2rem;
 }
 
 h3 {
     font-family: lato, sans-serif;
-    font-weight: 400;
-    font-size: 1.6rem;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: $charcoal;
+
+    &.small-header {
+        font-size: 1.6rem;
+    }
 }
 
 h4 {
     font-family: benton-sans, sans-serif;
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 1.6rem;
 
 }
 
@@ -204,7 +212,6 @@ a {
         position: relative;
         display: inline-block;
         color: $charcoal;
-        font-size: 48px;
     }
 }
 
@@ -650,7 +657,7 @@ a {
         justify-content: center;
         align-items: center;
         background-color: $brand-1;
-        color: white;
+        color: $standard-white;
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 50px;
@@ -667,15 +674,23 @@ a {
             margin-bottom: 30px;
         }
 
+        h3 {
+            color: $standard-white;
+        }
+
         .sh-city-outline {
             margin-top: 10px;
             margin-bottom: 20px;
             width: 70%;
         }
 
-        h4 {
+        p {
             max-width: 1000px;
-            text-align: center;
+            
+            &.large-text {
+                font-size: 1.2rem;
+                text-align: center;
+            }
         }
 
         .sh-dark-band-content {
@@ -820,6 +835,7 @@ a {
             align-items: flex-start;
 
             .sh-service {
+                color: $brand-1;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -833,7 +849,9 @@ a {
                     height: 100px;
                 }
 
-                h3 {
+                &>h3 {
+                    color: $brand-1;
+                    font-weight: 400;
                     margin-top: 15px;
                     text-align: center;
                 }

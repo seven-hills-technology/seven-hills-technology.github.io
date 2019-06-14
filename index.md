@@ -34,22 +34,22 @@ title: Seven Hills Technology in Cincinnati Ohio
     <div class="sh-services">
         <div class="sh-service">
             <img class="lozad" data-src="/images/cloud-blue.svg" alt="Web Apps" />
-            <h3>Web Applications</h3>
+            <h3 class="small-header">Web Applications</h3>
             <p>Customize your web applications with our design-centered development and user-tested solutions.</p>
         </div>
         <div class="sh-service">
             <img class="lozad" data-src="/images/mobile-blue.svg" alt="Mobile Apps" />
-            <h3>Mobile Apps</h3>
+            <h3 class="small-header">Mobile Apps</h3>
             <p>Get more information to the right people at the right time with Native iOS and Android apps.</p>
         </div>
         <div class="sh-service">
             <img class="lozad" data-src="/images/integration-blue.svg" alt="Integrations" />
-            <h3>Integrations</h3>
+            <h3 class="small-header">Integrations</h3>
             <p>Improve efficiencies on web and mobile by aligning your existing platforms so they can directly talk to each other.</p>
         </div>
         <div class="sh-service">
             <img class="lozad" data-src="/images/iot-blue.svg" alt="Internet of Things" />
-            <h3>Internet of Things</h3>
+            <h3 class="small-header">Internet of Things</h3>
             <p>Take advantage of a connected world by controlling and collecting data from devices like building sensors or everyday household items.</p>
         </div>
     </div>
@@ -125,16 +125,16 @@ title: Seven Hills Technology in Cincinnati Ohio
 </section>
 <div class="sh-band-flair dark-top"></div>
 <section class="sh-dark-band">
-    <h1 id="mission-title" class="sh-fade-in">Technical Expertise Meets Creativity</h1>
+    <h2 id="mission-title" class="sh-fade-in">Technical Expertise Meets Creativity</h2>
     <div class="sh-city-outline">
         {% include city.html %}
     </div>
     <!-- <img src="images/city.svg" alt="City outline" /> -->
-    <h4 class="sh-fade-in">At Seven Hills Technology, our approach is built on a foundation of technical expertise, but we know that the real value and understanding begins when you see the way a mobile app or technology solution actually works and can impact your business. Meet the team of experts at Seven Hills ready to help you accelerate to the next level.</h4>
+    <p class="sh-fade-in large-text">At Seven Hills Technology, our approach is built on a foundation of technical expertise, but we know that the real value and understanding begins when you see the way a mobile app or technology solution actually works and can impact your business. Meet the team of experts at Seven Hills ready to help you accelerate to the next level.</p>
 </section>
 <div class="sh-band-flair dark-bottom"></div>
 <section class="sh-white-band">
-    <h1>Advanced Solutions for Modern Businesses and Organizations</h1>
+    <h2>Advanced Solutions for Modern Businesses and Organizations</h2>
     <div>
         <p>You have the power to operate more efficiently, communicate more effectively, and save your team time and money. Here are some of our clients’ outcomes after partnering with Seven Hills Technology:</p>
         <ul>

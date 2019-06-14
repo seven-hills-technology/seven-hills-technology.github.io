@@ -22,7 +22,7 @@ description: Seven Hills Technology provides custom software development of web 
 
 <div class="sh-band-flair dark-top"></div> 
 <section class="sh-dark-band">
-    <h1 class="sh-dark-band-header">What to Expect in Custom Development:</h1>
+    <h2 class="sh-dark-band-header">What to Expect in Custom Development</h2>
     <div class="steps">
         <div class="step">
             <div class="step-number">1</div>
@@ -64,7 +64,7 @@ description: Seven Hills Technology provides custom software development of web 
 <div class="sh-band-flair dark-bottom"></div> 
 
 <section class="sh-white-band">
-    <h1 class="sh-white-band-header">Our Development Process</h1>
+    <h2 class="sh-white-band-header">Our Development Process</h2>
     <div class="dev-steps">
         <div class="dev-step-list">
             <div class="dev-step">

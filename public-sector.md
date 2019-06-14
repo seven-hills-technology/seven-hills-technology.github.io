@@ -18,13 +18,13 @@ description: Seven Hills Technology designs and develops beautiful, efficient, a
 
 <div class="sh-band-flair dark-top"></div>
 <section class="sh-dark-band">
-    <h1 class="sh-dark-band-header">Facilitating Government Transparency and Communication</h1>
+    <h2 class="sh-dark-band-header">Facilitating Government Transparency and Communication</h2>
     <div id="govtWrapper">
         <div id="treeFrogImageWrapper">
             <img src="/images/tree-frog-device-frame.png" alt="Image of Bermuda Tree Frog App" />
         </div>
         <div id="treeFrogTextWrapper">
-            <h3>Government of Bermuda - Tree Frog</h3>
+            <h3 class="small-header">Government of Bermuda - Tree Frog</h3>
             <p>
                 Tree Frog was created to help the Bermuda government relay information to its citizens and allow residents to communicate issues to the government. The app takes its name from the prominent Whistling Frogs that inhabit the island and grace the area with their night call.
             </p>
@@ -41,21 +41,21 @@ description: Seven Hills Technology designs and develops beautiful, efficient, a
 <div class="sh-band-flair dark-bottom"></div>
 
 <section class="sh-white-band">
-    <h1 class="sh-white-band-header">How We Can Help You</h1>
+    <h2 class="sh-white-band-header">How We Can Help You</h2>
     <div class="sh-services" id="govtServices">
         <div class="sh-service govt-service">
             <img src="/images/cloud-blue.svg" alt="Web Apps" />
-            <h3>Web Applications</h3>
+            <h3 class="small-header">Web Applications</h3>
             <p>Customize your web applications with our design-centered development and user-tested solutions.</p>
         </div>
         <div class="sh-service govt-service">
             <img src="/images/mobile-blue.svg" alt="Mobile Apps" />
-            <h3>Mobile Apps</h3>
+            <h3 class="small-header">Mobile Apps</h3>
             <p>Get more information to the right people at the right time with Native iOS and Android apps.</p>
         </div>
         <div class="sh-service govt-service">
             <img src="/images/integration-blue.svg" alt="Integrations" />
-            <h3>Integrations</h3>
+            <h3 class="small-header">Integrations</h3>
             <p>Improve efficiencies on web and mobile by aligning your existing platforms so they can directly talk to each other.</p>
         </div>
     </div>
