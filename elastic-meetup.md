@@ -4,7 +4,7 @@
 
 layout: default
 title: Cincinnati Elastic User Group for Elasticsearch
-description: Seven Hills Technology is the proud organizer of the Cincinnati Elastic User Group meetup.
+description: Seven Hills Technology is the proud organizer of the Cincinnati Elastic User Group meetup to collaborate on Elasticsearch, Kibana, and related products.
 ---
 
 <section class="sh-intro">
