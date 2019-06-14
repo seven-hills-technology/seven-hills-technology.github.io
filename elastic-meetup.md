@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Cincinnati Elastic User Group for Elasticsearch and related products
+title: Cincinnati Elastic User Group for Elasticsearch
 description: Seven Hills Technology is the proud organizer of the Cincinnati Elastic User Group meetup.
 ---
 
