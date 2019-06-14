@@ -9,7 +9,7 @@ description: Seven Hills Technology provides consulting and training for Elastic
 
 <section class="sh-intro" style="margin-bottom: 0px">
     <div class="sh-tagline">
-        <h1 class="sh-header-lines"><span>Elastic Stack Implementation and Training</span></h1>
+        <h1 class="sh-header-lines"><span>Elasticsearch and Elastic Stack Implementation and Training</span></h1>
         <div class="sh-page-feature" >
             <img src="/images/elastic.svg" alt="Elastic Logo" />
         </div>
