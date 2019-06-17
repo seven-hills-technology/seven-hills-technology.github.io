@@ -18,6 +18,10 @@ body {
     color: $text-gray;
 }
 
+strong {
+    font-weight: 600;
+}
+
 .navbar {
     padding: 0px;
     font-weight: 300;
@@ -1302,6 +1306,10 @@ a {
             display: flex;
             flex-direction: column;
             justify-content: left;
+
+            @media (max-width: 768px) {
+                line-height: 48px;
+            }
         }
     }
 }
@@ -1473,17 +1481,18 @@ a {
 
         h2,
         h3 {
-            font-weight: bolder;
+            font-family: lato, sans-serif;
+            font-weight: 800;
             color: $charcoal;
             margin-bottom: 18px;
         }
 
         h2 {
-            font-size: 1.05em;
+            font-size: 1.25em;
         }
 
         h3 {
-            font-size: 1.02em;
+            font-size: 1.1em;
         }
 
         .img-center {
@@ -1500,18 +1509,18 @@ a {
 }
 
 /* Share Bar */
-#share-bar {
+.share-bar {
     font-size: 20px;
 }
 
 /* Title */
-#share-bar h4 {
+.share-bar h4 {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 0.85em;
 }
 
-#shareText {
+.share-text {
     text-transform: uppercase;
     font-family: benton-sans, sans-serif;
     font-weight: 200;
@@ -1600,13 +1609,16 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 
     .post {
         border-radius: 15px;
         width: 315px;
         display: flex;
         flex-direction: column;
+        box-shadow: 0 5px 10px rgba(154, 160, 185, .05),
+        0 15px 40px rgba(166, 173, 201, .2);
+        margin: 25px 40px;
 
         @media (max-width: 450px) {
             width: 90%;
@@ -1631,7 +1643,6 @@ a {
                 border-top-left-radius: 15px;
                 border-top-right-radius: 15px;
                 background-color: $washed-blue;
-                padding-bottom: 10px;
             }
 
             & div {
@@ -1646,12 +1657,12 @@ a {
 
         &:nth-child(even) {
             background-color: $off-white;
-            color: $charcoal;
+            color: $brand-1;
 
             &>a {
-                color: $charcoal;
+                color: $brand-1;
                 &:hover {
-                    color: $charcoal;
+                    color: $brand-1;
                 }
             }
         }

@@ -20,7 +20,9 @@ gem "jekyll", "~> 3.8.3"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem 'jekyll-compose'
   gem 'jekyll-sitemap'
+  gem 'jekyll-target-blank'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

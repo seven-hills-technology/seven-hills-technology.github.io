@@ -9,7 +9,7 @@ excerpt: As of February 2018, Google had 4 million businesses using G Suite for 
 sticky: true
 author: Brad Gardner
 description: Using a reseller for GSuite gives you front line support and the peace of mind that you don't miss any implementation details when deploying GSuite. Set up GSuite with Seven Hills Technology today.
-feature_image_url: /images/gsuite.png
+feature_image_url: /images/blog-posts/gsuite.png
 feature_image_alt: G Suite by Google
 ---
 
