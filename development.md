@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Custom Software Development
+title: Mobile App and Web Application Development
 description: Seven Hills Technology provides custom software development of web apps and mobile apps to clients in the Cincinnati area. 
 ---
 
 <section class="sh-intro">
     <div class="sh-tagline">
-        <h1 class="sh-header-lines"><span>Custom Development</span></h1>
+        <h1 class="sh-header-lines"><span>Mobile App and Web Application Development</span></h1>
         <div class="sh-page-feature" >
             <img src="/images/development-color.svg" alt="Custom Development" />
         </div>
@@ -22,7 +22,7 @@ description: Seven Hills Technology provides custom software development of web 
 
 <div class="sh-band-flair dark-top"></div> 
 <section class="sh-dark-band">
-    <h2 class="sh-dark-band-header">What to Expect in Custom Development</h2>
+    <h2 class="sh-dark-band-header">What to Expect in Mobile App and Web Application Development</h2>
     <div class="steps">
         <div class="step">
             <div class="step-number">1</div>

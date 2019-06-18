@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Software and Technology Consulting
-description: Seven Hills Technology provides software consulting services in any industry with local experienced consultants skilled at delivering high quality software solutions to clients.
+description: Software consulting services available for any industry from local, experienced consultants skilled at delivering high quality software solutions.
 ---
 
 <section class="sh-intro">

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Google G Suite
-description: Seven Hills Technology provides support and implementation of Google's GSuite. Using Seven Hills Technology as your reseller gives you the support you need to stay productive with GSuite.
+description: Google's GSuite provided and supported by Seven Hills Technology. Using us as your reseller gives you the support needed to stay productive with GSuite.
 ---
 
 <section class="sh-intro">

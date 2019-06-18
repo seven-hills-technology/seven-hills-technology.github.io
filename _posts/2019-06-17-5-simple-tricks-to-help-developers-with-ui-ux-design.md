@@ -8,7 +8,7 @@ tags: [design, ui, ux, software development]
 excerpt: Developers tend to struggle with design, but there are a few quick changes that can make your software shine. 
 sticky: true
 author: Brian Adams
-description: UI/UX design is complex and ever-changing. Most software developers feel lost when approaching design, but these simple tips can help boost software past design woes.
+description: UI/UX design is complex and ever-changing. Most software developers feel lost when approaching design, but simple changes can fix design woes.
 feature_image_url: /images/blog-posts/5-simple-tricks-ui-ux-design.jpg
 feature_image_alt: 
 ---
