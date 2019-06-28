@@ -2,10 +2,10 @@
 layout: post
 title: "Web vs Mobile: What's Right for You?"
 date: 2019-06-28 00:00 -0400
-tagline: How to choose the proper application platform to create an empathic solution for your users.
+tagline: How to use empathy to drive decisions around the platform for your future application.
 categories: business
 tags: [business, ux, software development, applications]
-excerpt: How to choose the proper application platform to create an empathic solution for your users.
+excerpt: How to use empathy to drive decisions around the platform for your future application.
 sticky: true
 author: Brian Adams
 description: If you're looking to develop a custom mobile app or web application, you can maximize adoption by using empathy.
