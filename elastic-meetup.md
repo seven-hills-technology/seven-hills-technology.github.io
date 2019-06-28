@@ -48,12 +48,6 @@ description: Seven Hills Technology is the proud organizer of the Cincinnati Ela
         <div class="elastic-events">
             <div class="elastic-event">
                 <h3>Distributed Tracing with APM and Microservices</h3>
-                <div>
-                    <div class="sh-button-wrapper">
-                        <a class="sh-button" href="http://meetu.ps/e/GNvv1/CgjZk/f"
-                            rel="noreferrer" target="_blank">Register to Attend</a>
-                    </div>
-                </div>
                 <span class="elastic-event-date">June 27th, 2019</span>
                 <p>For this meeting we're going to do a presentation and workshop on Distributed Tracing using APM. Bring your computers if you like and we'll have a sample github repo to clone that will be ready to set up with multiple microservices and we'll look at how distributed tracing is set up and can help you track performance metrics across a distributed architecture.</p>
                 <p>Special thanks to The Space Community Workplace for hosting <a href="https://www.cincinnatispaces.com" alt="The Space Community Workplace" rel="noopener">(https://www.cincinnatispaces.com/)</a></p>
