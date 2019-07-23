@@ -1803,3 +1803,48 @@ a {
         }
     }
 }
+
+.sh-team-member {
+    cursor: pointer;
+}
+
+.sh-team-member-bio {
+    padding-right: 25px;
+
+    @media (max-width: 890px) {
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
+.sh-team-member-contact {
+    border-left: 1px dotted gray;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    
+    @media (max-width: 890px) {
+        border-left: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+.sh-team-member-contact>.profile-picture {
+    align-self: center;
+}
+
+.sh-team-member-contact>.profile-picture>img {
+    width: 250px;
+}
+
+.sh-team-member-contact>.title {
+    font-size: 1.2em;
+}
+
+.sh-team-member-contact div {
+    margin-bottom: 10px;
+}

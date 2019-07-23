@@ -55,33 +55,10 @@
     flex-direction: row;
 }
 
-.sh-team-member-bio {
-    padding-right: 25px;
-}
-
-.sh-team-member-contact {
-    border-left: 1px dotted gray;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.sh-team-member-contact>.profile-picture {
-    align-self: center;
-}
-
-.sh-team-member-contact>.profile-picture>img {
-    width: 250px;
-}
-
-.sh-team-member-contact>.title {
-    font-size: 1.2em;
-}
-
-.sh-team-member-contact div {
-    margin-bottom: 10px;
+@media (max-width: 890px) {
+    .modal__content {
+        flex-wrap: wrap-reverse;
+    }
 }
 
 
