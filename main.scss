@@ -1841,8 +1841,10 @@ a {
     width: 250px;
 }
 
-.sh-team-member-contact>.title {
+.sh-team-member-contact>div>.title {
+    margin-top: 15px;
     font-size: 1.2em;
+    font-weight: 300;
 }
 
 .sh-team-member-contact div {
