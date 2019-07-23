@@ -22,41 +22,6 @@ description: The team at Seven Hills Technology brings experience and a wide var
         <p>Our staff is comprised of expert technical software developers from various backgrounds. Each member of our team has their own unique skillsets that will help define your solution and exceed your expectations.</p>
     </div>
     <div class="sh-about-us">
-        <div class="sh-team-members-container">
-            <div class="sh-team-members">
-                <div class="sh-team-member">
-                    <img class="sh-team-member-image" src="/images/brad-small.jpg" alt="Brad" title="Brad" />
-                    <p class="sh-team-member-name">Brad</p>
-                </div>
-                <div class="sh-team-member">
-                    <img class="sh-team-member-image" src="/images/sean-small.jpg" alt="Sean" title="Sean" />
-                    <p class="sh-team-member-name">Sean</p>
-                </div>
-                <div class="sh-team-member">
-                    <img class="sh-team-member-image" src="/images/brian-small.jpg" alt="Brian" title="Brian" />
-                    <p class="sh-team-member-name">Brian</p>
-                </div>
-                <div class="sh-team-member">
-                    <img class="sh-team-member-image" src="/images/matt-small.jpg" alt="Matt" title="Matt" />
-                    <p class="sh-team-member-name">Matt</p>
-                </div>
-                <div class="sh-team-member">
-                    <img class="sh-team-member-image" src="/images/spencer-small.jpg" alt="Spencer" title="Spencer" />
-                    <p class="sh-team-member-name">Spencer</p>
-                </div>
-                <div class="sh-team-member">
-                    <img class="sh-team-member-image" src="/images/AJ-small.jpg" alt="AJ" title="AJ" />
-                    <p class="sh-team-member-name">AJ</p>
-                </div>
-                <div class="sh-team-member">
-                    <img class="sh-team-member-image" src="/images/alec-small.jpg" alt="Alec" title="Alec" />
-                    <p class="sh-team-member-name">Alec</p>
-                </div>
-                <div class="sh-team-member">
-                    <img class="sh-team-member-image" src="/images/will-small.jpg" alt="Will" title="Will" />
-                    <p class="sh-team-member-name">Will</p>
-                </div>
-            </div>
-        </div>
+        {% include bios.html %}
     </div>
 </section>
