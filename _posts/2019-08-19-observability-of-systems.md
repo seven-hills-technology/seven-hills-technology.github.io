@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Observability of Systems
-date: 2019-08-20 00:00 -0400
+date: 2019-08-19 00:00 -0400
 tagline: Solve your next production issue with less headache and better insight.
 categories: development
 tags: [monitoring, software development, applications, support]
@@ -71,7 +71,7 @@ Tracing gives you a microscope to look in more detail about something specific o
 
  We’ve discussed what an observable system is, and taken a deeper look at some of the qualities of an observable system. Keeping these concepts in mind as you build out your next project or look to improve a current one, is a great step towards reducing the effort required to support production applications when they are behaving poorly. We’ll follow this post up with a look at our typical setup for building observable software.
 
- If you’d like to discuss observability in your organization, click the 'Schedule Now' button below for a free consultation on how you can improve your observability.
+ If you’d like to discuss observability in your organization, click the 'Schedule Now' button below or [contact us](/contact-us) for a free consultation on how you can improve your observability.
 
 **Check back soon for part 2!**
 
