@@ -10,10 +10,10 @@ $button-disabled: #B7B4B4;
 $standard-white: #fff;
 
 body {
-    font-family: benton-sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.5em;
     color: $text-gray;
 }
@@ -28,11 +28,11 @@ strong {
 }
 
 .nav-link {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .dropdown-item {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -100,21 +100,22 @@ strong {
 }
 
 h1 {
-    font-family: lato, sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
     font-size: 2.75rem;
+    text-transform: uppercase;
 }
 
 h2 {
     font-family: lato, sans-serif;
-    font-weight: 300;
+    font-weight: 900;
     font-size: 2.2rem;
 }
 
 h3 {
     font-family: lato, sans-serif;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 30px;
     color: $charcoal;
 
@@ -124,9 +125,9 @@ h3 {
 }
 
 h4 {
-    font-family: benton-sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 
 }
 
@@ -190,7 +191,7 @@ a {
         text-decoration: none;
         transition: 0.45s;
         margin-top: 20px;
-        font-weight: 600;
+        font-weight: 400;
         font-size: 16px;
 
         &:visited {
@@ -269,7 +270,7 @@ a {
                 text-decoration: none;
                 transition: 0.45s;
                 margin-top: 20px;
-                font-weight: 600;
+                font-weight: 400;
                 font-size: 16px;
 
                 &:visited {
@@ -317,7 +318,7 @@ a {
     }
 
     .sh-description {
-        margin-top: 20px;
+        margin-top: 40px;
         color: $text-gray;
         width: 80%;
         max-width: 780px;
@@ -655,6 +656,12 @@ a {
 }
 
 .sh-content {
+    .sh-band-feature {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
     .sh-dark-band {
         display: flex;
         flex-direction: column;
@@ -724,7 +731,7 @@ a {
                 text-decoration: none;
                 transition: 0.45s;
                 margin-top: 20px;
-                font-weight: 600;
+                font-weight: 400;
                 font-size: 16px;
 
                 &:visited {
@@ -968,7 +975,7 @@ a {
                 text-align: center;
                 font-size: 22px;
                 color: $brand-2;
-                font-family: benton-sans-condensed, sans-serif;
+                font-family: 'Open Sans'-condensed, sans-serif;
                 font-weight: 400;
                 margin-top: 10px;
                 text-transform: uppercase;
@@ -1139,16 +1146,18 @@ a {
     .sh-contact-us {
         padding-top: 20px;
         padding-bottom: 20px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
+
+        & > .sh-contact-wrapper {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 100%;
+        }
 
         & > div {
             width: 45%;
         }
-
-        form.hs-form {max-width: 100%;}
 
         .map {
             margin-right: 10px;
@@ -1215,14 +1224,15 @@ a {
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        width: 170px;
+        padding-left: 10px;
+        padding-right: 10px;
         height: 60px;
         border: 2px solid $brand-1;
         border-radius: 3px;
         color: $brand-1;
         text-decoration: none;
         transition: 0.45s;
-        font-weight: 600;
+        font-weight: 400;
 
         &:visited {
             color: $brand-1;
@@ -1433,7 +1443,7 @@ a {
     }
 
     .sh-description {
-        margin-top: 20px;
+        margin-top: 40px;
         color: $washed-blue;
         max-width: 850px;
         margin-left: auto;
@@ -1458,8 +1468,10 @@ a {
     }
 
     .tagline {
-        font-family: lato, sans-serif;
-        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.5em;
+        text-transform: uppercase;
         color: $brand-1;
     }
 
@@ -1528,7 +1540,7 @@ a {
 
 .share-text {
     text-transform: uppercase;
-    font-family: benton-sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 200;
 }
 

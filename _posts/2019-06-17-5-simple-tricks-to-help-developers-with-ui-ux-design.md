@@ -45,7 +45,7 @@ Serif fonts have the little "feet" on each character, where sans-serif doesn't. 
 
 Typography is key, but it's also one of the most challenging aspects of UI/UX design. There's no formula to pick the correct two fonts, and someone somewhere will  disagree with any of your choices. Think deeply about the message you are trying to send with your software, and try some out. There are tons of free fonts, so keep in mind what your users are expecting with your application and use that to guide your decision-making process.
 
-**My favorite font resources:** [Fonts That People Actually Use](https://icons8.com/fonts/lato/arial), [Adobe Fonts](https://fonts.adobe.com), [Google Fonts](https://fonts.google.com) 
+**My favorite font resources:** [Adobe Fonts](https://fonts.adobe.com), [Google Fonts](https://fonts.google.com) 
 
 
 

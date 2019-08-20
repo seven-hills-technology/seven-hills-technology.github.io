@@ -28,7 +28,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.typekit.net/jnr1com.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Open+Sans:300,400,800&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="/main.css">
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?">
     <!-- Facebook Pixel Code -->
@@ -121,21 +121,7 @@
         {{content}}
     </section>
 
-    {% if page.url == '/gsuite.html' %}
-    <div class="last-light-blue">
-        <div class="sh-band-flair light-top git-flair"></div>
-    </div>
-    {% else %}
-    <div class="sh-band-flair light-top"></div>
-    {% endif %}
-    <section class="sh-get-in-touch">
-        <h2>Interested in a quick conversation? We're here to help.</h2>
-        <a class="git-button" href="https://app.hubspot.com/meetings/bradgardner/1-hour-consultation"
-            target="_blank">Schedule Now</a>
-    </section>
-    <div class="last-light-blue">
-        <div class="sh-band-flair light-bottom git-flair"></div>
-    </div>
+    {% include standard-cta.html %}
     <footer class="sh-footer">
         <div class="sh-contact-info">
             <div class="sh-contact-section sh-find-us">

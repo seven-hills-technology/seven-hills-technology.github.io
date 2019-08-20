@@ -30,13 +30,17 @@ docs:
               title: Elastic Meetup
               url: /elastic-meetup.html
               friendlyUrl: elastic-meetup
-    title: What We Do
+    title: Services
+  -
+    title: Pricing
+    url: /pricing.html
+    friendlyUrl: pricing
   - 
     title: Partnerships
     url: /partnerships.html
     friendlyUrl: partnerships
   - 
-    title: "About Us"
+    title: "About"
     url: /about.html
     friendlyUrl: about
   - 
@@ -44,7 +48,7 @@ docs:
     url: /blog.html
     friendlyUrl: blog
   - 
-    title: "Contact Us"
+    title: "Contact"
     url: /contact-us.html
     friendlyUrl: contact-us
 docs_list_title: Pages
