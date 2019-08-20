@@ -1507,6 +1507,7 @@ a {
         h4 {
             text-transform: uppercase;
             font-size: 1.3rem;
+            font-weight: 900;
         }
 
         ul {
@@ -1656,8 +1657,7 @@ a {
             }
 
             &>img {
-                min-height: 100px;
-                width: 100%;
+                height: 210px;
                 border-top-left-radius: 15px;
                 border-top-right-radius: 15px;
                 background-color: $washed-blue;
