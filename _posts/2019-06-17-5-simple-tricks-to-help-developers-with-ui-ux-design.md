@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 5 Simple Tricks To Help Developers with UI/UX Design
+title: 5 Tricks To Help Developers with Design
 date: 2019-06-17 15:58 -0400
 tagline: "Developers tend to struggle with design, but there are a few quick changes that can make your software shine."
 categories: ui-ux design
