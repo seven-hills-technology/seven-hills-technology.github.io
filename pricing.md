@@ -4,6 +4,7 @@ title: How Much Does It Cost To Build An App?
 description: How much does it cost to build an app or website? Here's a guide on how much we charge, how we work, and how it'll bring your idea to life.
 cta_title: Have an idea for an app or website?
 cta_link: Let's Meet For Coffee
+feature_image_url: /images/wallet.svg
 ---
 
 <section class="sh-intro">
