@@ -16,7 +16,10 @@ feature_image_url: /images/wallet.png
     </div>
     <div class="sh-description">
         <p>
-            Putting a price on software development is a complicated task. To answer your base question, <strong>our projects typically fall between $50,000 and $200,000</strong>.
+            Putting a price on software development is a complicated task. To answer your base question, <strong>our projects typically fall between $50,000 and $200,000</strong>. 
+        </p>
+        <p>
+            To find out more on the timeline and process invovled, read our blog post <a href="/business/2019/08/29/how-long-does-a-project-take" alt="">"How long does a project take?"</a>
         </p>
     </div>
 </section>
