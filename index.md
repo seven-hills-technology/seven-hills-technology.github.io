@@ -135,7 +135,7 @@ title: Seven Hills Technology in Cincinnati Ohio
 <div class="sh-band-flair dark-bottom"></div>
 <section class="sh-white-band">
     <h2>How We Help Our Clients</h2>
-    <p>You have the power to be more efficient, communicate more effectively, and save time and money. The results you can expect by innovating with us:</p>
+    <p>You have the power to be more efficient, communicate more effectively, and save time and money. The results you can expect with our mobile and web apps:</p>
     <div class="sh-benefits">
         <div class="sh-benefit">
             <i class="fad fa-rocket fa-4x"></i>
