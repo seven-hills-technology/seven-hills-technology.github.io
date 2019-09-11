@@ -290,6 +290,42 @@ a {
     }
 }
 
+.default-button-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .default-button {
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 170px;
+        height: 60px;
+        border: 2px solid $brand-1;
+        border-radius: 3px;
+        color: $brand-1;
+        text-decoration: none;
+        transition: 0.45s;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 16px;
+
+        &:visited {
+            color: $brand-1;
+            text-decoration: none;
+        }
+
+
+        &:hover {
+            color: $standard-white;
+            background-color: $brand-1;
+            text-decoration: none;
+            transition: 0.45s;
+        }
+    }
+}
+
 .sh-header {
     padding-left: 5%;
     padding-right: 5%;
@@ -1187,6 +1223,36 @@ a {
 
     }
 
+}
+
+.sh-benefits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    align-items: flex-start;
+
+    .sh-benefit {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        flex: 1 1 200px;
+
+        i {
+            color: $brand-2;
+        }
+
+        div {
+            margin-top: 15px;
+            color: $text-gray;
+            text-align: center;
+        }
+    }
 }
 
 .last-light-blue {

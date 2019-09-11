@@ -13,9 +13,9 @@ title: Seven Hills Technology in Cincinnati Ohio
         </div>
         <div class="sh-home-text">
             <div class="sh-tagline">
-                <h1 class="sh-header-lines"><span>Web and mobile applications for modern business challenges.</span></h1>
+                <h1 class="sh-header-lines"><span>Web and mobile apps for innovative organizations.</span></h1>
             </div>
-            <div class="sh-description home-description">Seven Hills Technology is a mobile and web application development company in Cincinnati, OH with one goal: to help your organization succeed by developing custom software solutions to meet your needs.
+            <div class="sh-description home-description">Seven Hills Technology is an innovation company in Cincinnati, OH with one goal: to help your organization succeed by developing custom mobile and web apps to meet your needs.
             </div>
             <div class="sh-description home-description">
                 Business of all sizes and industries can grow with technology, and we’re here to show you how. 
@@ -134,17 +134,44 @@ title: Seven Hills Technology in Cincinnati Ohio
 </section>
 <div class="sh-band-flair dark-bottom"></div>
 <section class="sh-white-band">
-    <h2>Advanced Solutions for Modern Businesses and Organizations</h2>
-    <div>
-        <p>You have the power to operate more efficiently, communicate more effectively, and save your team time and money. Here are some of our clients’ outcomes after partnering with Seven Hills Technology:</p>
-        <ul>
-            <li>More efficient operations</li>
-            <li>Better methods of distributing information and alerts</li>
-            <li>Higher levels of employee/community engagement</li>
-            <li>Less downtime due to systems and/or software performance</li>
-            <li>Increased visibility and faster reporting solutions</li>
-            <li>Faster connectivity between devices and platforms</li>
-        </ul>
+    <h2>How We Help Our Clients</h2>
+    <p>You have the power to be more efficient, communicate more effectively, and save time and money. The results you can expect by innovating with us:</p>
+    <div class="sh-benefits">
+        <div class="sh-benefit">
+            <i class="fad fa-rocket fa-4x"></i>
+            <div>Supercharged efficiency</div>
+        </div>
+        <div class="sh-benefit">
+            <i class="fad fa-users fa-4x"></i>
+            <div>Engaged employees and customers</div>
+        </div>
+        <div class="sh-benefit">
+            <i class="fad fa-smile-beam fa-4x"></i>
+            <div>Fewer headaches</div>
+        </div>
+        <div class="sh-benefit">
+            <i class="fad fa-bolt fa-4x"></i>
+            <div>Lightning-fast information</div>
+        </div>
+    </div>
+</section>
+<section class="sh-white-band">
+    <h2>Read Our Musings</h2>
+    <p>Read our recent blog posts</p>
+    <div class="sh-blog">
+        {% for post in site.posts limit: 3 %}
+        <div class="post">
+            <a href="{{post.url}}" alt="{{post.title}}">
+                <img src="{{ post.feature_image_url }}" alt="{{post.feature_image_alt}}">
+                <div>
+                    <h4>{{post.title}}</h4>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="default-button-wrapper"> 
+        <a class="default-button" href="/blog">View Our Blog</a>
     </div>
 </section>
 <!-- <section class="sh-clients">Clients</section> -->
