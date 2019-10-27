@@ -268,7 +268,8 @@ a {
                 flex-direction: column;
                 justify-content: center;
                 text-align: center;
-                width: 170px;
+                padding-left: 10px;
+                padding-right: 10px;
                 height: 60px;
                 border: 2px solid $brand-1;
                 border-radius: 3px;
@@ -370,6 +371,8 @@ a {
 
         &.home-description {
             font-size: 20px;
+            text-align: center;
+            line-height: 35px;
         }
 
         &>h3 {
