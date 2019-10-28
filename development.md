@@ -72,14 +72,14 @@ cta_title: Let's get some coffee and figure out what's next.
                     </p>
                 </div>
                 <div class="img-container right hidden-md">
-                    <img src="/images/scoping.svg" alt="Project Scoping" />
+                    <img style="width: 100%" src="/images/scoping.svg" alt="Project Scoping" />
                 </div>
             </div>
         </div>
         <div class="mis-child align-right">
             <div class="row-container">
                 <div class="img-container left hidden-md">
-                    <img src="/images/devcycle.svg" alt="The Development Cycle" />
+                    <img style="width: 100%" src="/images/devcycle.svg" alt="The Development Cycle" />
                 </div>
                 <div class="process-description-container">
                     <h3>The Development Cycle</h3>
@@ -109,7 +109,7 @@ cta_title: Let's get some coffee and figure out what's next.
                     </p>
                 </div>
                 <div class="img-container right hidden-md">
-                    <img src="/images/supportandmaint.svg" alt="Support and Maintenance" />
+                    <img style="width: 100%" src="/images/supportandmaint.svg" alt="Support and Maintenance" />
                 </div>
             </div>
         </div>
