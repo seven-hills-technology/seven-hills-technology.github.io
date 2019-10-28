@@ -39,7 +39,7 @@ cta_title: Let's get some coffee and figure out what's next.
                 <em>“They truly understand our business, and act as a partner rather just a developer.”</em>
             </p>
             <p class="medium-p">
-                Our clients love working with us not only for our technical expertise, buto for our passion and care for them and their organizations.
+                Our clients love working with us not only for our technical expertise, but for our passion and care for them and their organizations.
             </p>
         </div>
         <div class="mis-child">
