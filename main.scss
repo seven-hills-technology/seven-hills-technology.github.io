@@ -728,6 +728,20 @@ a {
         h2 {
             text-align: center;
             margin-bottom: 30px;
+
+            &.large-h2 {
+                font-size: 68px;
+                text-transform: uppercase;
+                text-align: right;
+
+                @media (max-width: 1024px) {
+                    font-size: 60px;
+                }
+
+                @media (max-width: 768px) {
+                    font-size: 48px;
+                }
+            }
         }
 
         h3 {
@@ -866,6 +880,20 @@ a {
         h2 {
             text-align: center;
             margin-bottom: 30px;
+
+            &.large-h2 {
+                font-size: 68px;
+                text-transform: uppercase;
+                text-align: left;
+
+                @media (max-width: 1024px) {
+                    font-size: 60px;
+                }
+
+                @media (max-width: 768px) {
+                    font-size: 48px;
+                }
+            }
         }
 
         .sh-city-outline {
@@ -929,6 +957,7 @@ a {
         padding-right: 10px;
         padding-top: 95px;
         padding-bottom: 95px;
+        overflow-x: hidden;
 
         h1 {
             text-align: center;
@@ -941,10 +970,29 @@ a {
             text-align: center;
             margin-bottom: 30px;
             color: $charcoal;
+
+            &.large-h2 {
+                font-size: 68px;
+                text-transform: uppercase;
+                text-align: left;
+                color: $brand-1;
+
+                @media (max-width: 1024px) {
+                    font-size: 60px;
+                }
+
+                @media (max-width: 768px) {
+                    font-size: 48px;
+                }
+            }
         }
 
         p {
             max-width: 1000px;
+
+            &.full-width {
+                max-width: 100%;
+            }
         }
 
         .sh-white-band-content {
@@ -1946,4 +1994,210 @@ a {
 
 .sh-team-member-contact div {
     margin-bottom: 10px;
+}
+
+.negative-top {
+    margin-top: -10%;
+}
+
+.sh-landing-intro {
+    width: 100%;
+    padding-left: 10%;
+
+    @media(max-width: 1400px) {
+        padding-left: 5%;
+    }
+
+    @media(max-width: 1100px) {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    &.dev-background {
+        background: transparent url('/images/development-gray.svg') 0% 0% no-repeat padding-box;
+        background-position: right;
+        background-size: 60% auto;
+        min-height: 886px;
+        margin: 0 auto;
+
+        @media(min-width: 2000px) {
+            min-height: 1200px;
+        }
+
+        @media(max-width: 1400px) {
+            min-height: 696px;
+        }
+
+        @media(max-width: 1100px) {
+            padding: 0;
+            margin: 0 auto;
+
+            background-position: center bottom;
+            min-height: calc(100vh - 100px);
+            background-size: 90% auto;
+        }
+
+        & h1 {
+            padding-top: 15%;
+            max-width: 655px;
+            text-align: center;
+            color: $charcoal;
+
+            @media (min-width: 2000px) {
+                padding-top: 20%;
+            }
+
+            @media(max-width: 1400px) {
+                max-width: 500px;
+            }
+
+            @media(max-width: 1100px) {
+                padding-top: 20px;
+                max-width: 100%;
+            }
+        }
+
+        & p {
+            padding-top: 20px;
+            max-width: 655px;
+            text-align: center;
+            color: $charcoal;
+            font-size: 26px;
+
+            @media(max-width: 1400px) {
+                max-width: 500px;
+            }
+
+            @media(max-width: 1100px) {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+.modern-information-structure {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    @media (max-width: 612px) {
+        flex-direction: column;
+
+        &.reverse-items {
+            flex-flow: column-reverse;
+        }
+    }
+
+    @media(max-width: 1400px) {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    & .mis-child {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+        justify-content: center;
+
+        @media (max-width: 612px) {
+            width: 100%;
+        }
+
+        &.align-right {
+            justify-content: right;
+        }
+
+        &.align-left {
+            justify-content: left;
+        }
+    }
+
+    &.alt {
+        flex-direction: column;
+        
+        & .mis-child {
+            width: 100%;
+            padding: 3%;
+
+            & .row-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                @media (max-width: 612px) {
+                    flex-direction: column;
+                }
+
+                & .process-description-container {
+                    min-width: 40%;
+
+                    & p {
+                        font-size: 20px;
+                        line-height: 56px;
+                        margin-bottom: 56px;
+                    }
+                }
+                
+                & div.img-container {
+                    display: flex;
+                    max-width: 55%;
+
+                    & img {
+                        min-height: 100%;
+                    }
+
+                    &.left {
+
+                        justify-content: right;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.big-p {
+    color: $charcoal;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 49px;
+    margin-bottom: 49px;
+    max-width: 600px;
+}
+
+.quote {
+    font-size: 28px;
+    line-height: 49px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.medium-p {
+    color: white;
+    font-size: 24px;
+    line-height: 49px;
+
+    &.gray {
+        color: $text-gray;
+    }
+}
+
+.visible-md {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .visible-md {
+        display: block;
+    }
+
+    .hidden-md {
+        display: none !important;
+    }
 }

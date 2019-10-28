@@ -2,94 +2,116 @@
 layout: default
 title: Mobile App and Web Application Development
 description: Seven Hills Technology provides custom software development of web apps and mobile apps to clients in the Cincinnati area. 
+cta_title: Let's get some coffee and figure out what's next.
 ---
 
-<section class="sh-intro">
-    <div class="sh-tagline">
-        <h1 class="sh-header-lines"><span>Mobile App and Web Application Development</span></h1>
-        <div class="sh-page-feature" >
-            <img src="/images/development-color.svg" alt="Custom Development" />
-        </div>
-    </div>
-    <div class="sh-description">
-        Trusting Seven Hills Technology to help with your business or organization’s solution doesn’t mean you are left out of the development process! In fact, our most successful clients are those organizations and people who consider us a partner. Our Project Teams will make sure you understand the process, have the opportunity to provide feedback along the way, and get to a final product smoothly, cost-effectively, and with the highest-quality solutions.
-    </div>
-    <h2 class="sh-header-lines"><span>Is custom development right for you?</span></h2>
-    <div class="sh-description">
-        Sometimes an off the shelf software package fits your needs well, but other times the investment in fitting that software into your business and integrating with your existing workflow drives the cost up in unforseen ways. For those situations, where you have a specific business need, and the off the shelf options are not quite fitting in, building custom software to fit your internal business is the cost effective and lower risk approach. By working with an experienced development partner such as Seven Hills Technology, you can drive the risk down even further and avoid additional unexpected costs.
-    </div>
+<section class="sh-landing-intro dev-background">
+    <h1>Mobile App and Web Application Development</h1>
+    <p><strong>Turbo-charge</strong> your growth with custom software.</p>
 </section>
 
-<div class="sh-band-flair dark-top"></div> 
-<section class="sh-dark-band">
-    <h2 class="sh-dark-band-header">What to Expect in Mobile App and Web Application Development</h2>
-    <div class="steps">
-        <div class="step">
-            <div class="step-number">1</div>
-            <div class="step-title">Discover</div>
-            <div class="step-caption">
-                You share where your business is and, in turn, where you’d like to be in the future. 
-            </div>
+<div class="sh-band-flair light-top negative-top"></div> 
+<section class="sh-light-band">
+    <div class="modern-information-structure">
+        <div class="mis-child">
+            <h2 class="large-h2">Custom <br/>Software <br/>to Move <br/>You Forward</h2>
         </div>
-        <div class="step">
-            <div class="step-number">2</div>
-            <div class="step-title">Define</div>
-            <div class="step-caption">
-                We’ll outline and define each specific task that needs to be done to meet the goals of the project.
-            </div>
-        </div>
-        <div class="step">
-            <div class="step-number">3</div>
-            <div class="step-title">Refine</div>
-            <div class="step-caption">
-                With your guidance and review, we walk back to the start of the process and make sure everything is covered.
-            </div>
-        </div>
-        <div class="step">
-            <div class="step-number">4</div>
-            <div class="step-title">Design</div>
-            <div class="step-caption">
-                You test and review our proposed solution, and we’ll show you exactly how your end product is going to look and function.
-            </div>
-        </div>
-        <div class="step">
-            <div class="step-number">5</div>
-            <div class="step-title">Development</div>
-            <div class="step-caption">
-                We get to work, and you get results.
-            </div>
+        <div class="mis-child align-right">
+            <p class="big-p">
+                You may have an idea for a mobile app. Maybe it’s more than an idea, and you’ve already started. Or maybe it’s less than an idea, and you need to find a way to improve your business through technology.
+            </p>
+            <p class="big-p">
+                No matter the situation you are in, we’ve dealt with it before. As a true technical partner, our goal is to provide you and your business value as quickly as possible. That means analyzing, scoping, and creating custom software in bite-sized segments to minimize your risk.
+            </p>
+            <p class="big-p">
+                No matter the purpose of the software, our passion and focus is creating unique and comfortable experiences for anyone who uses it.
+            </p>
         </div>
     </div>
 </section>
-<div class="sh-band-flair dark-bottom"></div> 
+<div class="sh-band-flair light-bottom"></div> 
+
+<div class="sh-band-flair dark-top"></div>
+<section class="sh-dark-band">
+    <div class="modern-information-structure reverse-items">
+        <div class="mis-child align-left">
+            <p class="quote">
+                <em>“They truly understand our business, and act as a partner rather just a developer.”</em>
+            </p>
+            <p class="medium-p">
+                Our clients love working with us not only for our technical expertise, buto for our passion and care for them and their organizations.
+            </p>
+        </div>
+        <div class="mis-child">
+            <h2 class="large-h2">More Than <br/>Software <br/>Developers</h2>
+        </div>
+    </div>
+</section>
+<div class="sh-band-flair dark-bottom"></div>
 
 <section class="sh-white-band">
-    <h2 class="sh-white-band-header">Our Development Process</h2>
-    <div class="dev-steps">
-        <div class="dev-step-list">
-            <div class="dev-step">
-                <div class="dev-step-title">1. Define</div>
-                <div class="dev-step-description">We start each development cycle by figuring out and detailing what can be done before the next release.</div>
-            </div>
-            <div class="dev-step">
-                <div class="dev-step-title">2. Build</div>
-                <div class="dev-step-description">After detailing, we get to work. Our engineers bring those details to life.</div>
-            </div>
-            <div class="dev-step">
-                <div class="dev-step-title">3. Test</div>
-                <div class="dev-step-description">Everything we release is tested, re-tested, and tested one last time.</div>
-            </div>
-            <div class="dev-step">
-                <div class="dev-step-title">4. Demo</div>
-                <div class="dev-step-description">You’ll see everything we’ve done, and give the final approval before we release.</div>
-            </div>
-            <div class="dev-step">
-                <div class="dev-step-title">5. Release</div>
-                <div class="dev-step-description">This cycles’ changes are released, and our cycle starts again.</div>
+    <div class="modern-information-structure alt">
+        <div class="mis-child align-left">
+            <h2 class="large-h2">Our <br/>Process</h2>
+        </div>
+        <div class="mis-child align-left">
+            <p class="medium-p gray full-width">
+                It takes a team to build software. <a href="/pricing" alt="Pricing">It takes an incredible team to build useful software</a>. We have carefully crafted our team over the last four years to ensure the best possible results.
+            </p>
+        </div>
+        <div class="mis-child align-left">
+            <div class="row-container">
+                <div class="process-description-container">
+                    <h3>Project Scoping</h3>
+                    <img class="visible-md" style="max-width: 100%;" src="/images/scoping.svg" alt="Project Scoping" />
+                    <p>
+                        We start each project by finding out your end goal. <strong>We do what most companies don't &mdash; listen.</strong> We want to know your loftiest goals and your realistic outcomes. We want to hear about all off the positives and negatives facing you and your organization. 
+                    </p>
+                    <p>
+                        Once we figure out everything we need to know about you and your organization, we work with you to prioritize what will give you the most value. From there, we start scoping out small projects so we can start our favorite part: <strong>delivering you value.</strong>
+                    </p>
+                </div>
+                <div class="img-container right hidden-md">
+                    <img src="/images/scoping.svg" alt="Project Scoping" />
+                </div>
             </div>
         </div>
-        <div class="dev-step-graphic">
-            <img src="/images/dev-process.svg" alt="Development Process" />
+        <div class="mis-child align-right">
+            <div class="row-container">
+                <div class="img-container left hidden-md">
+                    <img src="/images/devcycle.svg" alt="The Development Cycle" />
+                </div>
+                <div class="process-description-container">
+                    <h3>The Development Cycle</h3>
+                    <img class="visible-md" style="max-width: 100%" src="/images/devcycle.svg" alt="The Development Cycle" />
+                    <p>
+                        Like most modern development companies, we take an agile approach to building software. Unlike most modern development companies, <strong>we love when you’re extremely involved.</strong> Transparency has been one of our core values from the day we started our business, and we firmly believe it’s the only way to build incredible software.
+                    </p>
+                    <p>
+                        We cycle through requirements definition, design, develompent, testing, and delivering on our projects in two week intervals. We recommend you read our post, “<a href="/business/2019/08/29/how-long-does-a-project-take" alt="Link to Blog Post">How Long Does a Project Take?</a>” to get a better idea of how we work.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="mis-child align-left">
+            <div class="row-container">
+                <div class="process-description-container">
+                    <h3>Support and Maintenance</h3>
+                    <img class="visible-md" style="max-width: 100%; max-height: 510px; margin: 0 auto;" src="/images/supportandmaint.svg" alt="Support and Maintenance" />
+                    <p>
+                        Software is never done. <strong>Even when a project is “complete”, it’s never finished.</strong> After development is done, there are still technical items that arise, servers to be maintained, and upgrades to be made.
+                    </p>
+                    <p>
+                        We provide support and maintenance for every application we build. Our support includes working with you and your clients to <strong>find and solve issues, provide better understanding, and be a sounding board for new ideas.</strong>
+                    </p>
+                    <p>
+                        Software maintenance is critical to prevent falling behind, or worse. With each new operating system, Android and iOS may require changes. With each database update, you may get better performance. <strong>We track and solve these issues without you breaking a sweat.</strong>
+                    </p>
+                </div>
+                <div class="img-container right hidden-md">
+                    <img src="/images/supportandmaint.svg" alt="Support and Maintenance" />
+                </div>
+            </div>
         </div>
     </div>
 </section>
