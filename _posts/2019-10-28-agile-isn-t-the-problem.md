@@ -22,7 +22,7 @@ If you've tried and failed implementing an agile way of working, the problem lik
 
 ## What is Agile?
 
-To be clear, there are several ways of implementing an agile process. Many people believe agile is a software development process, when really it's a management process that can be useful for any business. We've seen agile become commonplace in mayn industries outside of software development.
+To be clear, there are several ways of implementing an agile process. Many people believe agile is a software development process, when really it's a management process that can be useful for any business. We've seen agile become commonplace in many industries outside of software development.
 
 Explaining agile has been done time and time again. [Agile in a Nutshell](http://www.agilenutshell.com) is a tremendous resource for learning everything about agile, from the basics to "advanced" agile practices. For this blog post, think of agile in its simplest form: taking an iterative approach to solving a problem.
 
