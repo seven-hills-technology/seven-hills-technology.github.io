@@ -31,6 +31,13 @@ title: Seven Hills Technology in Cincinnati Ohio
 <div class="sh-band-flair light-top"></div>
 <section class="sh-light-band">
     <h2>Software Development Solutions</h2>
+    <div style="max-width: 100%; display: flex; flex-direction: row; justify-content: center;padding-bottom: 20px;">
+        <video poster="/videos/poster.jpg" controls preload style="max-height: 35vh; display: flex;">
+            <source src="/videos/intro-video.mp4" media="only screen and (min-device-width: 568px)"></source>
+            <source src="/videos/intro-video.mobile.mp4" media="only screen and (max-device-width: 568px)"></source>
+            <source src="/videos/intro-video.webm"></source>
+        </video>
+    </div>
     <div class="sh-services">
         <div class="sh-service">
             <img class="lozad" data-src="/images/cloud-blue.svg" alt="Web Apps" />
