@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://sevenhillstechnology.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sevenhillstechnology.com/" rel="alternate" type="text/html" /><updated>2019-11-04T09:02:59-05:00</updated><id>https://sevenhillstechnology.com/</id><title type="html">Seven Hills Technology | Software Development Cincinnati</title><subtitle>Seven Hills Technology is a software design and development company in Cincinnati, OH innovating businesses through mobile apps, web apps, and integrations.</subtitle><entry><title type="html">Staff Augmentation vs. Project-based Consulting</title><link href="https://sevenhillstechnology.com/business/2019/11/03/staff-augmentation-vs-project-based-consulting" rel="alternate" type="text/html" title="Staff Augmentation vs. Project-based Consulting" /><published>2019-11-03T23:00:00-05:00</published><updated>2019-11-03T23:00:00-05:00</updated><id>https://sevenhillstechnology.com/business/2019/11/03/staff-augmentation-vs-project-based-consulting</id><content type="html" xml:base="https://sevenhillstechnology.com/business/2019/11/03/staff-augmentation-vs-project-based-consulting">&lt;p&gt;&lt;img src=&quot;/images/blog-posts/staff-aug-vs-project.jpg&quot; alt=&quot;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So, you want to build some software. But where do you start? Maybe you’re not ready to take on the large task of hiring a team internally. Of all the options out there for building your software, two of the most common are staff augmentation and project-based consulting. So what’s best for you, staff augmentation or project-based consulting?﻿&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-staff-augmentation&quot;&gt;What is Staff Augmentation?&lt;/h2&gt;
+&lt;p&gt;Staff augmentation is when you hire a company to fill out gaps in your staff. The process is relatively simple: you call a staff augmentation company, discuss your project with them, and they find the personnel for your project. Those employees then come and work in your office. Their tenure is as long as agreed upon between you and the staff augmentation company.﻿&lt;/p&gt;
+
+&lt;h3 id=&quot;staff-augmentation-benefits&quot;&gt;Staff Augmentation Benefits&lt;/h3&gt;
+&lt;p&gt;Staff augmentation has a significant number of benefits. You get qualified developers, working in your office, at your desired times, and on your desired projects. When something goes wrong, you’ve got immediate access to them and they can provide immediate feedback to you. If you’ve got an existing team, it’s easy for staff augmentation companies to provide you temporary employees who can easily assimilate with your team by being in your office for the workday.&lt;/p&gt;
+
+&lt;h3 id=&quot;staff-augmentation-challenges&quot;&gt;Staff Augmentation Challenges&lt;/h3&gt;
+&lt;p&gt;There are a lot of great benefits of staff augmentation, but they come at the expense of some significant drawbacks. By having new temporary employees in your office, you’re increasing the workload on your HR and IT departments. Those employees need spaces to work, employee badges, desks, monitors, and other equipment. These additional expenses can come at a significant cost for your company, not to mention that hourly rates are often higher for staff augmentation than project-based consulting.&lt;/p&gt;
+
+&lt;div class=&quot;comparison-table&quot;&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Staff Augmentation&lt;/th&gt;
+      &lt;th&gt;Project-based Consulting&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Qualified Developers&lt;/td&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-check-circle&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-check-circle&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;In-office Work&lt;/td&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-check-circle&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Your Hours&lt;/td&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-check-circle&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Immediate Availability for Issues&lt;/td&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-check-circle&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;No Equipment and Desks&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-check-circle&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;No Additional HR Work&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-check-circle&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Lower-cost&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-check-circle&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;what-is-project-based-consulting&quot;&gt;What is Project-based Consulting?&lt;/h2&gt;
+&lt;p&gt;Project-based consulting is also known as outsourcing. With outsourcing, your number of options increases. You may hire a single person to be a web developer, using a site such as Upwork. You could also outsource your work to a company overseas to try to save on cost. You can also use a local software development company as your consultants to build your software.&lt;/p&gt;
+
+&lt;h3 id=&quot;project-based-consulting-benefits&quot;&gt;Project-based Consulting Benefits&lt;/h3&gt;
+&lt;p&gt;Project-based consulting is almost exactly the opposite of staff augmentation. While you still get the same qualified developers working on whatever project you desire, there’s no need for HR, IT, or any other departments to get involved. Since the developers will work from their “home base,” there’s no need to provide desks or equipment. &lt;/p&gt;
+
+&lt;h3 id=&quot;project-based-consulting-challenges&quot;&gt;Project-based Consulting Challenges&lt;/h3&gt;
+&lt;p&gt;While project-based consulting offers a lot of unique benefits versus hiring internal employees or using a staff augmentation company, there are still drawbacks. Typically, when working with a project-based consulting company, their developers work on their company’s hours. This means that they may not be available right away to answer questions, or they may work on multiple projects at once.&lt;/p&gt;
+
+&lt;p&gt;Choosing between staff augmentation and project-based consulting boils down to a preference on how you and your company prefer to work. If you and your company are fine working with remote employees and using video conferencing software for meetings, the cost savings with project-based consulting will provide a significant benefit. If all of your employees are in-house, or you’re trying to extend your existing team, staff augmentation is a great option.&lt;/p&gt;</content><author><name>Brian Adams</name></author><category term="business" /><category term="software development" /><category term="management" /><summary type="html"></summary></entry><entry><title type="html">Agile Isn’t the Problem</title><link href="https://sevenhillstechnology.com/business/2019/10/28/agile-isn-t-the-problem" rel="alternate" type="text/html" title="Agile Isn't the Problem" /><published>2019-10-28T00:00:00-04:00</published><updated>2019-10-28T00:00:00-04:00</updated><id>https://sevenhillstechnology.com/business/2019/10/28/agile-isn-t-the-problem</id><content type="html" xml:base="https://sevenhillstechnology.com/business/2019/10/28/agile-isn-t-the-problem">&lt;p&gt;&lt;img src=&quot;/images/blog-posts/iteration-planning.jpg&quot; alt=&quot;Whiteboard with agile plans&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As a software development company that uses an agile approach, we have a lot of love for the methodology. We also hear a lot of newcomers to agile complain about it. It’s often treated as a scapegoat for more complex issues for your team.&lt;/p&gt;
+
+&lt;p&gt;If you’ve tried and failed implementing an agile way of working, the problem likely isn’t the system.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-agile&quot;&gt;What is Agile?&lt;/h2&gt;
+
+&lt;p&gt;To be clear, there are several ways of implementing an agile process. Many people believe agile is a software development process, when really it’s a management process that can be useful for any business. We’ve seen agile become commonplace in many industries outside of software development.&lt;/p&gt;
+
+&lt;p&gt;Explaining agile has been done time and time again. &lt;a href=&quot;http://www.agilenutshell.com&quot;&gt;Agile in a Nutshell&lt;/a&gt; is a tremendous resource for learning everything about agile, from the basics to “advanced” agile practices. For this blog post, think of agile in its simplest form: taking an iterative approach to solving a problem.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-company-couldnt-adopt-it&quot;&gt;“Our Company Couldn’t Adopt It”&lt;/h2&gt;
+
+&lt;p&gt;If you read through “Agile in a Nutshell” or the “Manifesto of Software Development” and make a dramatic shift to an agile process, you’re gonna have a bad time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog-posts/bad-time.jpg&quot; alt=&quot;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s a wonderful book on UX and Customer Experience called “Think First,” by Joe Natoli, which is all about the strategy and planning behind UX. However, many of the principles from Joe’s book extend to other parts of business, such as management.&lt;/p&gt;
+
+&lt;p&gt;A quote from Joe’s book that stands out to me is “If you fail to plan, you plan to fail.” Frequently when companies approach agile they try to jump into the “deep end,” which only leads to frustration and failures.&lt;/p&gt;
+
+&lt;p&gt;Before you start your move to an agile process, create a migration plan around the movement. Start simple and try converting your backlog into well-written user stories. Decide on a template that makes senses for your team and begin converting the backlog.&lt;/p&gt;
+
+&lt;p&gt;Once your backlog has been re-written, start looking into the way your team estimates stories. If you’re not already estimating stories, this is a great time to start. Make sure you make note of the estimates for each story so you can re-evaluate how you’re pointing stories.&lt;/p&gt;
+
+&lt;p&gt;When you do those two things, it’s so much easier to dive into iterations, burndown charts, and all the other concepts of agile that make it so attractive. Just remember, if you fail to plan, you plan to fail.&lt;/p&gt;
+
+&lt;h2 id=&quot;agile-leads-to-bugs&quot;&gt;“Agile Leads to Bugs”&lt;/h2&gt;
+
+&lt;p&gt;I was once talking with an IT manager at a large financial institution. He manages a development team working on payment integrations, and he was telling me about a recent failure his team had. They released a new feature into production and it had dramatic side effects on legacy code. “I guess that’s what you get with agile,” he said.&lt;/p&gt;
+
+&lt;p&gt;The failure in this situation is the lack of proper definition, QA, and automated testing. While agile lends itself well to incorporating unit tests, continuous integration, and refactoring, many organizations see it purely as a “rapid release” structure for their code.&lt;/p&gt;
+
+&lt;p&gt;Agile is very effective at time-boxing things into tight iterations. However, just because there is a time box doesn’t mean you have to complete the entire feature in a single sprint. If a feature looks so large that it’ll take three or four sprints, that may be necessary. You may also be able to carve up that large feature into multiple small features and deliver one of those per sprint.&lt;/p&gt;
+
+&lt;p&gt;Agile does not mean “throw testing and documentation to the wind, we’ve got software to release.” Make sure your organization keeps sight of why you wanted to switch to agile: reducing risk and being able to adapt to changes.&lt;/p&gt;</content><author><name>Brian Adams</name></author><category term="business" /><category term="software development" /><category term="management" /><summary type="html"></summary></entry><entry><title type="html">Should you hire software developers?</title><link href="https://sevenhillstechnology.com/business/2019/09/10/should-you-hire-software-developers" rel="alternate" type="text/html" title="Should you hire software developers?" /><published>2019-09-10T00:00:00-04:00</published><updated>2019-09-10T00:00:00-04:00</updated><id>https://sevenhillstechnology.com/business/2019/09/10/should-you-hire-software-developers</id><content type="html" xml:base="https://sevenhillstechnology.com/business/2019/09/10/should-you-hire-software-developers">&lt;p&gt;&lt;img src=&quot;/images/blog-posts/software-developers.jpg&quot; alt=&quot;Software Developers writing code&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Software development is a critical component in companies trying to innovate. Mobile apps, web apps, and other custom software is a cost-effective way to increase revenue, improve efficiency, and differentiate your company. While software developers provide a ton of benefits, hiring a software development team in-house is a challenging process and you must do it with care to avoid long-term setbacks.&lt;/p&gt;
+
+&lt;h2 id=&quot;benefits-of-hiring-software-developers&quot;&gt;Benefits of Hiring Software Developers&lt;/h2&gt;
+
+&lt;p&gt;Bringing software developers in-house opens up a wide number of possibilities for your business. An internal developer or team of developers can bring exciting new ideas and solutions that your team has not thought of before.&lt;/p&gt;
+
+&lt;h3 id=&quot;small-tasks&quot;&gt;Small Tasks&lt;/h3&gt;
+
+&lt;p&gt;Companies may have several manual processes that a software developer can quickly automate. Anything from writing an Excel script to check spreadsheets to a simple document generation application can provide a massive value for any business.&lt;/p&gt;
+
+&lt;h3 id=&quot;flexibility-of-requirements&quot;&gt;Flexibility of Requirements&lt;/h3&gt;
+
+&lt;p&gt;If a major project is on the horizon for your company, you will need to hire a team of developers to get it done quickly. Since this team is in-house, changes in requirements are easier to handle and flexibility is at its highest. Flexibility with an internal team creates a distinct advantage that outsourcing your development can’t compete with.&lt;/p&gt;
+
+&lt;h3 id=&quot;long-term-cost-savings&quot;&gt;Long-term Cost Savings&lt;/h3&gt;
+
+&lt;p&gt;An internal development team will provide significant cost savings when compared to outsourcing your development to a third party for a long period. When bringing a developer on, there is a high cost for tools and training. However, once a developer gets more engrained in the company and systems they’re working in, they are much cheaper than outsourcing.&lt;/p&gt;
+
+&lt;h3 id=&quot;long-term-domain-knowledge&quot;&gt;Long-term Domain Knowledge&lt;/h3&gt;
+
+&lt;p&gt;Internal developers can increase the human capital of an organization. Having people within your company who have an in-depth knowledge of your business is the highest value that software developers can provide. Having one or multiple technical-minded people with a deep knowledge of your business significantly increases the chances of a major innovation for your company.&lt;/p&gt;
+
+&lt;h2 id=&quot;negatives-of-hiring-software-developers&quot;&gt;Negatives of Hiring Software Developers&lt;/h2&gt;
+
+&lt;p&gt;While hiring software developers opens several doors, software developers bring other sets of challenges to your organization. If you and your company aren’t prepared, hiring software developers may cause high costs and little results.&lt;/p&gt;
+
+&lt;h3 id=&quot;increased-technology-costs&quot;&gt;Increased Technology Costs&lt;/h3&gt;
+
+&lt;p&gt;As with any new hire, your overhead will increase. With that in mind, software developers bring slightly more overhead than employees in other departments because of technology demands. Typically, software developers work with two or three monitors and an expensive computer. It’s hard to keep developers long-term if you skimp on their setup.&lt;/p&gt;
+
+&lt;p&gt;Along with new technology comes new technology costs that you may not have had before. This includes things like cloud hosting, new hardware, and additional software license costs.&lt;/p&gt;
+
+&lt;h3 id=&quot;difficult-hiring-process&quot;&gt;Difficult Hiring Process&lt;/h3&gt;
+
+&lt;p&gt;You may have heard, but &lt;a href=&quot;https://medium.com/javascript-scene/why-hiring-is-so-hard-in-tech-c462c3230017&quot;&gt;hiring software developers is difficult&lt;/a&gt;. Not only are there a ton of different technologies developers may be proficient in, but analyzing past experiences and determining future success are incredibly difficult.&lt;/p&gt;
+
+&lt;p&gt;Hiring a developer without performing any technical interview may lead to under-qualified and over-paid employees. Having a technical interview is difficult to do correctly without experienced software developers on your staff.&lt;/p&gt;
+
+&lt;p&gt;Even if you have a proper technical interview in place, some great developers don’t perform well in an interview setting. The complexity of the hiring process can cause significant time delays and overhead for your business.&lt;/p&gt;
+
+&lt;h3 id=&quot;hr-and-space-constraints&quot;&gt;HR and Space Constraints&lt;/h3&gt;
+
+&lt;p&gt;Hiring a new development staff increases your HR responsibilities and constrains the amount of space you have in your office. Developers typically perform best in quiet and focused environments. While it’s common for software development companies to have an open office layout, this quickly becomes challenging when you’re mixing software developers with other employees who make more noise performing their jobs, such as frequently talking on the phone.&lt;/p&gt;
+
+&lt;h3 id=&quot;high-turnover-rate&quot;&gt;High Turnover Rate&lt;/h3&gt;
+
+&lt;p&gt;As the software development industry continues to grow, developers have more options than ever for employment. Because of the options, company culture and benefits are of constant importance to keep software developers. It’s common for a software developer to &lt;a href=&quot;https://insights.dice.com/2016/07/08/how-long-do-tech-pros-stay-in-their-jobs/&quot;&gt;remain with a company for less than three years at a time&lt;/a&gt;, so you may go through the difficult hiring process more frequently than you’d like, and miss out on the benefits of long-term cost savings and long-term domain knowledge.&lt;/p&gt;
+
+&lt;h2 id=&quot;there-has-to-be-some-middle-ground&quot;&gt;There has to be some middle ground…&lt;/h2&gt;
+
+&lt;p&gt;One of the best ways to get several positives of hiring software developers without all the negatives is by involving a third-party. Several third-party options are available including but not limited to staff augmentation companies and project-based consulting companies. These companies handle all of the dirty work of the hiring process and benefits, allowing you to focus on the benefits of developers and innovating your business.&lt;/p&gt;
+
+&lt;p&gt;Be on the lookout for our upcoming post on staff augmentation vs project-based consulting!&lt;/p&gt;</content><author><name>Brian Adams</name></author><category term="business" /><category term="software" /><category term="software developers" /><summary type="html">Are you ready to hire software developers? It might be worth more investigation.</summary></entry><entry><title type="html">How long does a project take?</title><link href="https://sevenhillstechnology.com/business/2019/08/29/how-long-does-a-project-take" rel="alternate" type="text/html" title="How long does a project take?" /><published>2019-08-29T00:00:00-04:00</published><updated>2019-08-29T00:00:00-04:00</updated><id>https://sevenhillstechnology.com/business/2019/08/29/how-long-does-a-project-take</id><content type="html" xml:base="https://sevenhillstechnology.com/business/2019/08/29/how-long-does-a-project-take">&lt;p&gt;&lt;img src=&quot;/images/blog-posts/how-long-does-a-project-take.jpg&quot; alt=&quot;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;typical-project-duration&quot;&gt;Typical project duration&lt;/h2&gt;
+
+&lt;p&gt;We’ve outlined our typical project costs on our &lt;a href=&quot;/pricing&quot;&gt;pricing page&lt;/a&gt;. Projects in this range typically take us &lt;strong&gt;between three and six months&lt;/strong&gt; to go from nothing to a production release.&lt;/p&gt;
+
+&lt;p&gt;Below we discuss more about how we work and how we assemble our teams so you can get a better handle on why our projects take this amount of time.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-we-work&quot;&gt;How we work&lt;/h2&gt;
+
+&lt;p&gt;We try constantly to simplify and improve our process for completing software projects. We iterate on our approach just as we iterate during the development cycle of a project. We’ve simplified down into an easy-to-digest four-step process.&lt;/p&gt;
+
+&lt;h3 id=&quot;requirements-gathering&quot;&gt;Requirements Gathering&lt;/h3&gt;
+
+&lt;p&gt;We start by going through a brief requirement gathering process. During this time, we iron out all the “nitty gritty” details regarding the implementation of your project. We work with you to discuss your current situation and desired outcome. This part of the phase is brief, as we do most of the requirements gathering work before we will even write a project proposal.&lt;/p&gt;
+
+&lt;p&gt;The rest of this phase is getting you and your team into all of our tools. We’ll begin loading the project into Target Process, our Project Management software. We’ll add you to the project channel(s) in Slack, our instant messaging software. We’ll make sure our project team has your email and phone number and that you have theirs.&lt;/p&gt;
+
+&lt;h3 id=&quot;initial-ux-definition&quot;&gt;Initial UX Definition&lt;/h3&gt;
+
+&lt;p&gt;While we continue updating our design and prototypes during the development phase of the project, this phase is where it all starts. During this phase, our designer and project manager will work with you to create user personas, user journey maps, and a UI kit.&lt;/p&gt;
+
+&lt;p&gt;User personas are representations of each type of user who will interact with your software. Say, for example, you are building a new mobile app. Your customers will interact with the mobile app, you’ll have customer support working with it, and you’ll have system administrators monitoring it. Those three types of users will become personas, being assigned a name, cartoon image, and some characteristics. These personas will help our designers and developers when creating the features of the app.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog-posts/journey-map-example.png&quot; alt=&quot;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;User journey maps plot out the emotional experience of your users while they’re interacting with the app. Using the example above, we’ll take each of the personas and create “maps” for common use cases. These are to make our designers and developers aware of the emotional state of the users when determining how to build the features of the app. These journey maps allow us to create an empathic solution for your business (link to blog here).&lt;/p&gt;
+
+&lt;p&gt;Finally, we finish this phase by creating a UI kit for your application. The UI kit defines the layout of the app, the menu styles, and the controls. Our designers use the UI kit throughout the design and development phase to maintain consistency throughout the duration of the project.&lt;/p&gt;
+
+&lt;h3 id=&quot;design-and-development&quot;&gt;Design and Development&lt;/h3&gt;
+
+&lt;p&gt;We use an agile approach when building software. We are certified by the Scrum Alliance. We adapt quickly to change because of the way we run each project.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/dev-process.svg&quot; alt=&quot;&quot; class=&quot;img-center small-blog-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We run two-week development “sprints”, where we scope out a small two-week work schedule of the next features and bug fixes. During each sprint, we have daily stand-up meetings to ensure our designers and developers are being efficient.&lt;/p&gt;
+
+&lt;p&gt;We use our small team to our advantage by taking a unique approach to QA. We assign each user story to a developer to work on. When the developer completes the story, it gets reviewed. Upon completion of the review, the story then gets assigned to another developer to serve as QA. This QA developer tests the acceptance requirements outlined in the story definition and tests various potential side effects caused by the story.&lt;/p&gt;
+
+&lt;p&gt;Finally, we close out each sprint with a demo to you and/or your staff. Here we verify with you that the completed work satisfies the required business values and is acceptable for you. If you cannot attend a demo every two weeks, we can record a demo and send it to you to watch on-demand. When the sprint is over, we release the code to the beta app or the production app, depending on your setup.&lt;/p&gt;
+
+&lt;p&gt;We repeat the development cycle over and over until we have satisfied all business requirements.&lt;/p&gt;
+
+&lt;h3 id=&quot;release&quot;&gt;Release&lt;/h3&gt;
+
+&lt;p&gt;Our final phase is the release phase. This phase is fairly simple: we re-test the requirements and features one more time, then schedule a date to go live with the application. Upon the completion of the release, we provide two weeks of business-hours support at no additional cost.&lt;/p&gt;
+
+&lt;p&gt;Want to know more about how we work? &lt;a href=&quot;/contact-us&quot;&gt;Contact us here!&lt;/a&gt;&lt;/p&gt;</content><author><name>Brian Adams</name></author><category term="business" /><category term="software" /><category term="mobile apps" /><category term="applications" /><summary type="html">Breaking down how we work and what goes into each project.</summary></entry><entry><title type="html">Observability of Systems</title><link href="https://sevenhillstechnology.com/development/2019/08/19/observability-of-systems" rel="alternate" type="text/html" title="Observability of Systems" /><published>2019-08-19T00:00:00-04:00</published><updated>2019-08-19T00:00:00-04:00</updated><id>https://sevenhillstechnology.com/development/2019/08/19/observability-of-systems</id><content type="html" xml:base="https://sevenhillstechnology.com/development/2019/08/19/observability-of-systems">&lt;p&gt;&lt;img src=&quot;/images/blog-posts/observability.png&quot; alt=&quot;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-case-for-observability&quot;&gt;The case for observability&lt;/h2&gt;
+
+&lt;p&gt;As developers, we like to build things. We build complex systems that fill a variety of business and consumer needs on phones, computers, and more. When things are going according to plan, software is useful, clients are happy, customers are productive, and life is good. However, when things deviate from our plans, we find the importance of observability in our systems. Unfortunately, many developers learn about the importance of observability when they first find a complex bug that can’t be solved without it. It’s becoming increasingly difficult to replicate error states from production in a controlled environment for analysis due to the ever increasing complexity of software. Because of this, we rely on the observability of our system to help us diagnose and solve problems in real time as problems occur.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-makes-a-system-observable&quot;&gt;What makes a system observable?&lt;/h2&gt;
+
+&lt;p&gt;Observability comprises three pillars: &lt;strong&gt;Logging, Metrics, and Tracing.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We like to think of an observable system as one that allows us to ask targeted questions. We might ask the system questions like “Are we out of disk space?” or “Are we having transactions failing to process?”. We expect to get answers to these questions from the running system without having to debug or reproduce every error.&lt;/p&gt;
+
+&lt;h2 id=&quot;pillars-of-observability&quot;&gt;Pillars of observability&lt;/h2&gt;
+
+&lt;h3 id=&quot;logging&quot;&gt;Logging&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog-posts/undraw_programming_2svr.png&quot; alt=&quot;&quot; class=&quot;img-center&quot; /&gt;
+Logging answers the question “What’s happening in the application right now?”. Good logging will allow you to see a live view of what the system is doing, which helps to research problems that are impacting users.&lt;/p&gt;
+
+&lt;h4 id=&quot;logging-strategy-and-tools&quot;&gt;Logging strategy and tools&lt;/h4&gt;
+
+&lt;p&gt;The first thing to consider around logging is your overall strategy and the tools you will use. Most languages have logging frameworks available to assist with your logging strategy. These frameworks are great for logging to files, remote APIs, syslog, or other potential targets. Logging to standard output is also common. The most important thing we’ve found is choosing a strategy up front and being consistent throughout the application. Some things to consider are: what tools will you use, how much detail should you log, and what log levels are supported by your environment. Include as much contextual information as possible in a log message. This will allow the correlation and searching on valid data points later on during analysis. Be careful to keep privacy in mind while developing your logging strategy, to avoid situations of &lt;a href=&quot;https://krebsonsecurity.com/2019/03/facebook-stored-hundreds-of-millions-of-user-passwords-in-plain-text-for-years/&quot;&gt;logging passwords or other sensitive information&lt;/a&gt; in plain text.&lt;/p&gt;
+
+&lt;h4 id=&quot;log-format&quot;&gt;Log format&lt;/h4&gt;
+
+&lt;p&gt;The format of log messages plays a significant role in observability. Structured logs are written in an easily parsable format, such as JSON. Unstructured logs are typically written as single lines of text. Unstructured logs can be easy to read, but hard to process. If you will be logging from multiple parts of a system, it’s important to enforce consistency and guidelines for log formats. Making this decision early will save you time and effort later on when your system is in production.&lt;/p&gt;
+
+&lt;h4 id=&quot;log-storage&quot;&gt;Log storage&lt;/h4&gt;
+
+&lt;p&gt;If you’re logging to files, you must be conscious of storage. Rolling log files based on size or date is a common practice to avoid single files growing beyond their usefulness. However, even with rolling log files that are kept to a manageable size, considerations need to be made for the disk space on the server where the logs are stored. Log files should be offloaded to long-term storage after 30 days or some other defined period.&lt;/p&gt;
+
+&lt;h4 id=&quot;aggregation&quot;&gt;Aggregation&lt;/h4&gt;
+
+&lt;p&gt;When you have multiple systems writing logs, you’ve inadvertently created a new problem. If you want a complete picture of what is happening in the system, you will need to look at multiple logs in different locations. Log aggregation is employed to alleviate this problem. Aggregation strategies allow you to collect logs from distributed systems into one location. Keep a consistent logging format as discussed previously and this will dramatically reduce the time required to answer questions about the current state of the system.&lt;/p&gt;
+
+&lt;h4 id=&quot;querying&quot;&gt;Querying&lt;/h4&gt;
+
+&lt;p&gt;Most tools and platforms for log aggregation add features allowing you to query the logs that you’ve collected using user friendly querying languages, often in some form of JSON or SQL. The ability to query logs from all systems in a central location is one of the key benefits of logging and log aggregation.&lt;/p&gt;
+
+&lt;h3 id=&quot;metrics&quot;&gt;Metrics&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog-posts/undraw_all_the_data_h4ki.png&quot; alt=&quot;&quot; class=&quot;img-center&quot; /&gt;
+The primary question to ask of your metrics is: “Is the system healthy?” To answer this question we collect information such as CPU load, number of concurrent users, memory load, disk utilization, and network throughput. Having this information and being able to correlate it to logs allows you to make informed decisions regarding your system. These metrics become relevant when looking at scaling a system up or out, or pinpointing activities that cause unusual resource spikes that would indicate application level problems.&lt;/p&gt;
+
+&lt;p&gt;Metrics tie in closely to alerting mechanisms so the correct people can be notified when a system is not in a healthy state. Aggregation of metrics can be a key benefit, allowing a common place to visualize the entire system’s health and proactively keep things working. Being proactive to avoid stability problems before they occur will improve the lives of your team by reducing emergency issues during off hours.&lt;/p&gt;
+
+&lt;h3 id=&quot;tracing&quot;&gt;Tracing&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog-posts/undraw_destinations_fpv7.png&quot; alt=&quot;&quot; class=&quot;img-center&quot; /&gt;
+Tracing gives you a microscope to look in more detail about something specific of interest. Tracing answers the question: “How are these components working together in a specific context?” In a typical application you will have a series of workflows that happen as the result of a specific event. The event may be a user clicking a button, which results in one or more functions being called. These functions may query data from a database, another API, or perform some sort of time-intensive process.&lt;/p&gt;
+
+&lt;p&gt;In addition to providing a window into how your application components are functioning together, tracing is often discussed and implemented in terms of distributed tracing. With distributed tracing, you gain visibility into how distributed application components interact. In this model, we could trace the entire context of an event from a button click in a web browser, through multiple micro-service API calls, to database calls, and back to the browser. The ability to link together a single event across systems provides latency and performance information that can be incredibly difficult to piece together by hand.&lt;/p&gt;
+
+&lt;h2 id=&quot;where-to-go-from-here&quot;&gt;Where to go from here&lt;/h2&gt;
+
+&lt;p&gt;We’ve discussed what an observable system is, and taken a deeper look at some of the qualities of an observable system. Keeping these concepts in mind as you build out your next project or look to improve a current one, is a great step towards reducing the effort required to support production applications when they are behaving poorly. We’ll follow this post up with a look at our typical setup for building observable software.&lt;/p&gt;
+
+&lt;p&gt;If you’d like to discuss observability in your organization, click the ‘Schedule Now’ button below or &lt;a href=&quot;/contact-us&quot;&gt;contact us&lt;/a&gt; for a free consultation on how you can improve your observability.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Check back soon for part 2!&lt;/strong&gt;&lt;/p&gt;</content><author><name>Brad Gardner</name></author><category term="monitoring" /><category term="software development" /><category term="applications" /><category term="support" /><summary type="html">Solve your next production issue with less headache and better insight.</summary></entry><entry><title type="html">Web vs Mobile: What’s Right for You?</title><link href="https://sevenhillstechnology.com/business/2019/06/28/web-vs-mobile-whats-right-for-you" rel="alternate" type="text/html" title="Web vs Mobile: What's Right for You?" /><published>2019-06-28T00:00:00-04:00</published><updated>2019-06-28T00:00:00-04:00</updated><id>https://sevenhillstechnology.com/business/2019/06/28/web-vs-mobile-whats-right-for-you</id><content type="html" xml:base="https://sevenhillstechnology.com/business/2019/06/28/web-vs-mobile-whats-right-for-you">&lt;p&gt;&lt;img src=&quot;/images/blog-posts/devices.jpg&quot; alt=&quot;Laptop and Phone; Two of many Devices&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Businesses looking to innovate are often faced with many challenges regarding the platform and overall result of the solution they desire. Software is an obvious choice for innovation; it’s used all day, every day, throughout every aspect of our lives. However, there’s an ever-growing number of platforms which can run software applications. What was once just computers has now become phones, computers, tablets, TV’s, cars, etc. To best narrow down the scope of platforms that your software should run on, put yourself in the shoes of your users, and truly try to understand their state of mind and desires when using your solution. This is what we call an &lt;strong&gt;empathic solution&lt;/strong&gt; and it is the key to creating high usage software. Determining an empathic solution is key when attempting to determine the correct platform(s) for your solution.&lt;/p&gt;
+
+&lt;h2 id=&quot;mobile-general-consumers-and-on-the-go&quot;&gt;Mobile: General Consumers and On-the-go&lt;/h2&gt;
+
+&lt;p&gt;Smartphones and apps have dramatically changed the way we operate and communicate. B2C as well as B2B businesses have seen a major uptick in sales and engagement via mobile devices. 63% of all US online traffic comes from smartphones and tablets, according to Tech Jury. Online ads have hit an all time high and mobile compatibility/mobile-first design has now become a critical sticking point for many applications. Take a moment to reflect and ask yourself what avenues you will use to market and sell your product. If you’re going to use marketing channels that have heavy mobile usage, a mobile app may be the best platform. The phrase “you only get one first impression” has never rang more true. Whichever platform your users are using when they first register for your software is going to be the most important.&lt;/p&gt;
+
+&lt;p&gt;A major challenge with mobile apps has always been the “duplicate” cost of development. While web pages behave mostly the same on any modern web browser, creating immersive apps for both Android and iOS comes at a cost. Different code has to be written for each platform, which can lead to significant increases in cost. Depending on the situation, you may be able to get away with using a cross-platform framework such as React-Native or Xamarin. These tools create excellent apps that are written once and run on both Android and iOS, however they don’t have quite the flexibility that you can achieve by creating two native apps.&lt;/p&gt;
+
+&lt;h4 id=&quot;key-indicators-of-mobile-preferred-software&quot;&gt;Key indicators of mobile-preferred software:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Major customer acquisition from social media marketing/advertising&lt;/li&gt;
+  &lt;li&gt;Accessible in any area&lt;/li&gt;
+  &lt;li&gt;Quickly accessible&lt;/li&gt;
+  &lt;li&gt;Voice assistant support&lt;/li&gt;
+  &lt;li&gt;GPS usage&lt;/li&gt;
+  &lt;li&gt;Notification support&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;/h3&gt;
+
+&lt;h4 id=&quot;uberlyftrideshare-services&quot;&gt;Uber/Lyft/Rideshare Services&lt;/h4&gt;
+&lt;p&gt;Ridesharing applications such as Uber and Lyft are incredible examples of the impact of empathic software. The target audience is people needing to get short distances on demand. These apps are particularly useful when people are in an area without easily accessible public transportation or when they may not have any other means of transportation. Mobile apps are the perfect choice here, as their primary users aren’t going to have their computers available as they go to leave a concert, bar, or airport.&lt;/p&gt;
+
+&lt;h4 id=&quot;snapchat&quot;&gt;Snapchat&lt;/h4&gt;
+&lt;p&gt;Snapchat took over the smartphone world and quickly became one of the most popular ways to quickly share photos and videos with friends. The creators of Snapchat saw that there wasn’t any easy way to efficiently share photos with friends or groups of people on multiple platforms. They chose mobile in particular as that’s the platform where the majority of their user base takes photos and videos, and is the most accessible way to view media wherever you may be.&lt;/p&gt;
+
+&lt;h4 id=&quot;fitness-tracking-apps&quot;&gt;Fitness Tracking Apps&lt;/h4&gt;
+&lt;p&gt;Fitness tracking apps such as Apple Health are empathic in their use as they collect data on your smartphone while you maneuver about your day. These applications will never find as much traction in a desktop environment because desktop and laptop computers don’t live in your pocket throughout the entire day.&lt;/p&gt;
+
+&lt;h2 id=&quot;web-complex-tasks-and-ultra-productive-work&quot;&gt;Web: Complex tasks and ultra-productive work&lt;/h2&gt;
+
+&lt;p&gt;When we use the term web application, we are purposefully making a distinction from websites. Web applications are data-driven by nature, and generally involve some amount of meaningful interaction from their users. Many businesses rely on various web applications every day in order to operate efficiently. Think of software such as Salesforce, HubSpot, or Xero. These web applications are empathically designed for users sitting at a laptop or desktop all day. B2B software tends to lean more towards web applications for that reason specifically.&lt;/p&gt;
+
+&lt;p&gt;Web applications have long been a common choice for business owners and stakeholders due to their ability to work on a number of devices without any major changes needed. Windows, macOS, Android, and iOS all have capable web browsers of running modern web applications. However the drawback to building web applications is the lack of low-level control such as directly interacting with other devices on a network.&lt;/p&gt;
+
+&lt;h4 id=&quot;key-indicators-of-web-preferred-software&quot;&gt;Key indicators of web-preferred software:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Maximum screen real estate needed&lt;/li&gt;
+  &lt;li&gt;High amount of typing&lt;/li&gt;
+  &lt;li&gt;Collaboration with others&lt;/li&gt;
+  &lt;li&gt;Substantial data volume&lt;/li&gt;
+  &lt;li&gt;Complex tasks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;examples-1&quot;&gt;Examples&lt;/h3&gt;
+
+&lt;h4 id=&quot;salesforce&quot;&gt;Salesforce&lt;/h4&gt;
+&lt;p&gt;Salesforce is one of the most popular web applications in the world. The ultimate digital sales tool, Salesforce was designed specifically for the use case of salespeople working at a desk. With the amount of data, workflows, and options, Salesforce could not have grown into the product it is today if it were to have been primarily a mobile app.&lt;/p&gt;
+
+&lt;h4 id=&quot;google-docs&quot;&gt;Google Docs&lt;/h4&gt;
+&lt;p&gt;Yes, you can edit Google Docs on a mobile device. However the primary usage of Google Docs is on a computer. Document editing is 99% typing, and everyone knows the pain of autocomplete on mobile devices and just how difficult it is to type a massive amount of text on a virtual keyboard. The employees at Google who first came up with the concept of Google Docs were focused on building a solution around empathy.&lt;/p&gt;
+
+&lt;h2 id=&quot;recap&quot;&gt;Recap&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;tl;dr: Have empathy towards your users. Use that to guide your platform and solution decisions.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The number of software platforms has become substantial and will likely continue to increase. Having empathy for your users will allow you to make quality decisions regarding your application, platform, and solution as a whole. Use some of the examples above to guide you on finding different opportunities to practice empathy with your users. Picking a platform doesn’t require rocket science, it only requires compassion and the ability to put yourself in your users’ shoes.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-about-hybrid-applications&quot;&gt;What about Hybrid Applications?&lt;/h2&gt;
+
+&lt;p&gt;A “hybrid” application would be either a PWA (Progressive Web App) or a mobile-friendly web application. These options are becoming more and more viable as web browsers continue to increase in capability. While hybrid applications sound like the best route, they have their own drawbacks as well. Be on the lookout in the coming weeks for our post comparing PWA’s to mobile apps and web applications!&lt;/p&gt;</content><author><name>Brian Adams</name></author><category term="business" /><category term="ux" /><category term="software development" /><category term="applications" /><summary type="html">How to use empathy to drive decisions around the platform for your future application.</summary></entry><entry><title type="html">5 Tricks To Help Developers with Design</title><link href="https://sevenhillstechnology.com/ui-ux/design/2019/06/17/5-simple-tricks-to-help-developers-with-ui-ux-design" rel="alternate" type="text/html" title="5 Tricks To Help Developers with Design" /><published>2019-06-17T15:58:00-04:00</published><updated>2019-06-17T15:58:00-04:00</updated><id>https://sevenhillstechnology.com/ui-ux/design/2019/06/17/5-simple-tricks-to-help-developers-with-ui-ux-design</id><content type="html" xml:base="https://sevenhillstechnology.com/ui-ux/design/2019/06/17/5-simple-tricks-to-help-developers-with-ui-ux-design">&lt;p&gt;&lt;img src=&quot;/images/blog-posts/5-simple-tricks-ui-ux-design.jpg&quot; alt=&quot;UX Wireframing Example&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Software has turned from a solution to business problems into a major part of every persons life. We now use software for communication, leisure, and work. With major software companies creating beautiful software consistently, it’s becoming hard to treat design as a second-class citizen.  There’s significant value brought to any project by having a professional designer on your side, but for the independent developer or the garage startup, that’s not always a possibility.&lt;/p&gt;
+
+&lt;p&gt;I’ve been there. When I started my career, I was a full-stack developer trying my best to keep up as the web started to evolve dramatically. And even then, I remember looking at other websites for inspiration and could never seem to &lt;em&gt;quite&lt;/em&gt; get mine to look as nice. Then web fonts gained in popularity, browsers got more advanced, and design on the web took off like a rocket leaving me in the dust. It was then that I learned there are some simple things that I could do to put out a more professional, polished-looking product without having to spend my own money on a graphic designer to tell me how things should look. It then spurred a true enjoyment of UI/UX design, where I find myself focusing a large portion of my time today.&lt;/p&gt;
+
+&lt;p&gt;Here are a few things that helped me get started down the road of UX. That’s not to say this post is only for people looking to transition towards a UX job, but anyone putting software out into the world without the money for professional design services.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-talk-to-your-users&quot;&gt;1. Talk to Your Users&lt;/h2&gt;
+
+&lt;p&gt;It’s amazing how much software gets designed and developed without any discussion involving the end-users of the application. The single most important thing you can do to improve on software design is to keep your client and end-users involved throughout the design process. Developers are great at gathering requirements from the solution perspective but are horrible at gathering information on how users will feel while using the piece of software.&lt;/p&gt;
+
+&lt;p&gt;Try to gather a small group of diverse users of your application. If it’s a brand new idea, assemble a group of trusted individuals in your target market to evaluate potential designs and provide feedback. Quality feedback will drastically increase the chances of getting things “right” from the start and will massively help adoption for your application.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;More information on what to ask of your clients and users:&lt;/strong&gt; &lt;a href=&quot;https://uxplanet.org/top-questions-to-ask-before-designing-anything-2141c7f64888&quot;&gt;Top Questions To Ask Before Designing Anything&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-typography-is-key&quot;&gt;2. Typography is Key&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog-posts/typography.jpg&quot; alt=&quot;Typography Example&quot; class=&quot;img-center&quot; /&gt;
+The only thing that you’re absolutely, 100%, without-a-doubt going to see on every single website you visit, and every single app you use, is text. It’s the most common thing in your website, application, or daily life. It’s everywhere. Being that it’s the most common, it’s also the most important from a design perspective. Picking fonts that are hard to read or don’t convey your message properly will massively hurt your adoption and growth rates.&lt;/p&gt;
+
+&lt;p&gt;It’s always been my goal to select two fonts that are complimentary. It’s a pretty tried-and-true method to pick one font for headings and other points of emphasis, and another font for your normal text.&lt;/p&gt;
+
+&lt;h3 id=&quot;serif-vs-sans-serif&quot;&gt;Serif vs Sans-Serif&lt;/h3&gt;
+
+&lt;p&gt;Serif fonts have the little “feet” on each character, where sans-serif doesn’t. Traditionally, these two font types were the perfect contrast and provided the most readability. Serif fonts got their start in the printing days, as they’re much easier to read on small sizes. Serif fonts tend to be classic and formal, whereas sans-serif fonts are generally more modern. There’s a general trend (including in our design and branding guidelines) where serif fonts are being replaced entirely, and people are starting to use two different sans-serif fonts. It all depends on the message you’re trying to convey.&lt;/p&gt;
+
+&lt;p&gt;Typography is key, but it’s also one of the most challenging aspects of UI/UX design. There’s no formula to pick the correct two fonts, and someone somewhere will  disagree with any of your choices. Think deeply about the message you are trying to send with your software, and try some out. There are tons of free fonts, so keep in mind what your users are expecting with your application and use that to guide your decision-making process.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;My favorite font resources:&lt;/strong&gt; &lt;a href=&quot;https://fonts.adobe.com&quot;&gt;Adobe Fonts&lt;/a&gt;, &lt;a href=&quot;https://fonts.google.com&quot;&gt;Google Fonts&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-use-existing-resources&quot;&gt;3. Use Existing Resources&lt;/h2&gt;
+
+&lt;p&gt;As developers, we tend to like making things ourselves. There’s a lot to be said about wanting to take on the challenge and create a solution for everything when that’s your area of expertise. However, it’s best to trust the professionals when we are delving into important topics outside our comfort zone. There are a number of free design and UX assets that you can use at no cost. These professionally designed graphics and components are the perfect jump-start to any piece of software.&lt;/p&gt;
+
+&lt;p&gt;When creating a new piece of software, developers tend to forget the marketing side of things. When it comes to your public-facing website, the best thing to do is find a pre-built theme and leverage that for marketing. Though it does cost a little bit of money, it’s incredibly easy. For less than $100, you can get a beautiful website from a number of different theme providers around the internet. Some themes are built for content management systems like Wordpress or Drupal, but there are also themes available for vanilla websites if you determine that’s the best route for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;My favorite free resources:&lt;/strong&gt; &lt;a href=&quot;https://undraw.co/&quot;&gt;Undraw&lt;/a&gt;, &lt;a href=&quot;https://colorlib.com&quot;&gt;Colorlib&lt;/a&gt;, &lt;a href=&quot;https://icons8.com/&quot;&gt;Icons8&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4-use-a-color-palette-generator&quot;&gt;4. Use a Color Palette Generator&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog-posts/coolors-example.png&quot; alt=&quot;Coolors Color Palette Example&quot; class=&quot;img-center&quot; /&gt;
+The color palette you choose is very important towards conveying your message. You’ll want to spend some time and determine what is appropriate for the audience you’re creating your software for. A common misconception is that the UX color scheme has to match the logo of the business or product. The truth is, the colors simply have to compliment the logo well and may or may not be a perfect match. It takes some time, but can be a fun process to figure out specifically what colors you want to work with.&lt;/p&gt;
+
+&lt;p&gt;A critical component to selecting a great color scheme relies on accessibility, which we’ll touch more on next. A quick rule of thumb is you want at least a few colors that have sufficient contrast for the Web Content Accessibility Guidelines 2.0. Having sufficient color contrast not only improves readability but goes a long way in page visual performance and SEO.&lt;/p&gt;
+
+&lt;p&gt;If you’re interested more in color psychology and what your color scheme may convey to your users, &lt;a href=&quot;https://www.toptal.com/designers/ux/color-in-ux&quot;&gt;this article on Toptal&lt;/a&gt; does a tremendous job of how everything with color works together.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;My favorite color palette generator:&lt;/strong&gt; &lt;a href=&quot;https://coolors.co/&quot;&gt;Coolors&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;5-accessibility-is-a-requirement&quot;&gt;5. Accessibility is a Requirement&lt;/h2&gt;
+
+&lt;p&gt;Accessibility has become increasingly important as software becomes more and more prevalent in everyday life. If you develop software that is inaccessible, you may be losing a potentially large portion of potential users. The Click-Away Pound Survey from 2016 found that 71% of online shoppers with disabilities will click away from your website if it is too difficult to use. Of those 71%, 81% are willing and likely to pay more money for a competing product if it’s more accessible.&lt;/p&gt;
+
+&lt;p&gt;Accessibility audits get difficult, however there are some free tools that can help drastically. If you’re using Google Chrome, the built-in Developer Tools have an “Audit” section where it will run a Google Lighthouse report for the page you’re currently working on. If you’re not using Chrome, take a look through the &lt;a href=&quot;https://www.w3.org/WAI/ER/tools/&quot;&gt;W3 Web Accessibility Evaluation Tools&lt;/a&gt; list. It has hundreds of resources for checking web accessibility.&lt;/p&gt;
+
+&lt;p&gt;Mobile app accessibility testing has come a long way in recent years. Now there are a number of free tools to help diagnose accessibility problems in mobile apps. Along with existing testing tools, The Paciello Group released a free &lt;a href=&quot;https://developer.paciellogroup.com/downloads/TPG_Mobile_Testing_Guide.pdf&quot;&gt;Mobile Testing Guide&lt;/a&gt; that goes in-depth with how to test for accessibility concerns on iOS and Android.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;My favorite accessibility testing tools:&lt;/strong&gt; &lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/&quot;&gt;Google Lighthouse (Web)&lt;/a&gt;, &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.deque.axe.android&quot;&gt;Axe for Android&lt;/a&gt;, Xcode Accessibility Inspector&lt;/p&gt;</content><author><name>Brian Adams</name></author><category term="design" /><category term="ui" /><category term="ux" /><category term="software development" /><summary type="html">Developers tend to struggle with design, but there are a few quick changes that can make your software shine.</summary></entry><entry><title type="html">Why should you use a G Suite Resller?</title><link href="https://sevenhillstechnology.com/google/2018/10/29/why-use-gsuite-reseller" rel="alternate" type="text/html" title="Why should you use a G Suite Resller?" /><published>2018-10-29T07:27:37-04:00</published><updated>2018-10-29T07:27:37-04:00</updated><id>https://sevenhillstechnology.com/google/2018/10/29/why-use-gsuite-reseller</id><content type="html" xml:base="https://sevenhillstechnology.com/google/2018/10/29/why-use-gsuite-reseller">&lt;p&gt;&lt;img src=&quot;/images/gsuite.png&quot; alt=&quot;Google G Suite Logo&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Launched in the fall of 2006, G Suite, formerly known as Google Apps, has been the leading provider for cloud native productivity applications for over 12 years. G Suite owes it’s success largely to the ease of implementation and use of the platform. Many users are familiar with Gmail when their company starts or signs up with G Suite, helping provide a smooth transition to using products they already know in their day to day jobs.&lt;/p&gt;
+
+&lt;p&gt;In addition to the end users, IT staff generally benefit from migrating older on-site email servers and IT resources out to Google, freeing them up to focus on other tasks that provide added business value instead of spending much of their time supporting IT infrastructure. For a small company, the move can be quick and painless, potentially making the switch inside of a single day. Even for larger deployments, there are a wealth of tools and existing knowledge drawing from the 12 years of collective experience moving companies to the platform.&lt;/p&gt;
+
+&lt;p&gt;So if G Suite is easy to use for end uers, and easy to implement for IT staff, what benefits could a reseller possibly provide?&lt;/p&gt;
+
+&lt;h2 id=&quot;the-benefits-of-using-a-g-suite-reseller&quot;&gt;The Benefits of Using a G Suite Reseller&lt;/h2&gt;
+
+&lt;h3 id=&quot;the-subscription-cost-is-the-same&quot;&gt;The subscription cost is the same&lt;/h3&gt;
+
+&lt;p&gt;The majority of G Suite Resellers will charge you the same as Google for the cost of the G Suite subscription. This covers your license to use all of the software in G Suite and get basic support from Google. Often times resellers will offer additional services for migrating, providing additional support, or training that can be purchased but are generally not required to use the software.&lt;/p&gt;
+
+&lt;h3 id=&quot;you-may-not-have-an-it-department&quot;&gt;You may not have an IT department&lt;/h3&gt;
+
+&lt;p&gt;Many small companies benefit greatly from the ease of setup and use of G Suite, but do not have dedicated IT staff to plan the migration without disrupting the day to day business. A G Suite reseller has experience migrating companies of varying sizes and can help ensure migrating to G Suite goes smoothly with little to no interruption of normal business practices.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-it-staff-may-be-too-busy&quot;&gt;The IT staff may be too busy&lt;/h3&gt;
+
+&lt;p&gt;Even companies with dedicated IT staff benefit from using a reseller. IT organizations are generally busy with tasks related to keeping internal systems running and working for the business, and adding a migration of a core business function to another provider takes planning and focus that they may not be able to spare. A G Suite reseller brings that focus and experience to the process, relieving the stress and burden from the internal IT staff, giving the move the best chances of success.&lt;/p&gt;
+
+&lt;h3 id=&quot;customized-and-local-support&quot;&gt;Customized and local support&lt;/h3&gt;
+
+&lt;p&gt;Resellers often sell locally, providing a level of support that you cannot get directly from Google. Having someone on-site to help with migrating users, teaching them how to use a new platform, and providing on-going support and training can be the deciding factor between users adopting a new system successfully, or struggling with it for a longer period of time.&lt;/p&gt;
+
+&lt;h3 id=&quot;access-to-additional-support-and-training&quot;&gt;Access to additional support and training&lt;/h3&gt;
+
+&lt;p&gt;Most resellers will offer support plans or addtional ad-hoc support time at an hourly rate to cover day to day support or on-going training to make sure employees are able to use G Suite effectively. On-going training directly with employees is often the best way to ensure they know and understand how to use G Suite, and also teaches them advanced features that can make them more productive in their day to day activity.&lt;/p&gt;
+
+&lt;h3 id=&quot;custom-applications-and-integrations&quot;&gt;Custom applications and integrations&lt;/h3&gt;
+
+&lt;p&gt;An email and productivity platform is unlikely to be the only software a company uses. A G Suite reseller can help you find other products on the marketplace that integrate with your existing systems for the purposes of accounting, time tracking, invoicing, project management, and more. In many cases, the reseller may also be able to build custom software to provide a more specific need or integration.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-should-you-go-directly-to-google&quot;&gt;When Should You Go Directly to Google?&lt;/h2&gt;
+
+&lt;p&gt;As helpful as working with a G Suite reseller can be, it may also be unnecessary for your business. Generally a reseller is going to be unecessary if the following applies to your business.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;You have an IT staff who has the time and capability to migrate and support your staff.&lt;/li&gt;
+  &lt;li&gt;You don’t need any custom applications or integrations into G Suite.&lt;/li&gt;
+  &lt;li&gt;You have strict data privacy requirements that make working with 3rd parties difficult.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;ready-to-start-learn-more-about-g-suite&quot;&gt;Ready to start? &lt;a href=&quot;https://sevenhillstechnology.com/gsuite&quot;&gt;Learn more about G Suite&lt;/a&gt;&lt;/h2&gt;</content><author><name>Brad Gardner</name></author><category term="google" /><category term="gsuite" /><category term="email" /><summary type="html">As of February 2018, Google had 4 million businesses using G Suite for email and file storage, collaborating on documents, video conferencing and more.</summary></entry></feed>
