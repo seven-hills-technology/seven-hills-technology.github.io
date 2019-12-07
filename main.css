@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
-  line-height: 1.5em;
+  line-height: 1.5;
   color: #666666; }
 
 strong {
@@ -178,34 +178,6 @@ a {
     @media screen and (max-width: 1091px) {
       .sh-home-wrapper .sh-home-text {
         width: 100%; } }
-    .sh-home-wrapper .sh-home-text .contact-button-wrapper {
-      display: flex;
-      justify-content: center; }
-      .sh-home-wrapper .sh-home-text .contact-button-wrapper .contact-button {
-        display: flex;
-        align-self: center;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        padding-left: 10px;
-        padding-right: 10px;
-        height: 60px;
-        border: 2px solid #0F5481;
-        border-radius: 3px;
-        color: #0F5481;
-        text-decoration: none;
-        transition: 0.45s;
-        margin-top: 20px;
-        font-weight: 400;
-        font-size: 16px; }
-        .sh-home-wrapper .sh-home-text .contact-button-wrapper .contact-button:visited {
-          color: #0F5481;
-          text-decoration: none; }
-        .sh-home-wrapper .sh-home-text .contact-button-wrapper .contact-button:hover {
-          color: #fff;
-          background-color: #0F5481;
-          text-decoration: none;
-          transition: 0.45s; }
 
 .default-button-wrapper {
   display: flex;
@@ -484,6 +456,8 @@ a {
       font-size: 68px;
       text-transform: uppercase;
       text-align: right; }
+      .sh-content .sh-dark-band h2.large-h2.align-left {
+        text-align: left; }
       @media (max-width: 1024px) {
         .sh-content .sh-dark-band h2.large-h2 {
           font-size: 60px; } }
@@ -492,6 +466,10 @@ a {
           font-size: 48px; } }
   .sh-content .sh-dark-band h3 {
     color: #fff; }
+  .sh-content .sh-dark-band h4.impact-h4 {
+    color: #fff; }
+  .sh-content .sh-dark-band h4.align-right {
+    text-align: right; }
   .sh-content .sh-dark-band .sh-city-outline {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -594,6 +572,10 @@ a {
       @media (max-width: 768px) {
         .sh-content .sh-light-band h2.large-h2 {
           font-size: 48px; } }
+  .sh-content .sh-light-band h4.impact-h4 {
+    color: #0F5481; }
+  .sh-content .sh-light-band h4.align-right {
+    text-align: right; }
   .sh-content .sh-light-band .sh-city-outline {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -653,12 +635,18 @@ a {
       text-transform: uppercase;
       text-align: left;
       color: #0F5481; }
+      .sh-content .sh-white-band h2.large-h2.align-right {
+        text-align: right; }
       @media (max-width: 1024px) {
         .sh-content .sh-white-band h2.large-h2 {
           font-size: 60px; } }
       @media (max-width: 768px) {
         .sh-content .sh-white-band h2.large-h2 {
           font-size: 48px; } }
+  .sh-content .sh-white-band h4.impact-h4 {
+    color: #0F5481; }
+  .sh-content .sh-white-band h4.align-right {
+    text-align: right; }
   .sh-content .sh-white-band p {
     max-width: 1000px; }
     .sh-content .sh-white-band p.full-width {
@@ -1367,51 +1355,67 @@ a {
     .sh-landing-intro {
       padding: 0;
       margin: 0 auto; } }
-  .sh-landing-intro.dev-background {
-    background: transparent url("/images/development-gray.svg") 0% 0% no-repeat padding-box;
-    background-position: right;
+  .sh-landing-intro.landing-big-background.dev {
+    background: transparent url("/images/development-gray.svg") 0% 0% no-repeat padding-box; }
+  .sh-landing-intro.landing-big-background.consulting {
+    background: transparent url("/images/consulting-color.svg") 0% 0% no-repeat padding-box; }
+  .sh-landing-intro.landing-big-background.home {
+    background: transparent url("/images/home-illustration.svg") 0% 0% no-repeat padding-box; }
+  .sh-landing-intro.landing-big-background.dev, .sh-landing-intro.landing-big-background.consulting {
     background-size: 60% auto;
     min-height: 886px;
+    background-position: right; }
+  .sh-landing-intro.landing-big-background.home {
+    background-size: 50% auto;
+    min-height: 870px;
+    background-position: right; }
+    @media (min-width: 1960px) {
+      .sh-landing-intro.landing-big-background.home {
+        background-position: 70%; } }
+  .sh-landing-intro.landing-big-background.dev, .sh-landing-intro.landing-big-background.consulting, .sh-landing-intro.landing-big-background.home {
     margin: 0 auto; }
     @media (min-width: 2000px) {
-      .sh-landing-intro.dev-background {
+      .sh-landing-intro.landing-big-background.dev, .sh-landing-intro.landing-big-background.consulting, .sh-landing-intro.landing-big-background.home {
         min-height: 1200px; } }
     @media (max-width: 1400px) {
-      .sh-landing-intro.dev-background {
+      .sh-landing-intro.landing-big-background.dev, .sh-landing-intro.landing-big-background.consulting, .sh-landing-intro.landing-big-background.home {
         min-height: 696px; } }
     @media (max-width: 1100px) {
-      .sh-landing-intro.dev-background {
+      .sh-landing-intro.landing-big-background.dev, .sh-landing-intro.landing-big-background.consulting, .sh-landing-intro.landing-big-background.home {
         padding: 0;
         margin: 0 auto;
         background-position: center bottom;
         min-height: calc(100vh - 100px);
         background-size: 90% auto; } }
-    .sh-landing-intro.dev-background h1 {
+    @media (max-width: 1100px) and (max-height: 1000px) {
+      .sh-landing-intro.landing-big-background.dev, .sh-landing-intro.landing-big-background.consulting, .sh-landing-intro.landing-big-background.home {
+        min-height: 1010px; } }
+    .sh-landing-intro.landing-big-background.dev h1, .sh-landing-intro.landing-big-background.consulting h1, .sh-landing-intro.landing-big-background.home h1 {
       padding-top: 15%;
       max-width: 655px;
       text-align: center;
       color: #597690; }
       @media (min-width: 2000px) {
-        .sh-landing-intro.dev-background h1 {
+        .sh-landing-intro.landing-big-background.dev h1, .sh-landing-intro.landing-big-background.consulting h1, .sh-landing-intro.landing-big-background.home h1 {
           padding-top: 20%; } }
       @media (max-width: 1400px) {
-        .sh-landing-intro.dev-background h1 {
+        .sh-landing-intro.landing-big-background.dev h1, .sh-landing-intro.landing-big-background.consulting h1, .sh-landing-intro.landing-big-background.home h1 {
           max-width: 500px; } }
       @media (max-width: 1100px) {
-        .sh-landing-intro.dev-background h1 {
+        .sh-landing-intro.landing-big-background.dev h1, .sh-landing-intro.landing-big-background.consulting h1, .sh-landing-intro.landing-big-background.home h1 {
           padding-top: 20px;
           max-width: 100%; } }
-    .sh-landing-intro.dev-background p {
+    .sh-landing-intro.landing-big-background.dev p, .sh-landing-intro.landing-big-background.consulting p, .sh-landing-intro.landing-big-background.home p {
       padding-top: 20px;
       max-width: 655px;
       text-align: center;
       color: #597690;
       font-size: 26px; }
       @media (max-width: 1400px) {
-        .sh-landing-intro.dev-background p {
+        .sh-landing-intro.landing-big-background.dev p, .sh-landing-intro.landing-big-background.consulting p, .sh-landing-intro.landing-big-background.home p {
           max-width: 500px; } }
       @media (max-width: 1100px) {
-        .sh-landing-intro.dev-background p {
+        .sh-landing-intro.landing-big-background.dev p, .sh-landing-intro.landing-big-background.consulting p, .sh-landing-intro.landing-big-background.home p {
           max-width: 100%; } }
 
 .modern-information-structure {
@@ -1456,19 +1460,20 @@ a {
         @media (max-width: 612px) {
           .modern-information-structure.alt .mis-child .row-container {
             flex-direction: column; } }
-        .modern-information-structure.alt .mis-child .row-container .process-description-container {
+        .modern-information-structure.alt .mis-child .row-container .service-container {
           min-width: 40%; }
-          .modern-information-structure.alt .mis-child .row-container .process-description-container p {
+          .modern-information-structure.alt .mis-child .row-container .service-container p {
             font-size: 20px;
             line-height: 56px;
             margin-bottom: 56px; }
-        .modern-information-structure.alt .mis-child .row-container div.img-container {
+        .modern-information-structure.alt .mis-child .row-container div.img-service-container {
           display: flex;
           max-width: 55%; }
-          .modern-information-structure.alt .mis-child .row-container div.img-container img {
+          .modern-information-structure.alt .mis-child .row-container div.img-service-container img {
             min-height: 100%; }
-          .modern-information-structure.alt .mis-child .row-container div.img-container.left {
-            justify-content: right; }
+          .modern-information-structure.alt .mis-child .row-container div.img-service-container.left {
+            justify-content: right;
+            padding-right: 40px; }
 
 .big-p {
   color: #597690;
@@ -1477,6 +1482,8 @@ a {
   line-height: 49px;
   margin-bottom: 49px;
   max-width: 600px; }
+  .big-p.light-text {
+    color: #fff; }
 
 .quote {
   font-size: 28px;
@@ -1538,3 +1545,50 @@ a {
       border-bottom: 0; }
     .comparison-table > table tr th:last-child {
       border-right: 0; }
+
+#homeVideo {
+  max-height: 35vh;
+  display: flex; }
+  @media (max-width: 737px) {
+    #homeVideo {
+      max-height: 100vh; } }
+
+.cta-button-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  max-width: 655px;
+  text-align: center;
+  color: #597690;
+  font-size: 26px; }
+  @media (max-width: 1400px) {
+    .cta-button-wrapper {
+      max-width: 500px; } }
+  @media (max-width: 1100px) {
+    .cta-button-wrapper {
+      max-width: 100%; } }
+  .cta-button-wrapper .cta-button {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+    border: 2px solid #0F5481;
+    border-radius: 3px;
+    color: #0F5481;
+    text-decoration: none;
+    transition: 0.45s;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px; }
+    .cta-button-wrapper .cta-button:visited {
+      color: #0F5481;
+      text-decoration: none; }
+    .cta-button-wrapper .cta-button:hover {
+      color: #fff;
+      background-color: #0F5481;
+      text-decoration: none;
+      transition: 0.45s; }
