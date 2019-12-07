@@ -11,17 +11,15 @@ title: Seven Hills Technology in Cincinnati Ohio
     <p>
         We're an innovation company in Cincinnati, OH with one goal: <strong>to make your organization better through custom technology.</strong>
     </p>
-        <div class="cta-button-wrapper"> 
-            <a class="cta-button" href="https://app.hubspot.com/meetings/bradgardner/1-hour-consultation"
-                rel="noreferrer" target="_blank">Schedule Your Free Strategy Session</a>
-        </div>
-    <p>
-    </p>
+    <div class="cta-button-wrapper"> 
+        <a class="cta-button" href="https://app.hubspot.com/meetings/bradgardner/1-hour-consultation"
+            rel="noreferrer" target="_blank">Schedule Your Free Strategy Session</a>
+    </div>
 </section>
 
 <div class="sh-band-flair light-top"></div>
 <section class="sh-light-band">
-    <h2>Software Development Solutions</h2>
+    <h2><a href="/development" alt="Custom Software Development">Custom Software Development</a></h2>
     <div style="max-width: 100%; display: flex; flex-direction: row; justify-content: center;padding-bottom: 60px;">
         <video poster="/videos/poster.png" controls preload id="homeVideo" >
             <source src="/videos/intro-video.mp4" media="only screen and (min-device-width: 568px)"></source>
@@ -51,6 +49,9 @@ title: Seven Hills Technology in Cincinnati Ohio
             <p>Take advantage of a connected world by controlling and collecting data from devices like building sensors or everyday household items.</p>
         </div>
     </div>
+    <div class="cta-button-wrapper"> 
+        <a class="cta-button" href="/development">Learn About Custom Software</a>
+    </div>
 </section>
 <div class="sh-band-flair light-bottom"></div>
 
@@ -59,42 +60,21 @@ title: Seven Hills Technology in Cincinnati Ohio
         <div class="sh-product-wrapper">
             <div class="small-image-wrapper">
                 <div class="icon small-icon d-block d-md-none">
-                    <img class="lozad" data-src="/images/development-color.svg" alt="Custom Software Development Icon" height="150">
+                    <img class="lozad" data-src="/images/consulting-color.svg" alt="Technology Consulting Icon" height="150">
                 </div>
             </div>
             <div class="sh-product">
                 <div class="text">
-                    <h2><a href="/development" alt="Custom Software Development">Custom Software Development</a></h2>
+                    <h2><a href="/consulting" alt="Technology Consulting">Technology Consulting</a></h2>
                     <div>
-                        Your technology solution or mobile application needs to work the way you expect it to, and that begins with design. Seven Hills Technology begins every project with design-drive development, which means you can see, experience, and test your solution right from the very beginning of the creation process through the final steps of deployment. We can build software to fit your exact and custom needs, on any budget.
+                        Great partnerships require great transparency, and we’re here to help you open the ‘black box’ of technology. We offer strategic planning services to help you put structure around your technology needs, both in short-term and long-term perspectives. This clarity of where you are today and where you’re heading in the future ensures you make the right investments at the right time in solutions that will support your goals.
                     </div>
                     <div class="small-link">
-                        <a href="/development" alt="Development">More about Custom Development <i class="fa fa-arrow-right"></i></a>
+                        <a href="/consulting" alt="Technology Consulting">More about Technology Consulting <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="icon pull-right d-none d-md-block">
-                    <img class="lozad" data-src="/images/development-color.svg" alt="Custom Software Development Icon" height="200">
-                </div>
-            </div>
-        </div>
-        <div class="sh-product-wrapper">
-            <div class="small-image-wrapper">
-                <div class="icon small-icon d-block d-md-none">
-                    <img class="lozad" data-src="/images/consulting-color.svg" alt="Strategic Software Planning Icon" height="150">
-                </div>
-            </div>
-            <div class="sh-product">
-                <div class="text">
-                    <h2><a href="/consulting" alt="Strategic Software Planning">Strategic Planning and Consulting</a></h2>
-                    <div>
-                        Great partnerships require great transparency, and we’re here to help you open the ‘black box’ of software development. We offer strategic planning services to help you put structure around your technology needs, both in short-term and long-term perspectives. This clarity of where you are today and where you’re heading in the future ensures you make the right investments at the right time in solutions that will support your goals.
-                    </div>
-                    <div class="small-link">
-                        <a href="/consulting" alt="Strategic Software Planning">More about Strategic Planning <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="icon pull-right d-none d-md-block">
-                    <img class="lozad" data-src="/images/consulting-color.svg" alt="Strategic Software Planning Icon" height="200">
+                    <img class="lozad" data-src="/images/consulting-color.svg" alt="Technology Consulting Icon" height="200">
                 </div>
             </div>
         </div>
@@ -132,29 +112,7 @@ title: Seven Hills Technology in Cincinnati Ohio
 </section>
 <div class="sh-band-flair dark-bottom"></div>
 <section class="sh-white-band">
-    <h2>How We Help Our Clients</h2>
-    <p>You have the power to be more efficient, communicate more effectively, and save time and money. The results you can expect with our mobile and web apps:</p>
-    <div class="sh-benefits">
-        <div class="sh-benefit">
-            <i class="fad fa-rocket fa-4x"></i>
-            <div>Supercharged efficiency</div>
-        </div>
-        <div class="sh-benefit">
-            <i class="fad fa-users fa-4x"></i>
-            <div>Engaged employees and customers</div>
-        </div>
-        <div class="sh-benefit">
-            <i class="fad fa-smile-beam fa-4x"></i>
-            <div>Fewer headaches</div>
-        </div>
-        <div class="sh-benefit">
-            <i class="fad fa-bolt fa-4x"></i>
-            <div>Lightning-fast information</div>
-        </div>
-    </div>
-</section>
-<section class="sh-white-band">
-    <h2>Read Our Musings</h2>
+    <h2>Read Our Blog</h2>
     <p>Read our recent blog posts</p>
     <div class="sh-blog">
         {% for post in site.posts limit: 3 %}
