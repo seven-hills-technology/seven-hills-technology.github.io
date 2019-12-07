@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 25">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_4" data-name="Group 4" transform="translate(-823 -1639)">
+    <g id="Rectangle_8" data-name="Rectangle 8" class="cls-1" transform="translate(823 1639)">
+      <rect class="cls-3" width="26" height="25"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="25" height="24"/>
+    </g>
+    <g id="github-logo" transform="translate(750.029 919)">
+      <path id="Github" class="cls-2" d="M108.5.058c-1.728,1.08-3.511.169-4.8,0a4.638,4.638,0,0,0-3.342,8.522c-1.064.551-.994,3.356.146,3.756-2.685.307-3.183,4.091-1.744,5.634,1.751,1.877,7.138,1.752,8.718,0a4.3,4.3,0,0,0,.29-4.911c-.881-1.062-5.3-1.222-5.23-2.889.048-1.165,1.646-.981,2.616-1.445a4.7,4.7,0,0,0,2.179-5.489c.407-.076.755-.212,1.162-.289V.058Zm-6.975,6.067c-2.126-4.632,4.889-4.3,2.761,0A2.544,2.544,0,0,1,101.521,6.125Zm3.923,9.1c.188,2.077-4.018,2.17-4.5.723-.409-1.219.1-1.564,1.307-1.878C103.615,13.714,105.318,13.836,105.444,15.225Z" transform="translate(-17 723)"/>
+    </g>
+  </g>
+</svg>

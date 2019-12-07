@@ -1,0 +1,29 @@
+version: '3.1'
+
+services:
+
+  wordpress:
+    build: .
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: local
+      WORDPRESS_DB_PASSWORD: shtweb
+      WORDPRESS_DB_NAME: shtweb
+    volumes:
+      - ./theme:/var/www/html/wp-content/themes/sevenhillstechnology
+      - ./sht-blocks:/var/www/html/wp-content/plugins/sht-blocks
+
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: shtweb
+      MYSQL_USER: local
+      MYSQL_PASSWORD: shtweb
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+    volumes:
+      - db:/var/lib/mysql
+
+volumes:
+  db:

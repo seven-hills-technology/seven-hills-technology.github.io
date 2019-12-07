@@ -1,0 +1,17 @@
+{
+  "name": "sht-blocks",
+  "version": "1.0.0",
+  "description": "Gutenberg blocks for Seven Hills Technology website",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "author": "Brian Adams",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/block-editor": "^3.3.0",
+    "@wordpress/blocks": "^6.8.0",
+    "@wordpress/scripts": "6.0.0"
+  }
+}
