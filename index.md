@@ -6,33 +6,24 @@ layout: home
 title: Seven Hills Technology in Cincinnati Ohio
 ---
 
-<section class="sh-intro">
-    <div class="sh-home-wrapper">
-        <div class="sh-home-illustration">
-            <img src="/images/home-illustration.svg" alt="">
+<section class="sh-landing-intro landing-big-background home">
+    <h1>Web and Mobile Apps that Actually Help You</h1>
+    <p>
+        We're an innovation company in Cincinnati, OH with one goal: <strong>to make your organization better through custom technology.</strong>
+    </p>
+        <div class="cta-button-wrapper"> 
+            <a class="cta-button" href="https://app.hubspot.com/meetings/bradgardner/1-hour-consultation"
+                rel="noreferrer" target="_blank">Schedule Your Free Strategy Session</a>
         </div>
-        <div class="sh-home-text">
-            <div class="sh-tagline">
-                <h1 class="sh-header-lines"><span>Web and mobile apps that actually help you.</span></h1>
-            </div>
-            <div class="sh-description home-description">Seven Hills Technology is an innovation company in Cincinnati, OH with one goal: to help your organization succeed by developing custom mobile and web apps to meet your needs.
-            </div>
-            <div class="sh-description home-description" style="margin-top: 0;">
-                Business of all sizes and industries can grow with technology, and we’re here to show you how. 
-                <div class="contact-button-wrapper"> 
-                    <a class="contact-button" href="https://app.hubspot.com/meetings/bradgardner/1-hour-consultation"
-                        rel="noreferrer" target="_blank">Schedule Your Free Strategy Session</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <p>
+    </p>
 </section>
 
 <div class="sh-band-flair light-top"></div>
 <section class="sh-light-band">
     <h2>Software Development Solutions</h2>
-    <div style="max-width: 100%; display: flex; flex-direction: row; justify-content: center;padding-bottom: 20px;">
-        <video poster="/videos/poster.png" controls preload style="max-height: 35vh; display: flex;">
+    <div style="max-width: 100%; display: flex; flex-direction: row; justify-content: center;padding-bottom: 60px;">
+        <video poster="/videos/poster.png" controls preload id="homeVideo" >
             <source src="/videos/intro-video.mp4" media="only screen and (min-device-width: 568px)"></source>
             <source src="/videos/intro-video.mobile.mp4" media="only screen and (max-device-width: 568px)"></source>
             <source src="/videos/intro-video.webm"></source>

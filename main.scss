@@ -14,7 +14,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 1.5em;
+    line-height: 1.5;
     color: $text-gray;
 }
 
@@ -256,43 +256,6 @@ a {
 
         @media screen and (max-width: 1091px) {
             width: 100%;
-        }
-
-        .contact-button-wrapper {
-            display: flex;
-            justify-content: center;
-
-            .contact-button {
-                display: flex;
-                align-self: center;
-                flex-direction: column;
-                justify-content: center;
-                text-align: center;
-                padding-left: 10px;
-                padding-right: 10px;
-                height: 60px;
-                border: 2px solid $brand-1;
-                border-radius: 3px;
-                color: $brand-1;
-                text-decoration: none;
-                transition: 0.45s;
-                margin-top: 20px;
-                font-weight: 400;
-                font-size: 16px;
-
-                &:visited {
-                    color: $brand-1;
-                    text-decoration: none;
-                }
-
-
-                &:hover {
-                    color: $standard-white;
-                    background-color: $brand-1;
-                    text-decoration: none;
-                    transition: 0.45s;
-                }
-            }
         }
     }
 }
@@ -2057,63 +2020,135 @@ a {
     &.landing-big-background.consulting {
         background: transparent url('/images/consulting-color.svg') 0% 0% no-repeat padding-box;
     }
+    &.landing-big-background.home {
+        background: transparent url('/images/home-illustration.svg') 0% 0% no-repeat padding-box;
+    }
 
-    &.landing-big-background.dev, &.landing-big-background.consulting {
-        background-position: right;
-        background-size: 60% auto;
-        min-height: 886px;
-        margin: 0 auto;
-
-        @media(min-width: 2000px) {
-            min-height: 1200px;
+    &.landing-big-background {
+        &.dev, &.consulting {
+            background-size: 60% auto;
+            min-height: 886px;
+            background-position: right;
         }
 
-        @media(max-width: 1400px) {
-            min-height: 696px;
+        &.home {
+            background-size: 50% auto;
+            min-height: 870px;
+            background-position: right;
+
+            @media (min-width: 1960px) {
+                background-position: 70%;
+            }
         }
 
-        @media(max-width: 1100px) {
-            padding: 0;
+        &.dev, &.consulting, &.home {
             margin: 0 auto;
-
-            background-position: center bottom;
-            min-height: calc(100vh - 100px);
-            background-size: 90% auto;
-        }
-
-        & h1 {
-            padding-top: 15%;
-            max-width: 655px;
-            text-align: center;
-            color: $charcoal;
-
-            @media (min-width: 2000px) {
-                padding-top: 20%;
+    
+            @media(min-width: 2000px) {
+                min-height: 1200px;
             }
-
+    
             @media(max-width: 1400px) {
-                max-width: 500px;
+                min-height: 696px;
+            }
+    
+            @media(max-width: 1100px) {
+                padding: 0;
+                margin: 0 auto;
+    
+                background-position: center bottom;
+                min-height: calc(100vh - 100px);
+                background-size: 90% auto;
             }
 
-            @media(max-width: 1100px) {
+            @media (max-width:1100px) and (max-height: 1000px) {
+                min-height: 1010px;
+            }
+    
+            & h1 {
+                padding-top: 15%;
+                max-width: 655px;
+                text-align: center;
+                color: $charcoal;
+    
+                @media (min-width: 2000px) {
+                    padding-top: 20%;
+                }
+    
+                @media(max-width: 1400px) {
+                    max-width: 500px;
+                }
+    
+                @media(max-width: 1100px) {
+                    padding-top: 20px;
+                    max-width: 100%;
+                }
+            }
+    
+            & p {
                 padding-top: 20px;
-                max-width: 100%;
+                max-width: 655px;
+                text-align: center;
+                color: $charcoal;
+                font-size: 26px;
+    
+                @media(max-width: 1400px) {
+                    max-width: 500px;
+                }
+    
+                @media(max-width: 1100px) {
+                    max-width: 100%;
+                }
             }
-        }
 
-        & p {
-            padding-top: 20px;
-            max-width: 655px;
-            text-align: center;
-            color: $charcoal;
-            font-size: 26px;
+            .cta-button-wrapper {
+                display: flex;
+                justify-content: center;
+                padding-top: 20px;
+                max-width: 655px;
+                text-align: center;
+                color: $charcoal;
+                font-size: 26px;
+    
+                @media(max-width: 1400px) {
+                    max-width: 500px;
+                }
+    
+                @media(max-width: 1100px) {
+                    max-width: 100%;
+                }
 
-            @media(max-width: 1400px) {
-                max-width: 500px;
-            }
+                .cta-button {
+                    display: flex;
+                    align-self: center;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    height: 60px;
+                    border: 2px solid $brand-1;
+                    border-radius: 3px;
+                    color: $brand-1;
+                    text-decoration: none;
+                    transition: 0.45s;
+                    margin-top: 20px;
+                    font-weight: 400;
+                    font-size: 16px;
 
-            @media(max-width: 1100px) {
-                max-width: 100%;
+                    &:visited {
+                        color: $brand-1;
+                        text-decoration: none;
+                    }
+
+
+                    &:hover {
+                        color: $standard-white;
+                        background-color: $brand-1;
+                        text-decoration: none;
+                        transition: 0.45s;
+                    }
+                }
             }
         }
     }
@@ -2309,5 +2344,14 @@ a {
         & tr th:last-child {
             border-right: 0;
         }
+    }
+}
+
+#homeVideo {
+    max-height: 35vh; 
+    display: flex;
+
+    @media (max-width: 737px) {
+        max-height: 100vh;
     }
 }
