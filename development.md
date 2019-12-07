@@ -5,7 +5,7 @@ description: Seven Hills Technology provides custom software development of web 
 cta_title: Let's get some coffee and figure out what's next.
 ---
 
-<section class="sh-landing-intro dev-background">
+<section class="sh-landing-intro landing-big-background dev">
     <h1>Mobile App and Web Application Development</h1>
     <p><strong>Turbo-charge</strong> your growth with custom software.</p>
 </section>
@@ -14,7 +14,7 @@ cta_title: Let's get some coffee and figure out what's next.
 <section class="sh-light-band">
     <div class="modern-information-structure">
         <div class="mis-child">
-            <h2 class="large-h2">Custom <br/>Software <br/>to Move <br/>You Forward</h2>
+            <h2 class="large-h2">Custom <br/>Software <br/>to Move <br/>You Forward.</h2>
         </div>
         <div class="mis-child align-right">
             <p class="big-p">
@@ -61,7 +61,7 @@ cta_title: Let's get some coffee and figure out what's next.
         </div>
         <div class="mis-child align-left">
             <div class="row-container">
-                <div class="process-description-container">
+                <div class="service-container">
                     <h3>Project Scoping</h3>
                     <img class="visible-md" style="max-width: 100%;" src="/images/scoping.svg" alt="Project Scoping" />
                     <p>
@@ -71,17 +71,17 @@ cta_title: Let's get some coffee and figure out what's next.
                         Once we figure out everything we need to know about you and your organization, we work with you to prioritize what will give you the most value. From there, we start scoping out small projects so we can start our favorite part: <strong>delivering you value.</strong>
                     </p>
                 </div>
-                <div class="img-container right hidden-md">
+                <div class="img-service-container right hidden-md">
                     <img style="width: 100%" src="/images/scoping.svg" alt="Project Scoping" />
                 </div>
             </div>
         </div>
         <div class="mis-child align-right">
             <div class="row-container">
-                <div class="img-container left hidden-md">
+                <div class="img-service-container left hidden-md">
                     <img style="width: 100%" src="/images/devcycle.svg" alt="The Development Cycle" />
                 </div>
-                <div class="process-description-container">
+                <div class="service-container">
                     <h3>The Development Cycle</h3>
                     <img class="visible-md" style="max-width: 100%" src="/images/devcycle.svg" alt="The Development Cycle" />
                     <p>
@@ -95,7 +95,7 @@ cta_title: Let's get some coffee and figure out what's next.
         </div>
         <div class="mis-child align-left">
             <div class="row-container">
-                <div class="process-description-container">
+                <div class="service-container">
                     <h3>Support and Maintenance</h3>
                     <img class="visible-md" style="max-width: 100%; max-height: 510px; margin: 0 auto;" src="/images/supportandmaint.svg" alt="Support and Maintenance" />
                     <p>
@@ -108,7 +108,7 @@ cta_title: Let's get some coffee and figure out what's next.
                         Software maintenance is critical to prevent falling behind, or worse. With each new operating system, Android and iOS may require changes. With each database update, you may get better performance. <strong>We track and solve these issues without you breaking a sweat.</strong>
                     </p>
                 </div>
-                <div class="img-container right hidden-md">
+                <div class="img-service-container right hidden-md">
                     <img style="width: 100%" src="/images/supportandmaint.svg" alt="Support and Maintenance" />
                 </div>
             </div>

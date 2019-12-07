@@ -7,17 +7,17 @@ docs:
   - 
     children: 
       - 
-        title: "Consulting"
-        url: /consulting.html
-        friendlyUrl: consulting
-      - 
-        title: "Development"
+        title: "App Development"
         url: /development.html
         friendlyUrl: development
       - 
         title: "Public Sector"
         url: /public-sector.html
         friendlyUrl: public-sector
+      - 
+        title: "Technology Consulting"
+        url: /consulting.html
+        friendlyUrl: consulting
       - 
         grouping:
           name: Elastic
