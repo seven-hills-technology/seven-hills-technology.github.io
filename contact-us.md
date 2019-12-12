@@ -24,8 +24,8 @@ description: Contact Seven Hills Technology in Cincinnati Ohio to get started wi
                 <div class="contact-info">
                     <div class="sh-contact-section sh-find-us">
                         <h3>Find Us</h3>
-                        <a href="https://www.google.com/maps/dir/Seven+Hills+Technology+4700+Ashwood+Dr,+Blue+Ash,+OH+45241//@39.2695923,-84.3749387,15z"
-                            rel="noopener" target="_blank">4700 Ashwood Drive STE 120, Cincinnati, OH 45241</a>
+                        <a href="https://www.google.com/maps/dir/Seven+Hills+Technology+4050+Executive+Park+Dr,+Cincinnati,+OH+45241//@39.2893839,-84.3946631,16z"
+                            rel="noopener" target="_blank">4050 Executive Park Dr STE 330, Cincinnati, OH 45241</a>
                     </div>
                     <div class="sh-contact-section sh-call-us">
                         <h3>Call Us</h3>
@@ -44,7 +44,7 @@ description: Contact Seven Hills Technology in Cincinnati Ohio to get started wi
 <script type="text/javascript">
     function initMap() {
         // The location of Sevenhills
-        var sevenhills = { lat: 39.2718967, lng: -84.3743106 };
+        var sevenhills = { lat: 39.2883102, lng: -84.3944107 };
         // The map, centered at Sevenhills
         var elements = document.getElementsByClassName("map");
         for (var i = 0; i < elements.length; i++) {
