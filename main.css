@@ -464,6 +464,9 @@ a {
       @media (max-width: 768px) {
         .sh-content .sh-dark-band h2.large-h2 {
           font-size: 48px; } }
+      @media (max-width: 480px) {
+        .sh-content .sh-dark-band h2.large-h2 {
+          font-size: 40px; } }
   .sh-content .sh-dark-band h3 {
     color: #fff; }
   .sh-content .sh-dark-band h4.impact-h4 {
@@ -572,6 +575,9 @@ a {
       @media (max-width: 768px) {
         .sh-content .sh-light-band h2.large-h2 {
           font-size: 48px; } }
+      @media (max-width: 480px) {
+        .sh-content .sh-light-band h2.large-h2 {
+          font-size: 40px; } }
   .sh-content .sh-light-band h4.impact-h4 {
     color: #0F5481; }
   .sh-content .sh-light-band h4.align-right {
@@ -643,10 +649,18 @@ a {
       @media (max-width: 768px) {
         .sh-content .sh-white-band h2.large-h2 {
           font-size: 48px; } }
+      @media (max-width: 480px) {
+        .sh-content .sh-white-band h2.large-h2 {
+          font-size: 40px; }
+          .sh-content .sh-white-band h2.large-h2.align-right {
+            text-align: left; } }
   .sh-content .sh-white-band h4.impact-h4 {
     color: #0F5481; }
   .sh-content .sh-white-band h4.align-right {
     text-align: right; }
+    @media (max-width: 480px) {
+      .sh-content .sh-white-band h4.align-right {
+        text-align: left; } }
   .sh-content .sh-white-band p {
     max-width: 1000px; }
     .sh-content .sh-white-band p.full-width {
@@ -1365,6 +1379,12 @@ a {
     background-size: 60% auto;
     min-height: 886px;
     background-position: right; }
+    @media (max-width: 1100px) and (max-height: 1000px) {
+      .sh-landing-intro.landing-big-background.dev, .sh-landing-intro.landing-big-background.consulting {
+        min-height: 650px !important; } }
+    @media (max-width: 1100px) and (max-height: 768px) {
+      .sh-landing-intro.landing-big-background.dev, .sh-landing-intro.landing-big-background.consulting {
+        min-height: 700px !important; } }
   .sh-landing-intro.landing-big-background.home {
     background-size: 50% auto;
     min-height: 870px;
@@ -1372,6 +1392,12 @@ a {
     @media (min-width: 1960px) {
       .sh-landing-intro.landing-big-background.home {
         background-position: 70%; } }
+    @media (max-width: 1100px) and (max-height: 1000px) {
+      .sh-landing-intro.landing-big-background.home {
+        min-height: 820px !important; } }
+    @media (max-width: 1100px) and (max-height: 768px) {
+      .sh-landing-intro.landing-big-background.home {
+        min-height: 1000px !important; } }
   .sh-landing-intro.landing-big-background.dev, .sh-landing-intro.landing-big-background.consulting, .sh-landing-intro.landing-big-background.home {
     margin: 0 auto; }
     @media (min-width: 2000px) {
@@ -1387,9 +1413,6 @@ a {
         background-position: center bottom;
         min-height: calc(100vh - 100px);
         background-size: 90% auto; } }
-    @media (max-width: 1100px) and (max-height: 1000px) {
-      .sh-landing-intro.landing-big-background.dev, .sh-landing-intro.landing-big-background.consulting, .sh-landing-intro.landing-big-background.home {
-        min-height: 1010px; } }
     .sh-landing-intro.landing-big-background.dev h1, .sh-landing-intro.landing-big-background.consulting h1, .sh-landing-intro.landing-big-background.home h1 {
       padding-top: 15%;
       max-width: 655px;
@@ -1549,9 +1572,10 @@ a {
 #homeVideo {
   max-height: 35vh;
   display: flex; }
-  @media (max-width: 737px) {
+  @media (max-width: 740px) {
     #homeVideo {
-      max-height: 100vh; } }
+      max-height: 100vh;
+      width: 100%; } }
 
 .cta-button-wrapper {
   display: flex;
