@@ -1199,12 +1199,18 @@ a {
 
             & .sh-partner-logo {
                 display: flex;
+                flex-direction: column;
                 min-width: 465px;
-                justify-content: left;
+                justify-content: center;
 
                 &>img {
                     height: 100px;
                     max-width: 462px;
+                }
+
+                &.vertical>img {
+                    height: auto;
+                    max-height: 300px;
                 }
             }
 
@@ -1246,6 +1252,10 @@ a {
 
                     &>img {
                         height: 50px;
+                    }
+
+                    &.vertical>img {
+                        height: 100px;
                     }
                 }
 
