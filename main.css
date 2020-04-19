@@ -793,11 +793,15 @@ a {
       border-bottom: none; }
     .sh-content .sh-partners .sh-partner .sh-partner-logo {
       display: flex;
+      flex-direction: column;
       min-width: 465px;
-      justify-content: left; }
+      justify-content: center; }
       .sh-content .sh-partners .sh-partner .sh-partner-logo > img {
         height: 100px;
         max-width: 462px; }
+      .sh-content .sh-partners .sh-partner .sh-partner-logo.vertical > img {
+        height: auto;
+        max-height: 300px; }
     .sh-content .sh-partners .sh-partner .sh-partner-content {
       display: flex;
       flex-direction: column;
@@ -821,6 +825,8 @@ a {
         min-width: 0; }
         .sh-content .sh-partners .sh-partner .sh-partner-logo > img {
           height: 50px; }
+        .sh-content .sh-partners .sh-partner .sh-partner-logo.vertical > img {
+          height: 100px; }
       .sh-content .sh-partners .sh-partner .sh-partner-content {
         min-width: 0;
         width: 80%; } }
