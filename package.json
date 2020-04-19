@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bundle exec jekyll serve",
-    "build": "jekyll build"
+    "build": "jekyll build",
+    "deploy": "jgd -n -b master -r dev"
   },
   "author": "",
   "license": "ISC",
