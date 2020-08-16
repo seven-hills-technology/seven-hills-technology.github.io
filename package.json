@@ -7,7 +7,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "bundle exec jekyll serve",
         "build": "bundle exec jekyll build",
-        "deploy": "jgd -n -b master -r dev"
+        "deploy": "bundle exec jgd -n -b master -r dev"
     },
     "author": "",
     "license": "ISC",

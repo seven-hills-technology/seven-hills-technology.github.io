@@ -2050,12 +2050,15 @@ a {
     &.landing-big-background.consulting {
         background: transparent url('/images/consulting-color.svg') 0% 0% no-repeat padding-box;
     }
+    &.landing-big-background.devops {
+        background: transparent url('/images/devops.svg') 0% 0% no-repeat padding-box;
+    }
     &.landing-big-background.home {
         background: transparent url('/images/home-illustration.svg') 0% 0% no-repeat padding-box;
     }
 
     &.landing-big-background {
-        &.dev, &.consulting {
+        &.dev, &.consulting, &.devops {
             background-size: 60% auto;
             min-height: 886px;
             background-position: right;
@@ -2087,7 +2090,7 @@ a {
             }
         }
 
-        &.dev, &.consulting, &.home{
+        &.dev, &.consulting, &.devops, &.home{
             margin: 0 auto;
     
             @media(min-width: 2000px) {
