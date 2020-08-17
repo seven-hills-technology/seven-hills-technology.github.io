@@ -6,7 +6,7 @@ layout: home
 title: Seven Hills Technology in Cincinnati Ohio
 ---
 
-<section class="sh-landing-intro landing-big-background home">
+<section data-scroll class="sh-landing-intro landing-big-background home is-outside">
     <h1>Web and Mobile Apps that Actually Help You</h1>
     <p>
         We're an innovation company in Cincinnati, OH with one goal: <strong>to make your organization better through custom technology.</strong>
@@ -19,15 +19,15 @@ title: Seven Hills Technology in Cincinnati Ohio
 
 <div class="sh-band-flair light-top"></div>
 <section class="sh-light-band">
-    <h2><a href="/development" alt="Custom Software Development">Custom Software Development</a></h2>
-    <div style="max-width: 100%; display: flex; flex-direction: row; justify-content: center;padding-bottom: 60px;">
+    <h2 data-scroll><a href="/development" alt="Custom Software Development">Custom Software Development</a></h2>
+    <div data-scroll style="max-width: 100%; display: flex; flex-direction: row; justify-content: center;padding-bottom: 60px;">
         <video poster="/videos/poster.png" controls preload id="homeVideo" >
             <source src="/videos/intro-video.mp4" media="only screen and (min-device-width: 568px)"></source>
             <source src="/videos/intro-video.mobile.mp4" media="only screen and (max-device-width: 568px)"></source>
             <source src="/videos/intro-video.webm"></source>
         </video>
     </div>
-    <div class="sh-services">
+    <div data-scroll class="sh-services">
         <div class="sh-service">
             <img class="lozad" data-src="/images/cloud-blue.svg" alt="Web Apps" />
             <h3 class="small-header">Web Applications</h3>
@@ -49,7 +49,7 @@ title: Seven Hills Technology in Cincinnati Ohio
             <p>Take advantage of a connected world by controlling and collecting data from devices like building sensors or everyday household items.</p>
         </div>
     </div>
-    <div class="cta-button-wrapper"> 
+    <div data-scroll class="cta-button-wrapper"> 
         <a class="cta-button" href="/development">Learn About Custom Software</a>
     </div>
 </section>
@@ -57,7 +57,7 @@ title: Seven Hills Technology in Cincinnati Ohio
 
 <section class="sh-white-band">
     <div class="sh-product-list">
-        <div class="sh-product-wrapper">
+        <div data-scroll class="sh-product-wrapper">
             <div class="small-image-wrapper">
                 <div class="icon small-icon d-block d-md-none">
                     <img class="lozad" data-src="/images/consulting-color.svg" alt="Technology Consulting Icon" height="150">
@@ -78,7 +78,7 @@ title: Seven Hills Technology in Cincinnati Ohio
                 </div>
             </div>
         </div>
-        <div class="sh-product-wrapper">
+        <div data-scroll class="sh-product-wrapper">
             <div class="small-image-wrapper">
                 <div class="icon small-icon d-block d-md-none">
                     <img class="lozad" data-src="/images/government.svg" alt="Government and Public Sector Icon" height="150">
@@ -99,11 +99,32 @@ title: Seven Hills Technology in Cincinnati Ohio
                 </div>
             </div>
         </div>
+        <div data-scroll class="sh-product-wrapper">
+            <div class="small-image-wrapper">
+                <div class="icon small-icon d-block d-md-none">
+                    <img class="lozad" data-src="/images/devops.svg" alt="Managed DevOps Icon" height="150">
+                </div>
+            </div>
+            <div class="sh-product">
+                <div class="text">
+                    <h2><a href="/managed-devops" alt="Managed DevOps">Azure Managed DevOps</a></h2>
+                    <div>
+                        Moving infrastructure and applications to the cloud is a great way to take advantage of cost efficient and highly scalable platforms but comes with a number of pitfalls that many companies find themselves falling into. A partner who knows how to avoid common pitfalls ensures you get the best value for your Microsoft Azure deployments.
+                    </div>
+                    <div class="small-link">
+                        <a href="/managed-devops" alt="Managed DevOps">More about Azure Managed DevOps <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="icon pull-right d-none d-md-block">
+                    <img class="lozad" data-src="/images/devops.svg" alt="Managed DevOps" height="200">
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <div class="sh-band-flair dark-top"></div>
 <section class="sh-dark-band">
-    <h2 id="mission-title" class="sh-fade-in">Technical Expertise Meets Creativity</h2>
+    <h2 data-scroll id="mission-title" class="sh-fade-in">Technical Expertise Meets Creativity</h2>
     <div class="sh-city-outline">
         {% include city.html %}
     </div>
@@ -112,9 +133,9 @@ title: Seven Hills Technology in Cincinnati Ohio
 </section>
 <div class="sh-band-flair dark-bottom"></div>
 <section class="sh-white-band">
-    <h2>Read Our Blog</h2>
-    <p>Read our recent blog posts</p>
-    <div class="sh-blog">
+    <h2 data-scroll>Read Our Blog</h2>
+    <p data-scroll>Read our recent blog posts</p>
+    <div data-scroll class="sh-blog">
         {% for post in site.posts limit: 3 %}
         <div class="post">
             <a href="{{post.url}}" alt="{{post.title}}">
@@ -126,7 +147,7 @@ title: Seven Hills Technology in Cincinnati Ohio
         </div>
         {% endfor %}
     </div>
-    <div class="default-button-wrapper"> 
+    <div data-scroll class="default-button-wrapper"> 
         <a class="default-button" href="/blog">View Our Blog</a>
     </div>
 </section>

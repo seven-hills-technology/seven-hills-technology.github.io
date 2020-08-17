@@ -11,6 +11,10 @@ docs:
         url: /development.html
         friendlyUrl: development
       - 
+        title: "Managed DevOps"
+        url: /managed-devops.html
+        friendlyUrl: managed-devops
+      - 
         title: "Public Sector"
         url: /public-sector.html
         friendlyUrl: public-sector
@@ -18,10 +22,6 @@ docs:
         title: "Technology Consulting"
         url: /consulting.html
         friendlyUrl: consulting
-      - 
-        title: "Managed DevOps"
-        url: /managed-devops.html
-        friendlyUrl: managed-devops
       - 
         grouping:
           name: Elastic
