@@ -1271,7 +1271,8 @@ a {
         height: 210px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
-        background-color: #A0c6e3; }
+        background-color: #A0c6e3;
+        object-fit: cover; }
       .sh-blog .post > a div {
         width: 100%;
         padding: 30px; }

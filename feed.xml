@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://sevenhillstechnology.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sevenhillstechnology.com/" rel="alternate" type="text/html" /><updated>2020-10-07T11:21:32-04:00</updated><id>https://sevenhillstechnology.com/</id><title type="html">Seven Hills Technology | Software Development Cincinnati</title><subtitle>Seven Hills Technology is a software design and development company in Cincinnati, OH innovating businesses through mobile apps, web apps, and integrations.</subtitle><entry><title type="html">How to Find a Software Development Company</title><link href="https://sevenhillstechnology.com/business/2019/12/06/how-to-find-a-software-development-company" rel="alternate" type="text/html" title="How to Find a Software Development Company" /><published>2019-12-06T00:00:00-05:00</published><updated>2019-12-06T00:00:00-05:00</updated><id>https://sevenhillstechnology.com/business/2019/12/06/how-to-find-a-software-development-company</id><content type="html" xml:base="https://sevenhillstechnology.com/business/2019/12/06/how-to-find-a-software-development-company">&lt;p&gt;&lt;img src=&quot;/images/blog-posts/find.jpg&quot; alt=&quot;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://sevenhillstechnology.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sevenhillstechnology.com/" rel="alternate" type="text/html" /><updated>2020-10-23T08:52:48-04:00</updated><id>https://sevenhillstechnology.com/</id><title type="html">Seven Hills Technology | Software Development Cincinnati</title><subtitle>Seven Hills Technology is a software design and development company in Cincinnati, OH innovating businesses through mobile apps, web apps, and integrations.</subtitle><entry><title type="html">High Cohesion, Low Coupling</title><link href="https://sevenhillstechnology.com/programming/2020/10/19/high-cohesion-low-coupling" rel="alternate" type="text/html" title="High Cohesion, Low Coupling" /><published>2020-10-19T00:00:00-04:00</published><updated>2020-10-19T00:00:00-04:00</updated><id>https://sevenhillstechnology.com/programming/2020/10/19/high-cohesion-low-coupling</id><content type="html" xml:base="https://sevenhillstechnology.com/programming/2020/10/19/high-cohesion-low-coupling">&lt;p&gt;In this short article I would like to show you one example of High Cohesion and Low Coupling regarding Software Development. Imagine that you have a REST API that have to manage Users, Posts and Private Message between users.&lt;/p&gt;
+
+&lt;p&gt;One way of doing it would be like the following example:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog-posts/hclc-1.png&quot; alt=&quot;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see, the RestApplication class is managing the REST API requests correctly, but the issue here is that it also depends on all the other classes and it is managing the logic behind every single action (for example, the logic behind banning an user, reporting a message, sending a message, etc…). This is a clear example of &lt;strong&gt;low cohesion and high coupling&lt;/strong&gt; because it depends heavily on internal classes of other modules. One bad thing about this is: what if some of the internal classes of the other modules changes? Then you will have to change the Application class to make this work.&lt;/p&gt;
+
+&lt;p&gt;This RestApplication class is basically a &lt;a href=&quot;https://en.wikipedia.org/wiki/God_object&quot;&gt;God object&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Instead of that you could use the following example:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog-posts/hclc-2.png&quot; alt=&quot;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The routes are still there in the RestApplication class but instead of it taking care of the logic of every single action, you have delegated it to Service classes in each module. This makes your code &lt;strong&gt;more cohesive and less tightly coupled&lt;/strong&gt; because if some internal class (some DAO class for example) changes other than the service classes themselves, the RestApplication class doesn’t have to care as it isn’t its responsibility to handle the their specific logic any more.&lt;/p&gt;
+
+&lt;p&gt;It is known as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Facade_pattern&quot;&gt;Facade pattern&lt;/a&gt; and it is a good tool for making your code more cohesive and less tight coupled in your modules.&lt;/p&gt;
+
+&lt;p&gt;In summary:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Low Cohesion (BLUE), High Coupling (RED) - BAD&lt;/strong&gt;
+&lt;img src=&quot;/images/blog-posts/hclc-bad.png&quot; alt=&quot;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;High Cohesion (BLUE), Low Coupling (RED) - BETTER&lt;/strong&gt;
+&lt;img src=&quot;/images/blog-posts/hclc-final.png&quot; alt=&quot;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;</content><author><name>Edgar Endo</name></author><category term="programming" /><category term="software development" /><summary type="html">In this short article I would like to show you one example of High Cohesion and Low Coupling regarding Software Development. Imagine that you have a REST API that have to manage Users, Posts and Private Message between users.</summary></entry><entry><title type="html">How to Find a Software Development Company</title><link href="https://sevenhillstechnology.com/business/2019/12/06/how-to-find-a-software-development-company" rel="alternate" type="text/html" title="How to Find a Software Development Company" /><published>2019-12-06T00:00:00-05:00</published><updated>2019-12-06T00:00:00-05:00</updated><id>https://sevenhillstechnology.com/business/2019/12/06/how-to-find-a-software-development-company</id><content type="html" xml:base="https://sevenhillstechnology.com/business/2019/12/06/how-to-find-a-software-development-company">&lt;p&gt;&lt;img src=&quot;/images/blog-posts/find.jpg&quot; alt=&quot;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You’ve identified the need for new software for your organization. You want it built and maintained but don’t have the knowledge, time, or ability to hire and manage a software staff. So how do you go about finding a software development company for your project?&lt;/p&gt;
 
@@ -485,48 +509,4 @@ The color palette you choose is very important towards conveying your message. Y
 
 &lt;p&gt;Mobile app accessibility testing has come a long way in recent years. Now there are a number of free tools to help diagnose accessibility problems in mobile apps. Along with existing testing tools, The Paciello Group released a free &lt;a href=&quot;https://developer.paciellogroup.com/downloads/TPG_Mobile_Testing_Guide.pdf&quot;&gt;Mobile Testing Guide&lt;/a&gt; that goes in-depth with how to test for accessibility concerns on iOS and Android.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;My favorite accessibility testing tools:&lt;/strong&gt; &lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/&quot;&gt;Google Lighthouse (Web)&lt;/a&gt;, &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.deque.axe.android&quot;&gt;Axe for Android&lt;/a&gt;, Xcode Accessibility Inspector&lt;/p&gt;</content><author><name>Brian Adams</name></author><category term="design" /><category term="ui" /><category term="ux" /><category term="software development" /><summary type="html">Developers tend to struggle with design, but there are a few quick changes that can make your software shine.</summary></entry><entry><title type="html">Why should you use a G Suite Resller?</title><link href="https://sevenhillstechnology.com/google/2018/10/29/why-use-gsuite-reseller" rel="alternate" type="text/html" title="Why should you use a G Suite Resller?" /><published>2018-10-29T07:27:37-04:00</published><updated>2018-10-29T07:27:37-04:00</updated><id>https://sevenhillstechnology.com/google/2018/10/29/why-use-gsuite-reseller</id><content type="html" xml:base="https://sevenhillstechnology.com/google/2018/10/29/why-use-gsuite-reseller">&lt;p&gt;&lt;img src=&quot;/images/gsuite.png&quot; alt=&quot;Google G Suite Logo&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Launched in the fall of 2006, G Suite, formerly known as Google Apps, has been the leading provider for cloud native productivity applications for over 12 years. G Suite owes it’s success largely to the ease of implementation and use of the platform. Many users are familiar with Gmail when their company starts or signs up with G Suite, helping provide a smooth transition to using products they already know in their day to day jobs.&lt;/p&gt;
-
-&lt;p&gt;In addition to the end users, IT staff generally benefit from migrating older on-site email servers and IT resources out to Google, freeing them up to focus on other tasks that provide added business value instead of spending much of their time supporting IT infrastructure. For a small company, the move can be quick and painless, potentially making the switch inside of a single day. Even for larger deployments, there are a wealth of tools and existing knowledge drawing from the 12 years of collective experience moving companies to the platform.&lt;/p&gt;
-
-&lt;p&gt;So if G Suite is easy to use for end uers, and easy to implement for IT staff, what benefits could a reseller possibly provide?&lt;/p&gt;
-
-&lt;h2 id=&quot;the-benefits-of-using-a-g-suite-reseller&quot;&gt;The Benefits of Using a G Suite Reseller&lt;/h2&gt;
-
-&lt;h3 id=&quot;the-subscription-cost-is-the-same&quot;&gt;The subscription cost is the same&lt;/h3&gt;
-
-&lt;p&gt;The majority of G Suite Resellers will charge you the same as Google for the cost of the G Suite subscription. This covers your license to use all of the software in G Suite and get basic support from Google. Often times resellers will offer additional services for migrating, providing additional support, or training that can be purchased but are generally not required to use the software.&lt;/p&gt;
-
-&lt;h3 id=&quot;you-may-not-have-an-it-department&quot;&gt;You may not have an IT department&lt;/h3&gt;
-
-&lt;p&gt;Many small companies benefit greatly from the ease of setup and use of G Suite, but do not have dedicated IT staff to plan the migration without disrupting the day to day business. A G Suite reseller has experience migrating companies of varying sizes and can help ensure migrating to G Suite goes smoothly with little to no interruption of normal business practices.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-it-staff-may-be-too-busy&quot;&gt;The IT staff may be too busy&lt;/h3&gt;
-
-&lt;p&gt;Even companies with dedicated IT staff benefit from using a reseller. IT organizations are generally busy with tasks related to keeping internal systems running and working for the business, and adding a migration of a core business function to another provider takes planning and focus that they may not be able to spare. A G Suite reseller brings that focus and experience to the process, relieving the stress and burden from the internal IT staff, giving the move the best chances of success.&lt;/p&gt;
-
-&lt;h3 id=&quot;customized-and-local-support&quot;&gt;Customized and local support&lt;/h3&gt;
-
-&lt;p&gt;Resellers often sell locally, providing a level of support that you cannot get directly from Google. Having someone on-site to help with migrating users, teaching them how to use a new platform, and providing on-going support and training can be the deciding factor between users adopting a new system successfully, or struggling with it for a longer period of time.&lt;/p&gt;
-
-&lt;h3 id=&quot;access-to-additional-support-and-training&quot;&gt;Access to additional support and training&lt;/h3&gt;
-
-&lt;p&gt;Most resellers will offer support plans or addtional ad-hoc support time at an hourly rate to cover day to day support or on-going training to make sure employees are able to use G Suite effectively. On-going training directly with employees is often the best way to ensure they know and understand how to use G Suite, and also teaches them advanced features that can make them more productive in their day to day activity.&lt;/p&gt;
-
-&lt;h3 id=&quot;custom-applications-and-integrations&quot;&gt;Custom applications and integrations&lt;/h3&gt;
-
-&lt;p&gt;An email and productivity platform is unlikely to be the only software a company uses. A G Suite reseller can help you find other products on the marketplace that integrate with your existing systems for the purposes of accounting, time tracking, invoicing, project management, and more. In many cases, the reseller may also be able to build custom software to provide a more specific need or integration.&lt;/p&gt;
-
-&lt;h2 id=&quot;when-should-you-go-directly-to-google&quot;&gt;When Should You Go Directly to Google?&lt;/h2&gt;
-
-&lt;p&gt;As helpful as working with a G Suite reseller can be, it may also be unnecessary for your business. Generally a reseller is going to be unecessary if the following applies to your business.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;You have an IT staff who has the time and capability to migrate and support your staff.&lt;/li&gt;
-  &lt;li&gt;You don’t need any custom applications or integrations into G Suite.&lt;/li&gt;
-  &lt;li&gt;You have strict data privacy requirements that make working with 3rd parties difficult.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;ready-to-start-learn-more-about-g-suite&quot;&gt;Ready to start? &lt;a href=&quot;https://sevenhillstechnology.com/gsuite&quot;&gt;Learn more about G Suite&lt;/a&gt;&lt;/h2&gt;</content><author><name>Brad Gardner</name></author><category term="google" /><category term="gsuite" /><category term="email" /><summary type="html">As of February 2018, Google had 4 million businesses using G Suite for email and file storage, collaborating on documents, video conferencing and more.</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;My favorite accessibility testing tools:&lt;/strong&gt; &lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/&quot;&gt;Google Lighthouse (Web)&lt;/a&gt;, &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.deque.axe.android&quot;&gt;Axe for Android&lt;/a&gt;, Xcode Accessibility Inspector&lt;/p&gt;</content><author><name>Brian Adams</name></author><category term="design" /><category term="ui" /><category term="ux" /><category term="software development" /><summary type="html">Developers tend to struggle with design, but there are a few quick changes that can make your software shine.</summary></entry></feed>
