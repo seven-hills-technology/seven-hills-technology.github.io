@@ -11,7 +11,7 @@ cta_title: Get started with an audit.
     <br/><br/><br/>
     <div class="sh-get-in-touch" style="align-items:flex-start;background-color:transparent;">
         <h3>We helped AFS Dealers save $80,000 per year.</h3>
-        <a class="git-button" href="https://hubs.ly/H0D2Z8J0" target="_blank">Check out the case study</a>
+        <!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-4a33b525-7fcb-4bce-8d9a-d3cee7aa3a3f"><span class="hs-cta-node hs-cta-4a33b525-7fcb-4bce-8d9a-d3cee7aa3a3f" id="hs-cta-4a33b525-7fcb-4bce-8d9a-d3cee7aa3a3f"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/2280641/4a33b525-7fcb-4bce-8d9a-d3cee7aa3a3f" ><img class="hs-cta-img" id="hs-cta-img-4a33b525-7fcb-4bce-8d9a-d3cee7aa3a3f" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/2280641/4a33b525-7fcb-4bce-8d9a-d3cee7aa3a3f.png"  alt="Check out the case study"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(2280641, '4a33b525-7fcb-4bce-8d9a-d3cee7aa3a3f', {}); </script></span><!-- end HubSpot Call-to-Action Code -->
     </div>
 </section>
 <div class="sh-band-flair dark-top negative-top"></div>
