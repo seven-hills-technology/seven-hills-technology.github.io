@@ -1,15 +1,19 @@
 ---
 layout: default
-title: Managed DevOps
-description: Managed DevOps to ensure your Microsoft Azure hosted environment and the applications on it are cost effective, secure, and availabile all of the time.
-cta_title: Let us audit your Microsoft Azure environment for cost savings.
+title: Cloud Management
+description: Cloud Management to ensure your Microsoft Azure environment and the applications on it are cost effective, secure, and availabile all of the time.
+cta_title: Get started with an audit.
 ---
 
-<section data-scroll class="sh-landing-intro landing-big-background devops is-outside">
-    <h1>Managed DevOps</h1>
+<section data-scroll class="sh-landing-intro landing-big-background devops is-outside" style="background-size: 50% auto;">
+    <h1>Cloud Management</h1>
     <p>Knowledgeable experts can save you <strong>time and money.</strong></p>
+    <br/><br/><br/>
+    <div class="sh-get-in-touch" style="align-items:flex-start;background-color:transparent;">
+        <h3>We helped AFS Dealers save $80,000 per year.</h3>
+        <a class="git-button" href="https://hubs.ly/H0D2Z8J0" target="_blank">Check out the case study</a>
+    </div>
 </section>
-
 <div class="sh-band-flair dark-top negative-top"></div>
 <section class="sh-dark-band">
     <div class="modern-information-structure">

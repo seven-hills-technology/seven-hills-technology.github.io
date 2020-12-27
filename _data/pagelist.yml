@@ -11,9 +11,9 @@ docs:
         url: /development.html
         friendlyUrl: development
       - 
-        title: "Managed DevOps"
-        url: /managed-devops.html
-        friendlyUrl: managed-devops
+        title: "Cloud Management"
+        url: /cloud-management.html
+        friendlyUrl: cloud-management
       - 
         title: "Public Sector"
         url: /public-sector.html
